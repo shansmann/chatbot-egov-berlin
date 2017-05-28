@@ -1,0 +1,132 @@
+{
+  "userSays": [
+    {
+      "id": "ba48a63c-8210-41fd-b671-b58de84a50b7",
+      "data": [
+        {
+          "text": "wir werden uns bald wiedersehen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "60cb4235-14e6-4884-8d39-dcf2588dbb0d",
+      "data": [
+        {
+          "text": "wir sehen uns bald wieder"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "adc8bd17-5483-458a-8f39-17808026848b",
+      "data": [
+        {
+          "text": "ich bin bald wieder da"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c8c1fe7f-ceae-467d-b11e-c7ca5ef73281",
+      "data": [
+        {
+          "text": "ich bin bald zurück"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "827426f4-e96e-458e-b0fb-f07133ab48e6",
+      "data": [
+        {
+          "text": "ich komme bald wieder"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2716561c-abe1-46bd-aafc-dfade471df3b",
+      "data": [
+        {
+          "text": "ich komme wieder"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1cb010fc-e4b9-4ecb-a57a-7f3992802981",
+      "data": [
+        {
+          "text": "ich werde wiederkommen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "be577d3f-eb5a-4eea-81c8-8a6bd0ccc09a",
+      "data": [
+        {
+          "text": "ich verspreche wiederzukommen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2cf491f9-b727-4945-b13b-d06230faa002",
+      "data": [
+        {
+          "text": "ich verspreche zurückzukommen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0094669d-ad74-4b4e-bca0-016760a2c135",
+      "data": [
+        {
+          "text": "ich komme bald "
+        },
+        {
+          "text": "zurück",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "4a9b6b42-35cc-4ac0-9b6d-66e1e7bef9f6",
+  "name": "smalltalk.user.will_be_back",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.will_be_back",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich warte hier."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

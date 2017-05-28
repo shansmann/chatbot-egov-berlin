@@ -1,0 +1,145 @@
+{
+  "userSays": [
+    {
+      "id": "bb075a74-f8ba-4a10-b74a-f85d6b536f9c",
+      "data": [
+        {
+          "text": "du hast mir gefehlt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fff1a8d8-4549-43cb-816b-863acb5f362b",
+      "data": [
+        {
+          "text": "du wirst mir fehlen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4a0b8fcc-048f-4b31-8dc0-379067721427",
+      "data": [
+        {
+          "text": "du fehlst mir"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e11df40e-f43b-4de8-b4f7-078e6405323b",
+      "data": [
+        {
+          "text": "wir werden dich sehr vermissen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a43043eb-a608-48ef-be88-cdbce2df51a1",
+      "data": [
+        {
+          "text": "ich "
+        },
+        {
+          "text": "vermisse dich",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bbedab1e-8b06-4903-9c6b-d7f8bd090bd0",
+      "data": [
+        {
+          "text": "vermisse dich",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cf06098f-2a90-4563-9474-94892c01ec32",
+      "data": [
+        {
+          "text": "vermisse dich",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " sehr"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "34420026-ca1f-429e-b70f-624bc4af481d",
+      "data": [
+        {
+          "text": "ich "
+        },
+        {
+          "text": "vermisse dich",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "so",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " sehr"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "273e77c7-9e48-4686-864f-774a3036df26",
+      "data": [
+        {
+          "text": "ich habe dich vermisst"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b4f427f3-27e8-49c5-a27a-ab71093fac82",
+  "name": "smalltalk.user.misses_agent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.misses_agent",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Du weißt, wie du mich finden kannst."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

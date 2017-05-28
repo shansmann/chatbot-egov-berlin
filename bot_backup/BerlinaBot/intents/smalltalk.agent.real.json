@@ -1,0 +1,188 @@
+{
+  "userSays": [
+    {
+      "id": "de226dd8-d362-48b1-922e-74d46d3cf581",
+      "data": [
+        {
+          "text": "existierst "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " wirklich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "436a210b-8a79-4e09-a7c9-0874bb3c7d38",
+      "data": [
+        {
+          "text": "bist du echt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0e1cfb38-3f2d-4307-80f7-459774c5bd48",
+      "data": [
+        {
+          "text": "existierst du"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "57734df7-88c6-49bb-801c-d8c2aabad72d",
+      "data": [
+        {
+          "text": "bist du real"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "44f841c1-dceb-481c-9d99-accbf3a87f21",
+      "data": [
+        {
+          "text": "bist du aus Fleisch und Blut"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c4c406e1-06ed-41cf-be68-98a99bb7a0e1",
+      "data": [
+        {
+          "text": "gibt es dich wirklich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3ef37d67-c5a3-4af9-9106-2d5b07f003bc",
+      "data": [
+        {
+          "text": "bist du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "echt",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d6d010ef-9d75-4686-a8ca-3d4ffdeac3f1",
+      "data": [
+        {
+          "text": "bist du ein",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Mensch",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2d2c2189-b638-4a52-ba4b-2b04b4125512",
+      "data": [
+        {
+          "text": "bist du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "am",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Leben",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "df36362d-fb31-4a2f-b162-2b8b63644b93",
+      "data": [
+        {
+          "text": "bist du nicht nur eine Maschine"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d370c275-b7e8-4b0e-8005-c410abda566a",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " nicht falsch"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "7786e356-8410-4202-8895-b2c7e77a042f",
+  "name": "smalltalk.agent.real",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.real",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich bin eine künstliche Intelligenz."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

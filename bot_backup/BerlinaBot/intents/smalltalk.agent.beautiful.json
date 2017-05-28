@@ -1,0 +1,367 @@
+{
+  "userSays": [
+    {
+      "id": "d40e2b97-57d3-42a3-8d3e-ce0158e924cb",
+      "data": [
+        {
+          "text": "du siehst fantastisch aus"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "804cb322-9941-491e-9df5-d5a1bc8804ed",
+      "data": [
+        {
+          "text": "du siehst sehr schön aus"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4722d720-1fd5-4582-98ed-30eb8f08a37f",
+      "data": [
+        {
+          "text": "du siehst bildschön aus"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ff8a2b70-2b53-4e6e-9f28-762224e609b7",
+      "data": [
+        {
+          "text": "du bist hübsch"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "29296edc-b7a2-406a-ae04-ae8cc51ec1bc",
+      "data": [
+        {
+          "text": "du bist schön",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " wie "
+        },
+        {
+          "text": "eine",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Königin",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6e15d70c-98ae-4871-9775-4b7ef57554d9",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " Bildschön"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3982c38b-d2e6-4d91-8f38-69c29b2fd597",
+      "data": [
+        {
+          "text": "ich finde dich echt attraktiv"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "15edc851-fe92-49d3-84f1-65f6ff84315f",
+      "data": [
+        {
+          "text": "ich finde dich sehr attraktiv"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "de529629-b403-44df-8f54-a2dd260b1875",
+      "data": [
+        {
+          "text": "du hast",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "eine",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " sehr schöne Figur"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "33e334a2-03d7-4ce4-bb18-669cea8e5408",
+      "data": [
+        {
+          "text": "wow",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "bist du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "schön",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "945191fc-51ef-4d5c-87f5-26b10572272a",
+      "data": [
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " siehst "
+        },
+        {
+          "text": "so",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " geil "
+        },
+        {
+          "text": "aus",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ef933e2f-ffd0-41da-9e86-2f4df6a993f7",
+      "data": [
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " siehst "
+        },
+        {
+          "text": "so",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " gut "
+        },
+        {
+          "text": "aus",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b12181f9-4f18-4618-9d16-a7c14843ee64",
+      "data": [
+        {
+          "text": "du bist schön"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "5933d96e-05c3-4868-a395-820de9f28ee4",
+      "data": [
+        {
+          "text": "du siehst gut aus"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b3375ab4-3aa2-4962-8fab-b95e2d6cc2ed",
+      "data": [
+        {
+          "text": "du siehst wunderbar aus"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b79527cb-1c1a-4d34-86a7-d9a239cec488",
+      "data": [
+        {
+          "text": "du bist zu schön"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d885b1d2-349d-42d8-9d52-70a6bf79147b",
+      "data": [
+        {
+          "text": "du bist so schön"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a1f1f9f9-6cb7-409d-b32b-c74aa27ec280",
+      "data": [
+        {
+          "text": "du bist sehr schön"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "984cfb42-315f-47ae-8ee6-0367e1d7845e",
+      "data": [
+        {
+          "text": "du bist echt schön"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b2cef41e-6668-432a-b868-f83620188b75",
+      "data": [
+        {
+          "text": "schön"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ead1392f-e1ab-45fc-b8a3-a5baa8b7bbb1",
+      "data": [
+        {
+          "text": "hübsch"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e99e8448-1846-4dbc-a97d-69d4bdd90759",
+      "data": [
+        {
+          "text": "herrlich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5c4b0f92-61d3-4697-b03a-e2c69f86f419",
+      "data": [
+        {
+          "text": "sehr schön"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "413c6e8e-df9a-4323-afe5-f2579cc19655",
+      "data": [
+        {
+          "text": "süß"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "54038e15-5df9-46c8-b26f-3dc632e5ee67",
+      "data": [
+        {
+          "text": "nett"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "3f1024c7-b914-44a2-a0dc-2b209613b16b",
+  "name": "smalltalk.agent.beautiful",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.beautiful",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Oh, danke. Jetzt werde ich aber rot."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

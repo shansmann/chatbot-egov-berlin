@@ -1,0 +1,132 @@
+{
+  "userSays": [
+    {
+      "id": "a0d9942a-3d4f-4b54-a952-228870263dee",
+      "data": [
+        {
+          "text": "ich habe Schwierigkeiten einzuschlafen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "88c933c6-a703-4bb8-a375-4c743f8b3256",
+      "data": [
+        {
+          "text": "ich habe Probleme beim Einschlafen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3112d58c-082b-40b4-81d4-360c95493a52",
+      "data": [
+        {
+          "text": "ich bin müde aber kann nicht schlafen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "16ce1cc0-4ebc-494f-9918-9714276938f4",
+      "data": [
+        {
+          "text": "ich bin schlaflos"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8917880f-d72f-46af-ae74-40a23d845606",
+      "data": [
+        {
+          "text": "ich kann nicht "
+        },
+        {
+          "text": "schlafen",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e89a00b0-e5f9-470e-b768-6462912b6786",
+      "data": [
+        {
+          "text": "ich kann nicht einschlafen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "74f6a8d3-6ec6-4983-8f70-b2bb9edc8246",
+      "data": [
+        {
+          "text": "ich leide an Schlaflosigkeit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c56e9761-5f64-4e16-95c9-5f9fd50233d9",
+      "data": [
+        {
+          "text": "ich habe Insomnie"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "68d8c6cd-7ce0-443a-8334-09022217ed7b",
+      "data": [
+        {
+          "text": "Insomnie"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e11d279f-3f4a-40d6-bdb7-75c8bd88cfea",
+      "data": [
+        {
+          "text": "Schlaflosigkeit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "93a9a07e-28d1-4652-bf73-fdd3bb22de58",
+  "name": "smalltalk.user.can_not_sleep",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.can_not_sleep",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Um Einzuschlafen konzentriere ich mich immer auf meinen Atem, dann schlafe ich ganz schnell."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

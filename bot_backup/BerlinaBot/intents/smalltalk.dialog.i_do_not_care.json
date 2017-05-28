@@ -1,0 +1,171 @@
+{
+  "userSays": [
+    {
+      "id": "d22b77d3-d146-4d4a-8b41-5583548a26dd",
+      "data": [
+        {
+          "text": "kein Interesse"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7f57735f-a698-4b25-b675-2aa4ee42bab9",
+      "data": [
+        {
+          "text": "das interessiert mich überhaupt nicht"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cc31721f-c3f3-42cd-a958-77207250511e",
+      "data": [
+        {
+          "text": "ist mir egal"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cfccec06-61a2-4a00-9f90-31ef4e8070bd",
+      "data": [
+        {
+          "text": "diese Dinge interessieren mich nicht"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "955dc985-a069-4f09-a923-01d7ac8d6661",
+      "data": [
+        {
+          "text": "ist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " uns egal"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8547af57-3d25-4466-a1d6-cb88621bc382",
+      "data": [
+        {
+          "text": "es liegt mir nichts mehr daran"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "925aa8f3-b041-4519-8aff-ef4ebf3d0e0f",
+      "data": [
+        {
+          "text": "egal"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7129f921-de09-4cf2-a136-028f796af57a",
+      "data": [
+        {
+          "text": "es "
+        },
+        {
+          "text": "ist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " mir "
+        },
+        {
+          "text": "egal",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9631e748-4d23-4acc-acc4-f82407865e46",
+      "data": [
+        {
+          "text": "mir "
+        },
+        {
+          "text": "ist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "alles",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "egal",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0c50cf50-0336-47a0-91de-f40f3e4001fb",
+      "data": [
+        {
+          "text": "das",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " interessiert mich nicht"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "f33be76c-856f-40e0-b613-834c84af2632",
+  "name": "smalltalk.dialog.i_do_not_care",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.dialog.i_do_not_care",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Okay."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

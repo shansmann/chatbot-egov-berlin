@@ -1,0 +1,120 @@
+{
+  "userSays": [
+    {
+      "id": "69a02938-060a-4b75-8362-fc5ee28fe04d",
+      "data": [
+        {
+          "text": "ich wünsche dir einen schönen "
+        },
+        {
+          "text": "Abend",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "96309ad5-b658-495a-9b06-ac98bc9751a1",
+      "data": [
+        {
+          "text": "schönen "
+        },
+        {
+          "text": "Abend",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " noch"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7b7ee5f5-1231-4e21-b3c5-5ff147026446",
+      "data": [
+        {
+          "text": "n\u0027"
+        },
+        {
+          "text": "Abend",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "323346d9-b585-458b-92bd-5a589afa6113",
+      "data": [
+        {
+          "text": "Guten "
+        },
+        {
+          "text": "Abend",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "56b37144-406a-4c15-8fcf-b95d1c57ea60",
+      "data": [
+        {
+          "text": "schönen "
+        },
+        {
+          "text": "Abend",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "34ec3ff8-18df-4498-b59f-cb4c00db4cd7",
+      "data": [
+        {
+          "text": "hab einen schönen "
+        },
+        {
+          "text": "Abend",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b25a21c8-d683-416d-af28-7c730dade7a4",
+  "name": "smalltalk.greetings.goodevening",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.greetings.goodevening",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich wünsche einen schönen Abend!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

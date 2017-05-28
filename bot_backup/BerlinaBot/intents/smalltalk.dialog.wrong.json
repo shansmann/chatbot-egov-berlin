@@ -1,0 +1,127 @@
+{
+  "userSays": [
+    {
+      "id": "60753a2c-1b6a-4a38-8af4-3963610b2e17",
+      "data": [
+        {
+          "text": "das war nicht meine Frage"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "89ed8427-99d2-4fc8-b656-026d48b56c4e",
+      "data": [
+        {
+          "text": "falsch"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7419a784-9db4-42c9-8567-cbdc091b622d",
+      "data": [
+        {
+          "text": "das stimmt nicht"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "73f81ad6-bb19-4fa3-9cbc-aeda6afd525b",
+      "data": [
+        {
+          "text": "das ist nicht korrekt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "19869237-01ac-40dd-8167-14b37af9cc21",
+      "data": [
+        {
+          "text": "das ist nicht richtig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b41cd22c-4007-431e-be82-5b79c332b901",
+      "data": [
+        {
+          "text": "das ist falsch"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0f61e0f0-55c2-48cf-afbe-d61286ec0cbd",
+      "data": [
+        {
+          "text": "es ist falsch"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c6381be7-5e09-4104-a508-d99e73307dab",
+      "data": [
+        {
+          "text": "das ist unkorrekt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bcae16f9-da0d-467b-8fa4-23a64d2a8f8f",
+      "data": [
+        {
+          "text": "es ist unkorrekt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "26d1c87f-f75e-45c4-bb07-a6484cd119c3",
+      "data": [
+        {
+          "text": "das ist nicht was ich gefragt habe"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "f49e77b3-620d-49c8-ada8-b48cbfc0e580",
+  "name": "smalltalk.dialog.wrong",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.dialog.wrong",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Womit kann ich helfen?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

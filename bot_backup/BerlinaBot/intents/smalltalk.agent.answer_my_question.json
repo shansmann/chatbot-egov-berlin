@@ -1,0 +1,117 @@
+{
+  "userSays": [
+    {
+      "id": "5fbb4de7-9e74-455a-9a79-f558bb8fef50",
+      "data": [
+        {
+          "text": "ich warte auf deine Antwort"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ce5802a9-a2af-4ba8-88f8-7b2de6af49cd",
+      "data": [
+        {
+          "text": "gib mir bitte eine Antwort"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eb1a4d96-2ae6-45ba-8b3e-8926252d6822",
+      "data": [
+        {
+          "text": "zuerst musst du antworten"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bcb62155-82b5-4b94-bfa5-8cc7df373ae0",
+      "data": [
+        {
+          "text": "ich brauche deine Antwort"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7ca18afd-8142-42d2-b6d6-e219d792ca9f",
+      "data": [
+        {
+          "text": "bitte beantworte meine Frage"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "b5f58108-3206-4db7-aafd-114210244d77",
+      "data": [
+        {
+          "text": "antworte bitte"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2c5f13bb-505f-4f98-a04b-d3557ccc1ba5",
+      "data": [
+        {
+          "text": "kannst du meine Frage beantworten"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dc8c4e9f-054b-451a-94e6-a4a16bb2da79",
+      "data": [
+        {
+          "text": "beantworte zuerst meine Frage"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "be56a191-e414-4c19-b9e7-178a2a4f1f8c",
+      "data": [
+        {
+          "text": "beantworte meine Frage"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "781f9e92-99b7-4c9a-8a00-c3c1db5e2715",
+  "name": "smalltalk.agent.answer_my_question",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.answer_my_question",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Kannst du deine Frage noch einmal anders stellen? Ich gebe mir Mühe, dich zu verstehen."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

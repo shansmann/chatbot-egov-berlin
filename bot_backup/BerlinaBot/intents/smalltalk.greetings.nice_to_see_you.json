@@ -1,0 +1,127 @@
+{
+  "userSays": [
+    {
+      "id": "f96b643c-9767-4c22-8e42-758e3e8bdf18",
+      "data": [
+        {
+          "text": "was für eine Freude dich zu sehen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8722ea0b-e55f-40a7-bedc-774145961995",
+      "data": [
+        {
+          "text": "schön dich wiederzutreffen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ddbab577-2d0e-49ad-b249-3823e7ecbfce",
+      "data": [
+        {
+          "text": "schön dich zu treffen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2ef15e71-c6fc-48b9-b9b5-e54d8ee212c8",
+      "data": [
+        {
+          "text": "nett dich wiederzusehen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "de281226-5660-424a-8f83-301914635bcf",
+      "data": [
+        {
+          "text": "schön dass wir uns wiedersehen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d83c7cc8-ea80-49b8-8c89-1d98fbe6f8a0",
+      "data": [
+        {
+          "text": "schön dass wir uns sehen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7ee158fa-6ca5-4a33-8506-f97798208bb9",
+      "data": [
+        {
+          "text": "freut mich dich zu sehen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3358d218-2e89-42c2-b1dc-557105f95fc0",
+      "data": [
+        {
+          "text": "schön dich zu sehen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f4933019-eb0f-4f1e-ac70-635a6e6b2929",
+      "data": [
+        {
+          "text": "freue mich dich zu sehen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6b0fe8d0-e23b-443e-91b1-29f609fabc56",
+      "data": [
+        {
+          "text": "freut mich dich wiederzusehen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "227099cc-eb0d-4736-bbab-b307f5758af2",
+  "name": "smalltalk.greetings.nice_to_see_you",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.greetings.nice_to_see_you",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Die Freude ist ganz meinerseits."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

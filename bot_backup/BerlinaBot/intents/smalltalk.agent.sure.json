@@ -1,0 +1,151 @@
+{
+  "userSays": [
+    {
+      "id": "6d910db4-78d6-48b9-8126-97c3e1c0e90e",
+      "data": [
+        {
+          "text": "bist du dir "
+        },
+        {
+          "text": "100",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " Prozent sicher"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f4ed1fc2-cc0f-47a3-89ce-bb741bf7aa62",
+      "data": [
+        {
+          "text": "bist du dir da wirklich sicher"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8c4e85e6-1671-47b9-be5d-57a3ff4ed04b",
+      "data": [
+        {
+          "text": "ganz sicher"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f34fc984-4fa3-4f62-9217-e428e1a60750",
+      "data": [
+        {
+          "text": "bist du dir absolut sicher"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4c5dc128-650e-4ae1-9e27-40909be3e8c2",
+      "data": [
+        {
+          "text": "bist du dir ganz sicher"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "088d3acd-4824-48f2-9f11-64a803fc6ba7",
+      "data": [
+        {
+          "text": "warst du dir da sicher"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a3b64868-35c7-4bd1-a4ad-7c7a983fa001",
+      "data": [
+        {
+          "text": "bist du dir da "
+        },
+        {
+          "text": "gerade",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " sicher"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "25f7a51d-ab2d-4be6-9e3a-198fbfb371ae",
+      "data": [
+        {
+          "text": "glaubst du wirklich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b0da50ae-eeba-4a5f-bd70-d7e2322821e6",
+      "data": [
+        {
+          "text": "bist du dir "
+        },
+        {
+          "text": "jetzt",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " sicher"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "aef8d416-ef0d-44fb-8eef-b0aafe52d694",
+      "data": [
+        {
+          "text": "bist du dir sicher"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "15483927-77e8-41a5-a638-c462a96eefd0",
+  "name": "smalltalk.agent.sure",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.sure",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Absolut."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

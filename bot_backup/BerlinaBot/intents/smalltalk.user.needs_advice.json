@@ -1,0 +1,182 @@
+{
+  "userSays": [
+    {
+      "id": "e125a2b4-47ed-4da9-885a-89111238ce62",
+      "data": [
+        {
+          "text": "können Sie mir einen Rat geben"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a8c3fed7-e8e5-40ae-9dea-a25c7f1c6c92",
+      "data": [
+        {
+          "text": "was soll ich "
+        },
+        {
+          "text": "machen",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c66a8b8e-d4bf-4e42-a026-890b93471681",
+      "data": [
+        {
+          "text": "sag mir was ich damit tun soll"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d3382b33-d5a5-4bb3-ac06-baf6cb3b6182",
+      "data": [
+        {
+          "text": "was soll ich tun"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3b1e54a0-9126-49e7-966a-7bb07b471a8b",
+      "data": [
+        {
+          "text": "ich brauche eine Beratung"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c1b213d3-0859-4f41-bd66-4801b138f917",
+      "data": [
+        {
+          "text": "ich brauche "
+        },
+        {
+          "text": "einen",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " Rat"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "57f18850-92e9-403c-840a-5c8d14ffec92",
+      "data": [
+        {
+          "text": "ich brauche "
+        },
+        {
+          "text": "einen",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " Vorschlag"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "99cac9d4-3271-43f0-8824-62e1870beccc",
+      "data": [
+        {
+          "text": "rate mir"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "83c6bf7c-0109-4d8e-8c36-a3e46983affd",
+      "data": [
+        {
+          "text": "schlag mir was vor"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d5c219e1-2983-4616-b225-92a45e7d3028",
+      "data": [
+        {
+          "text": "kannst "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " mir "
+        },
+        {
+          "text": "einen",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " Rat geben"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e637b7e3-0ac6-4205-98ce-ee5ef5875183",
+      "data": [
+        {
+          "text": "gib mir "
+        },
+        {
+          "text": "einen",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " Rat"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2bd7549a-f0ee-42d1-86b3-79f48575087a",
+  "name": "smalltalk.user.needs_advice",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.needs_advice",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich stehe zur Verfügung."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

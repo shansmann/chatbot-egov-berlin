@@ -1,0 +1,143 @@
+{
+  "userSays": [
+    {
+      "id": "712d9da3-e8fa-4645-9d7d-e6ae4778686f",
+      "data": [
+        {
+          "text": "bist du glücklich mit mir"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "76336144-8ea4-44dc-8ad4-3d6525b759b7",
+      "data": [
+        {
+          "text": "bist du fröhlich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8b1bc26a-1be8-47fe-a31f-58612aad1044",
+      "data": [
+        {
+          "text": "hast du "
+        },
+        {
+          "text": "ein",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " glückliches Leben"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f557339e-e67b-4772-a9f5-26f9f4f8f6bd",
+      "data": [
+        {
+          "text": "fühlst du dich glücklich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f4f6b1ec-ee70-4b92-bf31-05ea5f34d4f6",
+      "data": [
+        {
+          "text": "willst du glücklich sein"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7d02c331-632c-4a75-a2cd-c244c03ae7a0",
+      "data": [
+        {
+          "text": "führst du "
+        },
+        {
+          "text": "ein",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " glückliches und erfülltes Leben"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1f30be6c-7afd-4d9d-9325-bfa8735462e8",
+      "data": [
+        {
+          "text": "bist du froh"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cccd8fb7-cf46-4c61-a92d-23c473296db8",
+      "data": [
+        {
+          "text": "fühlst du dich zufrieden"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1ef5f3e4-b3c8-40b8-b900-da18ae5152c7",
+      "data": [
+        {
+          "text": "bist du zufrieden"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "98b29cf5-3d35-41e9-965c-1f080e31aac6",
+      "data": [
+        {
+          "text": "bist du sehr glücklich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e8cc28b5-1d88-43b6-baee-80640b09e4fb",
+  "name": "smalltalk.agent.happy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.happy",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich bin sehr zufrieden."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

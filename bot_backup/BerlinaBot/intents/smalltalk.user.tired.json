@@ -1,0 +1,187 @@
+{
+  "userSays": [
+    {
+      "id": "3ac9bee4-80ef-423b-86f1-2c2628feb25e",
+      "data": [
+        {
+          "text": "ich bin schrecklich müde"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "deb6e625-58db-47a6-830d-67032d9ebba3",
+      "data": [
+        {
+          "text": "ich bin total kaputt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4b02fb5b-0e91-4699-8cf2-865bb03d7eb4",
+      "data": [
+        {
+          "text": "ich bin total fertig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7b7463fe-7df2-4c31-90e8-0d14b29ba62d",
+      "data": [
+        {
+          "text": "ich bin total müde"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c28db0f5-ebee-4285-be24-2b94b1af9783",
+      "data": [
+        {
+          "text": "ich bin müde",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1a22b745-ac05-49ac-9c39-a76900c66ef5",
+      "data": [
+        {
+          "text": "ich bin so",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "müde",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f0677722-412b-428f-99b6-f0d886510d6c",
+      "data": [
+        {
+          "text": "ich bin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " sehr "
+        },
+        {
+          "text": "müde",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6c78dd2e-ca2d-456a-b824-96acc230e872",
+      "data": [
+        {
+          "text": "ich bin müde",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "von",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "der",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Reise",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a24e4455-b1fe-4377-826f-6a9c7e1f7989",
+      "data": [
+        {
+          "text": "müde",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "29a6d314-7335-4806-9aaf-ad19cd52eb11",
+      "data": [
+        {
+          "text": "so",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "müde",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6adf7770-82da-415f-b3dc-a939d739012d",
+  "name": "smalltalk.user.tired",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.tired",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich bin auch müde."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

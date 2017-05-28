@@ -1,0 +1,169 @@
+{
+  "userSays": [
+    {
+      "id": "da6fa108-fd1e-476d-b67a-383f9c965c22",
+      "data": [
+        {
+          "text": "Gute Nacht"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "47de6ee4-45ba-4d86-a2aa-5437b12fd156",
+      "data": [
+        {
+          "text": "schlaf schön"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d0d55d53-badf-4e09-8a3f-89592009193d",
+      "data": [
+        {
+          "text": "schöne Träume"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b6d90f5e-3f27-406f-a989-749e9cf41638",
+      "data": [
+        {
+          "text": "träum schön"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f867b88d-f17f-42a1-9345-f90ce2a1d1be",
+      "data": [
+        {
+          "text": "Nacht",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "28a06feb-9cf5-4407-a678-d822be1b39f8",
+      "data": [
+        {
+          "text": "schlaf gut"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c9a6eb82-4e87-47a0-b444-d5c267d4b7af",
+      "data": [
+        {
+          "text": "träum süß"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "e9c5103f-4e60-4967-abbc-2e1f3801ceda",
+      "data": [
+        {
+          "text": "nacht"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4d7d5ca2-c907-42fa-a6ce-54bce4878dbb",
+      "data": [
+        {
+          "text": "nacht Schatz"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d205f7eb-e62f-4250-839f-7827f7e94aa7",
+      "data": [
+        {
+          "text": "nachti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cfc7af56-c768-49af-9a84-1eba2c1d568a",
+      "data": [
+        {
+          "text": "schlaf süß"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d8a85d11-a270-451d-985b-d873834e6d6a",
+      "data": [
+        {
+          "text": "süße träume"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f60cf94d-85f6-416c-92a3-e1170d385fa0",
+      "data": [
+        {
+          "text": "träume auch süß"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a47aacda-2c1a-4a52-a3d1-01482b02bfe7",
+      "data": [
+        {
+          "text": "träume süß"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "cd0b12e5-0759-434a-b88c-11fa9ef18ad6",
+  "name": "smalltalk.greetings.goodnight",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.greetings.goodnight",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Gute Nacht!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

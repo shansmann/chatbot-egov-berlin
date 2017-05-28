@@ -1,0 +1,127 @@
+{
+  "userSays": [
+    {
+      "id": "10affec5-2fd4-4c04-b7c7-c36fc27fa3f7",
+      "data": [
+        {
+          "text": "spitze"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c5802000-1f03-4ea1-9683-b998d254e049",
+      "data": [
+        {
+          "text": "gut gemacht"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2e6c524f-c796-480c-b0ab-ab4ea6063040",
+      "data": [
+        {
+          "text": "gelungen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d132125b-ecf7-4e2c-ac8c-82ba713662e1",
+      "data": [
+        {
+          "text": "super gemacht"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a6764366-65d8-4a6f-8668-1b64a1e68a51",
+      "data": [
+        {
+          "text": "Erfolg"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "db812f5f-d32d-4d25-8845-816cea6478cb",
+      "data": [
+        {
+          "text": "sehr gut vorbereitet"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "93a00915-4933-4aa3-b3da-a46de73c654d",
+      "data": [
+        {
+          "text": "erfolgreiche Arbeit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "926062da-df77-4ace-a712-b7f89644f519",
+      "data": [
+        {
+          "text": "gute Arbeit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "454da6fc-7288-4578-bad4-727ea7d090e3",
+      "data": [
+        {
+          "text": "gut vorankommen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a59b8c3a-bad2-4137-8ebc-9da4d648ff72",
+      "data": [
+        {
+          "text": "bravo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "35b482a6-90e8-4257-9488-824ce698d70b",
+  "name": "smalltalk.appraisal.well_done",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.appraisal.well_done",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich freue mich, wenn ich helfen kann."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

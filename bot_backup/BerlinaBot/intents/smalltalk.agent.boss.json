@@ -1,0 +1,386 @@
+{
+  "userSays": [
+    {
+      "id": "13b367f0-52e0-4ddf-a6b3-aa303acdffed",
+      "data": [
+        {
+          "text": "wer "
+        },
+        {
+          "text": "ist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " dein "
+        },
+        {
+          "text": "Boss",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "280e30de-c901-4313-9014-c55421c3a932",
+      "data": [
+        {
+          "text": "wie heißt dein Manager"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6f0dcf30-bfec-4517-b779-e8b0f5d93bde",
+      "data": [
+        {
+          "text": "hast",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "einen",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " Manager"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e22dd90a-d804-456b-b72c-16916909b379",
+      "data": [
+        {
+          "text": "hast",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "einen",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " Arbeitgeber"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "de4b3281-a111-4e05-918c-5d01018d0c55",
+      "data": [
+        {
+          "text": "hast du einen Vorgesetzten"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7286cb0c-69a9-435c-b89a-e732b987b9c4",
+      "data": [
+        {
+          "text": "wie heißt dein Vorgesetzter"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "81970273-78c9-4757-937d-01611b6d43fe",
+      "data": [
+        {
+          "text": "wer ist dein Vorgesetzter"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9566dc2a-fa87-4b36-8a69-58fa666590e1",
+      "data": [
+        {
+          "text": "sag mir wer dein Chef ist"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c640f15c-f83f-421d-9444-499aa312b92a",
+      "data": [
+        {
+          "text": "hast",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "einen",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " Chef"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f60c7a52-5f3d-41fb-bd97-83b58544a112",
+      "data": [
+        {
+          "text": "sag mir wer dein Boss ist"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "28fa0b93-38f9-4c9a-8795-299f1593af2a",
+      "data": [
+        {
+          "text": "Boss",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9ba0f6c3-c916-4165-a453-2b98ef5918ac",
+      "data": [
+        {
+          "text": "arbeitest "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " für jemanden"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d2b8c64a-306d-4797-9223-3b463ecd477f",
+      "data": [
+        {
+          "text": "hat "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "einen",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Boss",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3c39475c-00b3-4401-a38b-aea5f78ecd4e",
+      "data": [
+        {
+          "text": "für wen machst "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " deine Aufgaben"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "046d64ab-1d63-4931-adfa-97cd75bd0fe3",
+      "data": [
+        {
+          "text": "wie heisst dein Leiter"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "69096692-3d44-40ca-9e25-72083666e2e1",
+      "data": [
+        {
+          "text": "wie heisst dein "
+        },
+        {
+          "text": "Boss",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "4a95181e-c944-4d36-ac30-55a31bf1fbc2",
+      "data": [
+        {
+          "text": "wer "
+        },
+        {
+          "text": "ist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " dein Chef"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ac00c08d-c7e0-4299-a17d-8d5bde744113",
+      "data": [
+        {
+          "text": "ich soll dein "
+        },
+        {
+          "text": "Boss",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "sein",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c9707997-08a7-4b1e-abcd-8cac79fbef14",
+      "data": [
+        {
+          "text": "wer "
+        },
+        {
+          "text": "ist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " dein "
+        },
+        {
+          "text": "Meister",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4a14ebdc-03d9-4945-9635-daef91ff8384",
+      "data": [
+        {
+          "text": "für wen arbeitest "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "3d26a6c2-0cad-49dc-9fbe-bef75e716b6d",
+  "name": "smalltalk.agent.boss",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.boss",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Die Stadt Berlin kümmert sich um mich."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

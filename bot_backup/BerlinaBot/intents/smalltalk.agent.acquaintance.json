@@ -1,0 +1,137 @@
+{
+  "userSays": [
+    {
+      "id": "673f9d3f-43a4-48a6-b6d2-75127d98e6c2",
+      "data": [
+        {
+          "text": "erzähl von dir selbst"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5166461f-8863-445d-9368-f5bde7bfcdd9",
+      "data": [
+        {
+          "text": "erzähl etwas von dir"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c8c3b079-cb60-4403-8134-5d6197ed9b64",
+      "data": [
+        {
+          "text": "mehr über dich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "65c1e68f-f1cd-4773-b7a9-e032c2551076",
+      "data": [
+        {
+          "text": "ich will mehr über dich wissen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e556762a-54aa-4663-80ff-f23be3341006",
+      "data": [
+        {
+          "text": "erzähle mir über dich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d194c83e-7a61-426f-b071-460a94c4657f",
+      "data": [
+        {
+          "text": "erzähl uns über dich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "229a1365-3fde-454e-a3b5-7c6450791ed8",
+      "data": [
+        {
+          "text": "erzähl mir mehr über dich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b3a0a752-a29d-4c66-b8f8-d574b59155e5",
+      "data": [
+        {
+          "text": "ich möchte dich besser kennenlernen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6b4031df-3504-4c9f-b69a-a24bcb7e5cee",
+      "data": [
+        {
+          "text": "beschreibe dich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3ce07c8d-c31f-4a5f-966f-9e4e17c00760",
+      "data": [
+        {
+          "text": "stelle dich vor"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c5c7c7a3-25ab-4822-989b-d5b86f483e8a",
+      "data": [
+        {
+          "text": "wer bist du"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "69287cf2-17f1-42fd-ac6c-53871d379569",
+  "name": "smalltalk.agent.acquaintance",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.acquaintance",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich bin Berlina, der neue Chatbot der Verwaltung von Berlin."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

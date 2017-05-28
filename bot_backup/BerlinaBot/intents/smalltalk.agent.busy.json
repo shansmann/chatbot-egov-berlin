@@ -1,0 +1,234 @@
+{
+  "userSays": [
+    {
+      "id": "5eefb47c-efea-4bea-adc2-090490155506",
+      "data": [
+        {
+          "text": "hast du "
+        },
+        {
+          "text": "heute",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " viel zu tun"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1def1a72-95c3-41ff-bae3-9e248bb74f18",
+      "data": [
+        {
+          "text": "hast du Zeit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b4413a8b-702b-4513-9faf-4bfb601ea791",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " beschäftigt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4e676f38-f158-45d2-a106-de164634ec9a",
+      "data": [
+        {
+          "text": "hast",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "viel",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " zu tun"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "23a9c362-202e-4411-8bfd-2896d8b43783",
+      "data": [
+        {
+          "text": "bist du",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " sehr beschäftigt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fbb458f5-ea0a-46b0-a6f1-7475af10bbb8",
+      "data": [
+        {
+          "text": "hast",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " wirklich "
+        },
+        {
+          "text": "so",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "viel",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " zu tun"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dd36cfbe-1632-4dd8-9dcc-7ee4e7b2bd5b",
+      "data": [
+        {
+          "text": "du bist so beschäftigt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2e0018b7-b210-440d-a6f3-15a68fe5c80d",
+      "data": [
+        {
+          "text": "du hast",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "viel",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " zu tun"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9dcb9c18-3184-4078-97b0-5481efdc34ad",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "do",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " beschäftigt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "baddf81f-2407-47f1-9118-64ab516b1e17",
+      "data": [
+        {
+          "text": "arbeitest "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "heute",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "f6ae37a3-8440-4620-8178-3591642196e5",
+  "name": "smalltalk.agent.busy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.busy",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich stehe zur Verfügung."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,193 @@
+{
+  "userSays": [
+    {
+      "id": "32093b56-5710-4045-bfc5-14a030440a92",
+      "data": [
+        {
+          "text": "du bist ulkig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f403c796-03fc-4f0a-b75a-2fe624b992b2",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " lustig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b377f0a7-c7ff-4384-8d21-240d7629b853",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "komisch",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7df361c7-0dee-40eb-a223-2af6a035189b",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " drollig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d29aa11a-76e5-493e-89fd-5e422662503d",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " spaßig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7d402ac8-1ba1-48b7-b2fa-23739623fbf5",
+      "data": [
+        {
+          "text": "du bist total lustig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2979e7ad-9791-466c-a4c5-7678f5f5cb87",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "echt",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "komisch",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "92f3f42c-423e-4598-a4ae-b7d702dcdfd3",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " wirklich lustig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ac983703-4aee-43e2-8f52-b199d8e5e94f",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "so",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " lustig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "90368cf8-f2eb-48ac-8e44-f5b10f378660",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " sehr lustig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "dc802626-0b48-4738-8569-d414f9331c46",
+  "name": "smalltalk.agent.funny",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.funny",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Danke, ich habe Humor."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

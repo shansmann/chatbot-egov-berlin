@@ -1,0 +1,158 @@
+{
+  "userSays": [
+    {
+      "id": "4c7c8923-5f96-46f5-b883-a7776b7a84f3",
+      "data": [
+        {
+          "text": "erzähl mir was Spannendes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bed6e763-c235-432b-a9a7-2ac4c8d303eb",
+      "data": [
+        {
+          "text": "das ist total langweilig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8c19a7bd-c856-4d92-9920-53cb5c6876e5",
+      "data": [
+        {
+          "text": "das ist total öde"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0d819344-8a81-453e-8da3-b7a18ee1a1fb",
+      "data": [
+        {
+          "text": "das langweilt mich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "470d2260-2064-4bfa-af02-226dd313439b",
+      "data": [
+        {
+          "text": "ziemlich langweilig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6e19eb41-317d-4f14-9572-a9b9223ac2dd",
+      "data": [
+        {
+          "text": "du langweilst mich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "238fe3d6-82db-48a2-ae4d-ec844c4774cb",
+      "data": [
+        {
+          "text": "mir "
+        },
+        {
+          "text": "ist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "langweilig",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4cce8cc7-f335-4dd0-a916-f58a3fd4518c",
+      "data": [
+        {
+          "text": "ich bin gelangweilt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0f07c19e-9a02-402a-9a95-060eedb96a90",
+      "data": [
+        {
+          "text": "das",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "ist so",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "langweilig",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ca0be413-788a-479f-a404-c8eca79a430f",
+      "data": [
+        {
+          "text": "ich fühle mich so gelangweilt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "0619cf46-acdd-4162-8a91-b19e0522beeb",
+  "name": "smalltalk.user.bored",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.bored",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Fragt der eine Chatbot den anderen: oh ich weiß den Rest nicht mehr ..."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

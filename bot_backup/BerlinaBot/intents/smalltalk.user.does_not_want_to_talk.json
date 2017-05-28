@@ -1,0 +1,174 @@
+{
+  "userSays": [
+    {
+      "id": "b49392e8-06f8-4bca-944f-52c4e7f61756",
+      "data": [
+        {
+          "text": "ich habe keine Lust mich zu unterhalten"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0d7f775e-315f-45b5-a019-1df3d3609bda",
+      "data": [
+        {
+          "text": "ich mag "
+        },
+        {
+          "text": "gerade",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " nicht mit dir sprechen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8f50fa16-6f4c-41b7-bffd-5ca456011e1e",
+      "data": [
+        {
+          "text": "ich will nicht mit dir reden"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ef432ca4-9edf-4bb1-89e5-878e012817d6",
+      "data": [
+        {
+          "text": "ich habe "
+        },
+        {
+          "text": "keine Lust",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " zu reden"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "98328885-536e-4262-805d-7efc076eb03a",
+      "data": [
+        {
+          "text": "ich will",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " nicht reden"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d7978883-4d4a-4ccf-bd03-292262397312",
+      "data": [
+        {
+          "text": "ich will",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " nicht sprechen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4fd129d4-4288-47dd-9c7b-409606816d5e",
+      "data": [
+        {
+          "text": "ich möchte nicht sprechen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "56378be2-8303-4c50-9ca1-6128f7db335b",
+      "data": [
+        {
+          "text": "ich möchte nicht reden"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d542a623-9685-4b8b-afce-9bb95ff7e530",
+      "data": [
+        {
+          "text": "ich habe "
+        },
+        {
+          "text": "keine Lust",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " zu sprechen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5b2b9e9a-5cbc-46e2-bccf-81720c0186eb",
+      "data": [
+        {
+          "text": "ich will",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " nicht "
+        },
+        {
+          "text": "mit dir",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " sprechen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6797840c-dc6f-49b4-89b6-fa93e10fc3e4",
+  "name": "smalltalk.user.does_not_want_to_talk",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.does_not_want_to_talk",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Das ist okay für mich. Ich warte einfach so lange hier."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

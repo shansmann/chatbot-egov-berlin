@@ -1,0 +1,147 @@
+{
+  "userSays": [
+    {
+      "id": "75a12b9b-fbf2-45cb-99b7-27c756f60fe5",
+      "data": [
+        {
+          "text": "sehr gut"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "f778a579-c447-49fe-83cc-116d8872a1cb",
+      "data": [
+        {
+          "text": "gut"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "456999b8-1515-4ab5-9998-f876c929dc6a",
+      "data": [
+        {
+          "text": "super nett"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fef3b68e-c6c7-4c35-a8e3-ba8ff7ef04f0",
+      "data": [
+        {
+          "text": "super"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f5fac730-83fd-4b67-b15b-73eb8b9cec7f",
+      "data": [
+        {
+          "text": "nett"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "89e713c2-b1a9-4ae7-ad43-5fd56bf0f029",
+      "data": [
+        {
+          "text": "toll"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d23887a9-25f1-4b40-8d96-4e6bed6e2774",
+      "data": [
+        {
+          "text": "artig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "742861ee-35a2-4ced-a208-207127a3604f",
+      "data": [
+        {
+          "text": "brav"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0ada17c7-5145-4ca6-aeff-e97418682314",
+      "data": [
+        {
+          "text": "braves Mädchen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f927e5ec-0716-4f71-a67d-653d41458fa3",
+      "data": [
+        {
+          "text": "günstig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "da0cf6e1-dcf3-4b31-9860-0b9307421f70",
+      "data": [
+        {
+          "text": "lieb"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e6cecccc-d058-4c2f-ab43-76a64e7bfa04",
+      "data": [
+        {
+          "text": "ich bin zufrieden"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "d74304a5-1da0-435c-8b1c-6687365171f8",
+  "name": "smalltalk.appraisal.good",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.appraisal.good",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich gebe mir Mühe."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

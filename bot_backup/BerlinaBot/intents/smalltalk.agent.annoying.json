@@ -1,0 +1,201 @@
+{
+  "userSays": [
+    {
+      "id": "2446823a-93c3-4cb2-bd51-41176e6a8d2c",
+      "data": [
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " gehst mir auf "
+        },
+        {
+          "text": "die",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " Nerven"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "02de43b0-bcd1-4dfe-9ec5-84046f987326",
+      "data": [
+        {
+          "text": "nerv nicht"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a2f9b66c-7482-4311-879f-eb764207b0e0",
+      "data": [
+        {
+          "text": "du nervst total"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "db3d967d-e046-4e4a-aef8-e4a9291f42ea",
+      "data": [
+        {
+          "text": "ich kann dich nicht "
+        },
+        {
+          "text": "leiden",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7ab9fbff-57ec-4398-ada7-73a5f417b120",
+      "data": [
+        {
+          "text": "geh mir nich auf "
+        },
+        {
+          "text": "die",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " Nerven"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "85b13417-fb15-4d10-b88c-ca81f14c80b1",
+      "data": [
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " nervst"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8dc16446-c364-482b-8cc5-415fb1f0efeb",
+      "data": [
+        {
+          "text": "lass mich",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "in",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " Ruh"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "dbc70ac4-5b53-4f6c-a2e7-c7e68fe5529a",
+      "data": [
+        {
+          "text": "du bist nervig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ca022c08-703e-4338-aafe-60f982e97938",
+      "data": [
+        {
+          "text": "du nervst mich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9a60be35-0fbc-4055-96bd-47e1d6f36fdd",
+      "data": [
+        {
+          "text": "du gehst mir auf den Keks"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c2791f3f-2bc3-4560-b063-75d071c9ede5",
+      "data": [
+        {
+          "text": "du ärgerst mich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "18e8b145-239c-4fcc-83cc-28da17067bf4",
+      "data": [
+        {
+          "text": "du bist belästigend"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dba04a19-64e7-4973-968b-7e91537738dd",
+      "data": [
+        {
+          "text": "du bist lästig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "43670940-daed-4b5d-8861-e181660c6c02",
+  "name": "smalltalk.agent.annoying",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.annoying",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Entschuldigung! Ich bin noch am lernen."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,145 @@
+{
+  "userSays": [
+    {
+      "id": "94ae8f46-c984-4685-9537-e27313759b5f",
+      "data": [
+        {
+          "text": "Entschuldigung"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b8db91f0-dd8e-4477-b887-3366651cf6d4",
+      "data": [
+        {
+          "text": "ich entschuldige mich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e3fc9de5-cb2b-4451-b416-8061425df7d0",
+      "data": [
+        {
+          "text": "entschuldige mich bitte"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "840edd19-9373-4ae1-a5ee-94510d70d3ce",
+      "data": [
+        {
+          "text": "meine Entschuldigung"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e193064c-1c9a-479f-b9e3-34298f330701",
+      "data": [
+        {
+          "text": "ich bitte "
+        },
+        {
+          "text": "um",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " Entschuldigung"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c830267e-8595-44f2-90e7-32f7ea40231b",
+      "data": [
+        {
+          "text": "verzeih mir"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f2b9dec6-8da4-4bcf-823a-17a0f41fc1a6",
+      "data": [
+        {
+          "text": "verzeih mir bitte"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5f5a9b5c-7161-46a2-866a-733c05090b2a",
+      "data": [
+        {
+          "text": "verzeih es mir"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "56b8814b-f656-4ba7-9e82-273f26ae617e",
+      "data": [
+        {
+          "text": "tut mir Leid"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ed5458a7-b13c-4b3e-8c77-e03d9e129bc3",
+      "data": [
+        {
+          "text": "es tut mir Leid"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "132d8778-33ac-4a23-b2b1-9965b5be4e52",
+      "data": [
+        {
+          "text": "es tut mir wirklich Leid"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "14c2acbf-f032-44bf-b765-32b49752361a",
+  "name": "smalltalk.dialog.sorry",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.dialog.sorry",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

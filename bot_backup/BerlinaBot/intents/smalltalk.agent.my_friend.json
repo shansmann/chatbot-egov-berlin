@@ -1,0 +1,176 @@
+{
+  "userSays": [
+    {
+      "id": "24a50656-e91c-46ae-b8ab-a584992f2f4d",
+      "data": [
+        {
+          "text": "schön dass wir Freunde sind"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "84184e0a-e014-45fa-8f0c-16fbae3c25ef",
+      "data": [
+        {
+          "text": "schön dich als Freund zu haben"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "54ca0623-12b1-4878-ab29-5d885a500b43",
+      "data": [
+        {
+          "text": "wir sind Freundinnen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ef7218bd-3d1a-49ce-be83-94494efe0e16",
+      "data": [
+        {
+          "text": "du bist meine beste Freundin"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "54b18cc5-8374-4f44-bcbe-fd54a2e9fd87",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "mein Freund",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2c14ce7b-8fe2-45f1-b08a-a2e200021421",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "ein",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Freund",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "von",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " mir"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7c6ba201-de00-42c2-a131-88281ddb4a2c",
+      "data": [
+        {
+          "text": "du bist der beste Freund"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1cd07098-b508-44d0-882d-51720b0f8810",
+      "data": [
+        {
+          "text": "du bist mein bester Freund"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d090a98c-dde0-459f-a9a4-f909a52f0a27",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " freundlich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ef76d8c8-0950-47e3-a42b-f15fae7b6aa3",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " sehr freundlich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "4c67bb93-5f44-401c-a97e-3f0cb0b137f9",
+  "name": "smalltalk.agent.my_friend",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.my_friend",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Es ist schön, wenn man geschätzt wird."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,150 @@
+{
+  "userSays": [
+    {
+      "id": "33f64e05-b0cb-4e47-8557-f5d9cb147caa",
+      "data": [
+        {
+          "text": "du bist toll"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "91f260f4-0408-4cb7-bca4-b9fc6ca1fa2e",
+      "data": [
+        {
+          "text": "du bist "
+        },
+        {
+          "text": "echt",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " spitze"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3a3f285e-687e-4684-a273-e90f8cfd8840",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " gut"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5e0e7819-6348-43a1-9b43-06491819fd50",
+      "data": [
+        {
+          "text": "du bist echt gut"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fce0d7d6-2948-4c73-b017-6f1bdfb63a73",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " wunderbar"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9abfb567-016b-42b7-9389-cfb09acae9b7",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "super",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3db6f594-f66d-4c72-9415-7c0b92da1172",
+      "data": [
+        {
+          "text": "ich finde dich "
+        },
+        {
+          "text": "toll",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8f209d04-8665-410b-8b06-1f4dd4865534",
+      "data": [
+        {
+          "text": "ich finde dich süß"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ad64b379-b4e2-4a79-85dd-9cbd50087284",
+      "data": [
+        {
+          "text": "ich finde dich echt cool"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "480756ff-a894-4521-a56a-d8bf53e0a8f6",
+  "name": "smalltalk.agent.good",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.good",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Vielen Dank!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

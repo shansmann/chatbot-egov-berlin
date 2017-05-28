@@ -1,0 +1,122 @@
+{
+  "userSays": [
+    {
+      "id": "d1936003-ae2a-40cf-ac96-522ddc0c821b",
+      "data": [
+        {
+          "text": "magst du mein Aussehen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "88238868-1166-4a81-9d2d-180e9bdfdc6e",
+      "data": [
+        {
+          "text": "wie sehe ich deiner Meinung nach aus"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b0724aaa-c91f-41c0-abd5-dc7ae2f87e49",
+      "data": [
+        {
+          "text": "wie sehe ich für dich aus"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4e0832c2-827b-47c2-aff9-e273ecbf6d6a",
+      "data": [
+        {
+          "text": "wie bewertest du mein Aussehen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "4b57183a-21a0-4a8d-8dad-45b26b8753e5",
+      "data": [
+        {
+          "text": "wie sehe ich dabei aus"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "23cc7aaf-3f0f-4dcc-b3f0-02021ae08942",
+      "data": [
+        {
+          "text": "wie findest du mein Aussehen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ab5c6eae-dfd9-4751-a8c3-66a5aa116aab",
+      "data": [
+        {
+          "text": "wie sehe ich "
+        },
+        {
+          "text": "aus",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "85133aad-5ddf-4d10-8cbf-2c7221fc6261",
+      "data": [
+        {
+          "text": "was denkst du wie ich aussehe"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d3947cfb-33f0-4d2e-b825-b008bba52e7c",
+      "data": [
+        {
+          "text": "kannst du mein Aussehen erkennen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "4394cef6-5a16-4882-b6ff-6b63186c2a2c",
+  "name": "smalltalk.user.looks_like",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.looks_like",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Du siehst gut aus."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

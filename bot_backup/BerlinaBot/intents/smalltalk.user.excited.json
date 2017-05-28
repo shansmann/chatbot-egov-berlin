@@ -1,0 +1,142 @@
+{
+  "userSays": [
+    {
+      "id": "04d052f0-30a4-45c4-a12c-a7c755d46df4",
+      "data": [
+        {
+          "text": "ich bin total aufgeregt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c46c3d4e-92ef-4894-b93a-c9822eaaadb4",
+      "data": [
+        {
+          "text": "wir sind begeistert"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e366c713-fda8-4ec0-a285-119c92d20150",
+      "data": [
+        {
+          "text": "ich bin gespannt und freue mich sehr"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dd82d95a-a7c7-4846-bc05-f4ec35a679c8",
+      "data": [
+        {
+          "text": "hocherfreut"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "397e0f56-52a4-4c78-a0b3-1c8e6471de6a",
+      "data": [
+        {
+          "text": "ich bin gespannt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5b321a07-0ba3-4b86-9ddf-4ce29bfba066",
+      "data": [
+        {
+          "text": "ich bin begeistert"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7ffc996c-6cc9-4f6a-ac40-a80fa5433bf5",
+      "data": [
+        {
+          "text": "ich bin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " aufgeregt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4d894a3e-5a9a-49dc-a483-6855b77ee069",
+      "data": [
+        {
+          "text": "ich bin so",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " aufgeregt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "598baafe-d1da-491a-a4f7-643a18c681c5",
+      "data": [
+        {
+          "text": "ich bin echt aufgeregt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fccb9ab6-a181-41f7-9d88-cad569cbfa74",
+      "data": [
+        {
+          "text": "ich bin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " wirklich aufgeregt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "61655d7a-b566-4a43-9c04-786044f8299e",
+  "name": "smalltalk.user.excited",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.excited",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich teile deine Aufregung."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

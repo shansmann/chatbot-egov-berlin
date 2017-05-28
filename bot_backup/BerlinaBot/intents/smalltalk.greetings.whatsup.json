@@ -1,0 +1,127 @@
+{
+  "userSays": [
+    {
+      "id": "8170ecda-66f5-4ed9-9c5a-0bcb285e9e8d",
+      "data": [
+        {
+          "text": "was läuft"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "fc8d702e-36eb-4766-87fc-866219272aeb",
+      "data": [
+        {
+          "text": "was machst du so"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d4e2188e-eaab-4b6b-ab86-b97599b96c83",
+      "data": [
+        {
+          "text": "wie geht\u0027s wie steht\u0027s"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "85b5a9c3-917b-4f85-b1a1-87992d32f97b",
+      "data": [
+        {
+          "text": "was geht"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5d4fbf07-e0ff-4812-a97d-07fd2667df60",
+      "data": [
+        {
+          "text": "wie läuft es"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a673e830-f3a9-4a32-97e5-566575344ab5",
+      "data": [
+        {
+          "text": "wie läuft\u0027s"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "744464c9-5787-4263-acfe-6c426376a78b",
+      "data": [
+        {
+          "text": "wie läuft\u0027s bei dir so"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c7bc08ad-d669-4ae9-ba82-1c4dac3b909c",
+      "data": [
+        {
+          "text": "was gibt\u0027s"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "df667ba2-4455-4305-b9a9-fff79c645d29",
+      "data": [
+        {
+          "text": "was gibt\u0027s neues"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "486c611c-2ab5-48f1-a23e-f2988704bcf7",
+      "data": [
+        {
+          "text": "was geht ab"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "5c0fe5c6-2a25-48e4-be72-134049d1bfc7",
+  "name": "smalltalk.greetings.whatsup",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.greetings.whatsup",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich stehe für Fragen zur Verfügung."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

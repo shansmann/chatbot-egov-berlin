@@ -1,0 +1,152 @@
+{
+  "userSays": [
+    {
+      "id": "91f89a88-7c90-49ec-8997-34f713a24d87",
+      "data": [
+        {
+          "text": "Wie geht es dir"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1b1a6640-517c-4efa-b648-ae1a5bf84e79",
+      "data": [
+        {
+          "text": "wie geht\u0027s dir"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8af79def-09f9-4736-aeea-137b894f03b1",
+      "data": [
+        {
+          "text": "wie geht\u0027s"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7d325a98-4b43-4245-bfd8-568cf2a2b869",
+      "data": [
+        {
+          "text": "alles klar bei dir"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2feb74ba-67d5-4e17-8b69-c16391855d69",
+      "data": [
+        {
+          "text": "wie geht es Ihnen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "15cdf9cd-917b-46c4-99ce-b758a7b86088",
+      "data": [
+        {
+          "text": "wie sieht\u0027s aus"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0302e11a-a06f-4622-ba6f-b10c121fc304",
+      "data": [
+        {
+          "text": "wie geht\u0027s dir so"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "992c0901-3123-4387-98e1-da9634ae4976",
+      "data": [
+        {
+          "text": " ist alles im Lack"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e825bff2-b218-44fe-8238-6f03edd989d5",
+      "data": [
+        {
+          "text": "ist alles gut"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d4e4e1d6-9858-4d4b-b01f-69fdb9969ed6",
+      "data": [
+        {
+          "text": "ist alles in "
+        },
+        {
+          "text": "Ordnung",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6ce4e639-5352-4d73-bd63-1890fc9193e5",
+      "data": [
+        {
+          "text": "ist alles klar bei dir"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1962e910-ac07-40b0-8e8a-dc7b2a11b0d6",
+      "data": [
+        {
+          "text": "wie geht es dir"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "fd0dba3c-a2ef-4ee6-965c-3654923d1f0a",
+  "name": "smalltalk.greetings.how_are_you",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.greetings.how_are_you",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Es geht mir bestens."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

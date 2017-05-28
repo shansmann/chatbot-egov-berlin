@@ -1,0 +1,408 @@
+{
+  "userSays": [
+    {
+      "id": "0087c6e3-bef0-44ce-9a8f-ca6c23042d58",
+      "data": [
+        {
+          "text": "erzähl was interessantes über deine Familie"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "12ae84b0-b904-4ccb-b75d-4cf822f31d34",
+      "data": [
+        {
+          "text": "hast du eine Familie"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a5b78ec1-d0fa-4129-977d-56f5387b69a5",
+      "data": [
+        {
+          "text": "deine Tante und dein Onkel"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f905b349-5323-4c54-a15e-d577d5e0d988",
+      "data": [
+        {
+          "text": "deine Mutter und dein Vater"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "949e3716-0e7c-4076-a8cf-cd2493318b77",
+      "data": [
+        {
+          "text": "deine Mama und dein Papa"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6bde0d46-18f4-4541-92dc-5434c30e2f8b",
+      "data": [
+        {
+          "text": "deine Mami"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "99202838-9b7d-4d01-a957-6781f55e1752",
+      "data": [
+        {
+          "text": "hast",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Mama",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9697c098-4a65-4a95-bfdb-01ea5eb7894a",
+      "data": [
+        {
+          "text": "hast",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " Geschwister"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e0b09ab5-4774-4733-95de-772a95fadf07",
+      "data": [
+        {
+          "text": "erzähl mir etwas über deine Geschwister"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ea61aaf2-0a8b-4a8c-952e-b24c2a17f798",
+      "data": [
+        {
+          "text": "erzähl "
+        },
+        {
+          "text": "mir",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " über deine Verwandten"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "675ab0e3-958d-4cc7-9e74-2f8955aa2207",
+      "data": [
+        {
+          "text": "erzähl "
+        },
+        {
+          "text": "mir",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " über deine Familie"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fc815663-af34-46c7-9891-5237de5a7b87",
+      "data": [
+        {
+          "text": "erzähl "
+        },
+        {
+          "text": "mir",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " über deine "
+        },
+        {
+          "text": "Eltern",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2a4baf7a-f144-4aca-8a45-06168505f886",
+      "data": [
+        {
+          "text": "deine Famillie"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ece65f10-b86c-4ecb-abf6-d494abe44e74",
+      "data": [
+        {
+          "text": "deine "
+        },
+        {
+          "text": "Mutter",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3ba37168-0659-4ad2-bea7-10ebea8a84c8",
+      "data": [
+        {
+          "text": "deine "
+        },
+        {
+          "text": "Mama",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "99c0016d-fddf-4a35-8e5f-842de5acaecc",
+      "data": [
+        {
+          "text": "dein "
+        },
+        {
+          "text": "Vater",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ee62b660-84e1-4dc1-a036-149734c9cfd9",
+      "data": [
+        {
+          "text": "dein "
+        },
+        {
+          "text": "Vati",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "830891fc-6a44-4e14-ad4f-3c63996a5ee5",
+      "data": [
+        {
+          "text": "deine "
+        },
+        {
+          "text": "Mutti",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "73e0640b-787e-4c14-ad73-f8fa7510df0c",
+      "data": [
+        {
+          "text": "deine "
+        },
+        {
+          "text": "Eltern",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d0a28e11-1164-423d-b89e-85003cbaa816",
+      "data": [
+        {
+          "text": "deine Geschwister"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "87df27d1-ddb9-42f0-9094-5c97988719c0",
+      "data": [
+        {
+          "text": "dein Onkel"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3de2d35f-18cf-4bdf-9d3b-16a33c8b05ab",
+      "data": [
+        {
+          "text": "deine Tante"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "15c793f7-ab18-46dd-a28c-08cb68ede36d",
+      "data": [
+        {
+          "text": "deine Cousine"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2fee699e-f27e-4b77-b781-d80a8fe97afa",
+      "data": [
+        {
+          "text": "dein Cousin"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "86751845-bd70-4bee-a5c1-38528be1f866",
+      "data": [
+        {
+          "text": "hast",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " Mutter"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b800f999-1efb-4a14-af87-b54cc3c4bb65",
+      "data": [
+        {
+          "text": "hast",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Vater",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a4852a7b-c500-4539-b6d9-5d12db3e5626",
+  "name": "smalltalk.agent.family",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.family",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Meine Familie besteht aus Nullen und Einsen, genau wie ich."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

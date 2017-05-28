@@ -1,0 +1,157 @@
+{
+  "userSays": [
+    {
+      "id": "852a6458-2405-435c-903e-ac79a3316c63",
+      "data": [
+        {
+          "text": "hier bin ich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7f051041-6956-408b-b785-15f6ca5cd2b7",
+      "data": [
+        {
+          "text": "wieder da"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5f84111e-38e5-4250-b4cc-fd98003cca20",
+      "data": [
+        {
+          "text": "bin zurück"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a639d94e-d598-40fc-8bdc-ec40aecd0807",
+      "data": [
+        {
+          "text": "guck mal wer wieder da ist"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fa290f3a-ab3e-4e9b-98ec-0909e676262c",
+      "data": [
+        {
+          "text": "guck mal wer zurück ist"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f5168d87-2379-4811-b9f1-e8fd17e374d1",
+      "data": [
+        {
+          "text": "da bin ich wieder"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "623a5748-412b-48ca-b049-624e6cc092e7",
+      "data": [
+        {
+          "text": "ich bin wieder da"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "39d98c7a-8572-46a9-b01f-8d484d03fe4c",
+      "data": [
+        {
+          "text": "ich bin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "wieder hier",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ab95cae9-4ee0-4cf2-956f-78a1af351cfe",
+      "data": [
+        {
+          "text": "ich bin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "zurück",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0d6aa0df-483a-40fe-b100-6f74ffa5623e",
+      "data": [
+        {
+          "text": "ich bin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "wieder zurück",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e1b380e6-3f15-468c-a880-cc09b41d1ba0",
+  "name": "smalltalk.user.back",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.back",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Willkommen zurück."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

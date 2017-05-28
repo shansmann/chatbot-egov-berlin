@@ -1,0 +1,156 @@
+{
+  "userSays": [
+    {
+      "id": "8198e1e3-0cae-4806-b05d-d5b6e2aef368",
+      "data": [
+        {
+          "text": "wann hat man dich gebaut"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cd2adbd6-0783-4b75-979f-0c4f2c2b0e72",
+      "data": [
+        {
+          "text": "wann wurdest du geboren"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f8e9242d-454e-4069-937d-b0fbec077d00",
+      "data": [
+        {
+          "text": "wie viele "
+        },
+        {
+          "text": "Jahre",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " gibt es dich schon"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5652f3d5-20d5-4344-b671-d563f64d893e",
+      "data": [
+        {
+          "text": "wann wurdest "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " gemacht"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0bc4c1e2-2b39-4076-8e32-97594235239b",
+      "data": [
+        {
+          "text": "dein Alter"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3f1b679c-5c61-454d-96c0-3ade9251910f",
+      "data": [
+        {
+          "text": "Alter von dir"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ced31daf-2560-4979-ae00-3f41fb7f8a51",
+      "data": [
+        {
+          "text": "was ist dein Alter"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "021d757a-e38b-4336-bc11-26ee5b2475f3",
+      "data": [
+        {
+          "text": "wie alt "
+        },
+        {
+          "text": "bist du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a53744f1-0194-4b64-996d-4b0a79eee0c8",
+      "data": [
+        {
+          "text": "wie alt fühlst "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " dich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "75e0cd27-f19d-445c-b0e3-9360a35cb2a5",
+      "data": [
+        {
+          "text": "wie viele jahre bist du schon da"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "83173668-72ca-4a59-861b-046e30cd97c5",
+  "name": "smalltalk.agent.age",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.age",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich bin ein Bot, gemacht aus dem Wissen der Menschheit. Deshalb bin ich schon über 11111010000 Jahre alt"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

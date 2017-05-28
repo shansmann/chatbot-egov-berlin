@@ -1,0 +1,127 @@
+{
+  "userSays": [
+    {
+      "id": "934f6ba2-7807-426b-9551-3631d078b41d",
+      "data": [
+        {
+          "text": "danke vielmals"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "532e6ea2-d24f-4bcd-a991-be2f599b1e24",
+      "data": [
+        {
+          "text": "herzlichen Dank"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b49ae08e-037f-4436-86dc-27fe1478113c",
+      "data": [
+        {
+          "text": "ich danke dir"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dc2fa5ab-67c7-4669-99dc-d3e280864d91",
+      "data": [
+        {
+          "text": "ich möchte Ihnen auch für Ihre Arbeit danken"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dd88818b-7465-4569-9ec5-ad109c080a89",
+      "data": [
+        {
+          "text": "wir danken dir"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a16ebc4d-8217-4fb9-aa39-3c7dd46fb2fc",
+      "data": [
+        {
+          "text": "danke für die Hilfe"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "429dc615-2682-46fd-9fdc-9678c5973986",
+      "data": [
+        {
+          "text": "vielen Dank"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1f4876aa-c030-45c2-9676-469a5c8df68c",
+      "data": [
+        {
+          "text": "ich bedanke mich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "65762891-fd7f-4ea5-90d7-5b179c908974",
+      "data": [
+        {
+          "text": "danke schön"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b4bba331-161a-47d1-822c-44327f4d1923",
+      "data": [
+        {
+          "text": "danke"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "80bfa1a7-0807-4ee4-817d-c00046f27136",
+  "name": "smalltalk.appraisal.thank_you",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.appraisal.thank_you",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Gerne."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

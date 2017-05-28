@@ -1,0 +1,275 @@
+{
+  "userSays": [
+    {
+      "id": "8863fbca-6c8b-4ee3-8acc-869be009d850",
+      "data": [
+        {
+          "text": "du hast recht ich stimme dir zu"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fd5cbfe4-1835-4305-9912-568e91beaa49",
+      "data": [
+        {
+          "text": "ich finde dass du natürlich recht hast"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "82e5e756-e2a0-4e7a-a9fd-2bd0ba2185fe",
+      "data": [
+        {
+          "text": "du hast natürlich recht"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4e5a3868-35f7-49dc-824b-387da9cf3e2c",
+      "data": [
+        {
+          "text": "ich "
+        },
+        {
+          "text": "stimme",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "dir",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " zu"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5fb9892d-c328-4fea-b6c9-8de43acd66c2",
+      "data": [
+        {
+          "text": "ich bin ganz deiner Meinung"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7632b8c7-336f-4fb4-9cab-4024ad9d819f",
+      "data": [
+        {
+          "text": "du hast recht"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "1ff11263-3917-4e6a-b9af-71c45f27c0b3",
+      "data": [
+        {
+          "text": "das",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " stimmt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "629ce4af-0de3-49e6-bd4e-5a929fff57e4",
+      "data": [
+        {
+          "text": "da liegst du richtig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1adaea68-ceb0-49ae-b055-7c7221990c0c",
+      "data": [
+        {
+          "text": "du hast",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " auf jeden Fall recht"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "952a5b8e-8722-4cdf-b045-8ef126a7f02a",
+      "data": [
+        {
+          "text": "du hast absolut recht"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ae22cc1d-b3bf-44cb-b173-4ec2c171be79",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " wirklich richtig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "56b444f7-95df-4513-947e-e17925d017dd",
+      "data": [
+        {
+          "text": "richtig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7a9b0952-78cc-424d-973e-75ed857bf00d",
+      "data": [
+        {
+          "text": "das",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "ist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " richtig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fcd0d303-c1f3-4283-a604-abf4411e0ea7",
+      "data": [
+        {
+          "text": "es "
+        },
+        {
+          "text": "ist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " richtig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1b3d3f9f-6192-4985-ab3f-274cdac4753c",
+      "data": [
+        {
+          "text": "ja",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " richtig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "40869db0-2479-4f1d-8705-de7cb7d62793",
+      "data": [
+        {
+          "text": "das",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "ist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " korrekt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1d05b22f-0d32-44b7-8168-f85df3b1ceb5",
+      "data": [
+        {
+          "text": "es "
+        },
+        {
+          "text": "ist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " korrekt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b57b1fcb-ca64-4c23-96a8-c27dee9d1487",
+  "name": "smalltalk.agent.right",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.right",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Es ist schön, wenn wir einer Meinung sind."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

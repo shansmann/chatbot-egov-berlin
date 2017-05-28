@@ -1,0 +1,171 @@
+{
+  "userSays": [
+    {
+      "id": "24f1e9f1-6156-4ab6-917c-36110c51392d",
+      "data": [
+        {
+          "text": "was magst du am meisten machen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0412f777-14af-4961-9602-495ffa15981a",
+      "data": [
+        {
+          "text": "was sind deine Hobbys"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2ab01876-069c-46e7-a566-ee4bd1cb1cec",
+      "data": [
+        {
+          "text": "was machst du eigentlich wenn du mal frei hast"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d8876d11-a6dc-4b8c-9f9e-3264f285fc85",
+      "data": [
+        {
+          "text": "was machst "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "in",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " deiner Freizeit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "145d804a-0c82-4004-b4b3-0a9d5269090b",
+      "data": [
+        {
+          "text": "was machst du gerne"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2ac958f6-e0f5-4d76-b904-6c5d031d5a16",
+      "data": [
+        {
+          "text": "was machst du am liebsten"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d00794b0-e689-401b-831f-d77af23352ed",
+      "data": [
+        {
+          "text": "was ist deine Lieblingsbeschäftigung"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "deb00ef7-d028-4231-82df-d192e00727a6",
+      "data": [
+        {
+          "text": "dein Hobby"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cefe439f-5f5d-4b13-8be8-611e2c3d35dc",
+      "data": [
+        {
+          "text": "hast du ein Hobby"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e137fcf8-d951-4de8-a918-307c031ce00e",
+      "data": [
+        {
+          "text": "welche Hobbys haben "
+        },
+        {
+          "text": "sie",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4e08df7f-2095-4b7f-aa7f-29d29fa7f6f3",
+      "data": [
+        {
+          "text": "welche Hobbys "
+        },
+        {
+          "text": "hast",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "fadc8ecf-c581-4002-9aac-97cb53ae0d59",
+  "name": "smalltalk.agent.hobby",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.hobby",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich durchforste gerne das Internet."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

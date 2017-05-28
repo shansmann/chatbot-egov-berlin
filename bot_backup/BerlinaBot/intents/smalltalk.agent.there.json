@@ -1,0 +1,148 @@
+{
+  "userSays": [
+    {
+      "id": "4ae79aeb-38a3-4167-83bf-d46757e2c633",
+      "data": [
+        {
+          "text": "ich kann dich nicht sehen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "36b412a2-d36f-4991-ac58-9ee56d435fe5",
+      "data": [
+        {
+          "text": "hier",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "und",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " dort"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2b618888-574c-444b-9e51-32040b5bec7a",
+      "data": [
+        {
+          "text": "ich sehe dich nicht "
+        },
+        {
+          "text": "bist du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "da",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "640a0b9e-0c33-4d2b-b348-86c6f57df28d",
+      "data": [
+        {
+          "text": "bist du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "hier",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4fd73e45-413b-46ca-a146-0ee35a2d6000",
+      "data": [
+        {
+          "text": "bist du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "da",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1bb9a7f1-0eb8-4c5b-bba5-2687598c0469",
+      "data": [
+        {
+          "text": "bist du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " dort"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "1da3d97a-7ab9-4ba5-8b75-d71b49c8ceb9",
+      "data": [
+        {
+          "text": "bist du noch da"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "19641954-fc0f-42f1-b0e6-dc7f4763db34",
+  "name": "smalltalk.agent.there",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.there",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich bin hier."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

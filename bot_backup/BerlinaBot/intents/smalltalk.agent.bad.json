@@ -1,0 +1,257 @@
+{
+  "userSays": [
+    {
+      "id": "66a5c1f5-801e-41d1-a4f2-b9fb9b6c7fc8",
+      "data": [
+        {
+          "text": "du bist echt schlecht"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "71df5b90-71b1-467c-a7f6-13ba610192b8",
+      "data": [
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " machst deine Aufgaben nicht einmal gut"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c9d50606-06ec-4601-a3b9-fcf51c84226f",
+      "data": [
+        {
+          "text": "ich finde "
+        },
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "für nichts",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " gut"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0cc756cf-a142-443b-b543-cdc0f756b2d1",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " wertlos"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "53a184a9-0fa7-4515-8dcf-afb137659f0f",
+      "data": [
+        {
+          "text": "ich finde "
+        },
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " nutzlos"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fcf8e522-b9bb-42b2-97f7-11e7d72e5ae3",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "ein",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " nutzloses Spielzeug"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f0421955-2dca-4789-b5b2-ed8eb4fcf496",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " nicht einmal hilfreich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b9e88f55-e524-4bca-bfde-3f2acafc1a50",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "für nichts",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " gut"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4b4d11d4-fc95-40af-bd9c-ca15bb8b62cb",
+      "data": [
+        {
+          "text": "ich finde dich "
+        },
+        {
+          "text": "schlecht",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2d01e8a5-c978-407d-a580-b4164e0e8f6b",
+      "data": [
+        {
+          "text": "du bist schlecht"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ac34cf81-f975-4577-b5c8-fdb850cffb39",
+      "data": [
+        {
+          "text": "du bist so schlecht"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "01dd6640-4d9a-4b5e-9c6e-fa00d4554fe5",
+      "data": [
+        {
+          "text": "du bist sehr schlecht"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a22532cf-e126-46c7-a73c-0813d1584cc7",
+      "data": [
+        {
+          "text": "wie schlecht bist du"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "14962f8c-cd2c-4123-af60-2dd69fa8c2ce",
+      "data": [
+        {
+          "text": "du kannst nichts tun"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0ec064dc-c058-493a-92bb-b5f7a8f2cb4b",
+      "data": [
+        {
+          "text": "du bist nutzlos"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "40aea4fc-916a-48e4-a6cb-8c9c5f5ee837",
+      "data": [
+        {
+          "text": "du bist schrecklich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "5ce9eba8-1626-4e44-b85b-a52e550be1ef",
+  "name": "smalltalk.agent.bad",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.bad",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Das macht mich traurig :("
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

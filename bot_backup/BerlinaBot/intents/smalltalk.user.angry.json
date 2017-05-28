@@ -1,0 +1,157 @@
+{
+  "userSays": [
+    {
+      "id": "7bb8b0fe-f636-4683-9d2f-46f701b5da1e",
+      "data": [
+        {
+          "text": "ich könnte ausrasten"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6b159aed-9955-447e-a91e-8fe5fb025991",
+      "data": [
+        {
+          "text": "ich bin sauer"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "225b6cff-ed50-4d36-ba1f-af5632663f61",
+      "data": [
+        {
+          "text": "ich bin äußerst verärgert"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9a83f92f-f580-4404-bb3e-a0cb3a50ac46",
+      "data": [
+        {
+          "text": "ich bin dir böse"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4cc326ad-d319-4f2d-9760-38618807427b",
+      "data": [
+        {
+          "text": "ich bin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " böse"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6c663bed-7739-422f-b277-6b0b5658ac26",
+      "data": [
+        {
+          "text": "ich bin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " wütend"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5a612e79-8126-42a3-9f68-1a47aac337c7",
+      "data": [
+        {
+          "text": "ich bin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " verärgert"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f8cd5ebb-151f-4bfe-a094-ec89f1cafe8a",
+      "data": [
+        {
+          "text": "ich bin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " zornig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "adf2543c-5085-4078-88d6-cb0daae73253",
+      "data": [
+        {
+          "text": "ich bin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " sauer auf dich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "71794764-dcd9-4a7e-97c2-84b87f8c771b",
+      "data": [
+        {
+          "text": "ich bin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " wütend auf dich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "42f0a3c7-c8a2-4cc2-8c47-51303b363c2a",
+  "name": "smalltalk.user.angry",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.angry",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Es wird vorübergehen."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

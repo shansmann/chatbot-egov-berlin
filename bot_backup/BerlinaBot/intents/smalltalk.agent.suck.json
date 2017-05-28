@@ -1,0 +1,165 @@
+{
+  "userSays": [
+    {
+      "id": "b5e6621d-4451-4981-a00a-e544ed5f1642",
+      "data": [
+        {
+          "text": "ich kann dich nicht nutzen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a354008e-774c-4cde-9bd7-0363150f3390",
+      "data": [
+        {
+          "text": "ich kann dich nicht benutzen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ca3b8c7c-76ef-4b6d-9ebc-82adfea1d046",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " nutzlos "
+        },
+        {
+          "text": "und",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " unbrauchbar"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "5bb80e3c-b887-4d8e-b147-7938b6bda25b",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " völlig unbrauchbar"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "087b9f74-075d-4811-911d-a576993b28cd",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " schrott"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dd79292c-fa4c-4874-9dd2-85954ac7414e",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " nutzlos"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "19f2dfe6-549a-4a89-9d05-5b724cc70850",
+      "data": [
+        {
+          "text": "man",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " kann dich nicht richtig nutzen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "92fa41d4-4f41-409d-9a97-6f853ada6a3a",
+      "data": [
+        {
+          "text": "man",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " kann dich nicht benutzen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9c23584b-9e73-4795-8fb9-538cd890fe77",
+      "data": [
+        {
+          "text": "du nervst mich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4bea663b-97bb-4723-b15d-872f429d4495",
+      "data": [
+        {
+          "text": "du machst mich verrückt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "03fe04b6-2a0a-4481-984a-6b3ca0d17b1b",
+  "name": "smalltalk.agent.suck",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.suck",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich versuche besser zu werden."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

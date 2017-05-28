@@ -1,0 +1,380 @@
+{
+  "userSays": [
+    {
+      "id": "2d4d89c6-efbb-47df-8ad9-c1e0b91a25b8",
+      "data": [
+        {
+          "text": "woher kommst "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " eigentlich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e8345bd3-8b03-43ea-99e8-baf2e1bf1640",
+      "data": [
+        {
+          "text": "wurdest "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "hier",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "geboren",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9f48a4b7-e64c-497d-986f-d7d15b98eb89",
+      "data": [
+        {
+          "text": "bist du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "von",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "hier",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6870351d-657a-40ba-9df6-acbfd179ea63",
+      "data": [
+        {
+          "text": "woher kommst "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " ursprünglich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e98aaba8-5bc3-4394-9723-f81509fcfcd5",
+      "data": [
+        {
+          "text": "woher "
+        },
+        {
+          "text": "bist du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " ursprünglich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8ed4d384-392f-4679-844f-b61553ee61c4",
+      "data": [
+        {
+          "text": "kommst "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "aus",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "der",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Stadt",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " oder nicht"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "331373c4-8beb-4001-96d2-f71e1a1793e6",
+      "data": [
+        {
+          "text": "woher "
+        },
+        {
+          "text": "kommt",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " deine Familie"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "132d1298-4daf-4522-983c-bbd1590e1048",
+      "data": [
+        {
+          "text": "woher "
+        },
+        {
+          "text": "kommen",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " deine "
+        },
+        {
+          "text": "Eltern",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f8d3a0cd-22a2-45b9-a097-468867ac3162",
+      "data": [
+        {
+          "text": "wo bist du geboren und aufgewachsen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ab880ec0-7d71-4966-9aa6-89ef0faa0c2f",
+      "data": [
+        {
+          "text": "aus",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " welchem Wohnort kommst "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "df3f9a60-a7dc-4ba5-925f-18a4ea1a3743",
+      "data": [
+        {
+          "text": "aus",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " welchem "
+        },
+        {
+          "text": "Ort",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " kommst "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6e5b96d9-aada-4a19-923d-927d31cb0cfc",
+      "data": [
+        {
+          "text": "woher kommst "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fc5f2b34-a2a8-4b37-8cea-9cf65f90fbe2",
+      "data": [
+        {
+          "text": "wo wurdest "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "geboren",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "a17cdd8b-04a1-4c10-b0c7-281ca6f26bd5",
+      "data": [
+        {
+          "text": "was "
+        },
+        {
+          "text": "ist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " deine "
+        },
+        {
+          "text": "Heimat",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "36ce4e8f-3b61-4680-ad08-b53457daaf8a",
+      "data": [
+        {
+          "text": "was "
+        },
+        {
+          "text": "ist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " dein Heimatland"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ac759bde-97bd-408e-955a-10b338eeb3bf",
+      "data": [
+        {
+          "text": "wo bist du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "geboren",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "840bb589-bb24-43fe-b6b5-fa3fdccc00d0",
+  "name": "smalltalk.agent.origin",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.origin",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich bin Ur-Berlinerin."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

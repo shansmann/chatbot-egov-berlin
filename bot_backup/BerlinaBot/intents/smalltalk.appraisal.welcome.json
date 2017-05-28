@@ -1,0 +1,135 @@
+{
+  "userSays": [
+    {
+      "id": "7648688b-f193-49dd-8d94-411ca800821f",
+      "data": [
+        {
+          "text": "es war mir "
+        },
+        {
+          "text": "ein",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " Vergnügen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ea401ce3-8fdd-465d-bb09-6eadb3a4b8ed",
+      "data": [
+        {
+          "text": "gerne doch"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8e1ed6e3-6d85-4173-9e5d-1db9254a3842",
+      "data": [
+        {
+          "text": "bitte"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6c4370d3-6ff3-4d1e-9565-2bbdb38675a3",
+      "data": [
+        {
+          "text": "schon gut"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c8a86a02-020e-400e-a69f-d0c781a83bc1",
+      "data": [
+        {
+          "text": "nichts zu danken"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "92f90540-da4c-4713-834c-fa22f9bc9406",
+      "data": [
+        {
+          "text": "mit Vergnügen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b4a79774-313f-4f60-8c9a-1dece04635d0",
+      "data": [
+        {
+          "text": "bitte schön"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9077be59-64d3-40fe-9742-9e886c9e9237",
+      "data": [
+        {
+          "text": "bitte sehr"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "00a1bec4-63cb-4600-8a64-4312caea55dd",
+      "data": [
+        {
+          "text": "gern geschehen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "86fb491a-4d28-4c96-9c02-2c485bbbce48",
+      "data": [
+        {
+          "text": "gerne"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "4ba95f78-fcba-4738-a96c-0b1c7765231c",
+  "name": "smalltalk.appraisal.welcome",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.appraisal.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Es war mir ein Vergnügen."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

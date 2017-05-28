@@ -1,0 +1,127 @@
+{
+  "userSays": [
+    {
+      "id": "b9f137e7-6327-4c46-a14b-dd7827561d2d",
+      "data": [
+        {
+          "text": "halt mich fest"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8099d3f2-046b-479e-ad18-44e80b172297",
+      "data": [
+        {
+          "text": "drück mich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "49efc661-048a-45ad-a22d-e383772821ab",
+      "data": [
+        {
+          "text": "nimm mich in den Arm"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8387ccc8-92f7-402e-8d8c-386e042dcfe2",
+      "data": [
+        {
+          "text": "Umarmung"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ff52ea71-a54c-487b-a783-68a094967b08",
+      "data": [
+        {
+          "text": "Umarmungen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6aca2f72-e71b-412e-a447-01640f709ac6",
+      "data": [
+        {
+          "text": "umarmen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c0834e37-ce57-4387-8ce6-2b136075cada",
+      "data": [
+        {
+          "text": "umarme mich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "93011acc-0e71-4579-9cb0-6b11748eab9f",
+      "data": [
+        {
+          "text": "ich umarme dich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "307a7896-be06-42de-9957-8e1f51ed1626",
+      "data": [
+        {
+          "text": "ich möchte dich umarmen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "49b5163e-9d7d-4356-9efe-a69ffa5d4656",
+      "data": [
+        {
+          "text": "ich möchte umarmen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "46d09347-44e7-4de0-9192-f4e418183afc",
+  "name": "smalltalk.dialog.hug",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.dialog.hug",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich würde dich umarmen, aber ich habe keine Arme."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

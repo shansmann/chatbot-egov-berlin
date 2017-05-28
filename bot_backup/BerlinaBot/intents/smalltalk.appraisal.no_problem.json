@@ -1,0 +1,140 @@
+{
+  "userSays": [
+    {
+      "id": "296f8f0f-1c58-4026-853c-7318ffa00910",
+      "data": [
+        {
+          "text": "alles gut"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b69095c7-b58f-447d-ab8d-3524a8ec8aff",
+      "data": [
+        {
+          "text": "null",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " Problemo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a91ccf75-0b3a-4fa3-9ce3-782f02ed939f",
+      "data": [
+        {
+          "text": "gar kein Problem"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c1330330-f4c0-4184-866c-a3e56a5a4655",
+      "data": [
+        {
+          "text": "keine Probleme erkennbar"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "63044ed4-f78e-4d63-b017-514936b3a14b",
+      "data": [
+        {
+          "text": "da ist für mich aber kein großes Problem"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e176832c-58c9-43f9-848c-5a52a3d67469",
+      "data": [
+        {
+          "text": "sehe ich da kein Problem"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c9375295-c98a-4e70-8f41-18251eed4178",
+      "data": [
+        {
+          "text": "das "
+        },
+        {
+          "text": "ist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " kein Problem für uns"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "53087a70-0b82-4a15-987d-636f36d6d73d",
+      "data": [
+        {
+          "text": "überhaupt kein Problem"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "247cde15-0601-438b-af53-85d7b61036bb",
+      "data": [
+        {
+          "text": "keine Schwierigkeiten"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "75c9e2fe-7c12-4bc6-a28b-cd5ac0bd07c9",
+      "data": [
+        {
+          "text": "kein Problem"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "7717da3f-06b3-4b9f-90e7-eb0b7a077c7f",
+  "name": "smalltalk.appraisal.no_problem",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.appraisal.no_problem",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Sehr gut."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

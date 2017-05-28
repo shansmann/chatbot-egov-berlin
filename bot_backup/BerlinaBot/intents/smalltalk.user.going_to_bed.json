@@ -1,0 +1,184 @@
+{
+  "userSays": [
+    {
+      "id": "8fe0d010-aa02-4ba6-9794-d2b179e4ed1b",
+      "data": [
+        {
+          "text": "nun gehe ich schlafen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "54be1b03-781e-4d76-ac5f-f9225eb504c9",
+      "data": [
+        {
+          "text": "es ist Schlafenszeit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c2222f7a-ecb9-4f0f-be42-16fa5dbe5878",
+      "data": [
+        {
+          "text": "ich muss "
+        },
+        {
+          "text": "ins",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " Bett"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c64ee96d-6a01-4e31-b1ea-75255ee69e79",
+      "data": [
+        {
+          "text": "Zeit "
+        },
+        {
+          "text": "ins",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " Bett zu gehen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "74524f80-bd7f-4e90-a0eb-0800f523ffcc",
+      "data": [
+        {
+          "text": "es ist schon Zeit ins Bett zu gehen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6f59ac89-ca06-45a6-b155-980069b8cbfd",
+      "data": [
+        {
+          "text": "ich muss "
+        },
+        {
+          "text": "ins",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " Bett gehen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "215224b2-7bf8-4b30-895a-b8148fa9f710",
+      "data": [
+        {
+          "text": "ich gehe ins Bett"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e760fa88-0cc9-46db-acf9-d2003bc43c2c",
+      "data": [
+        {
+          "text": "ich gehe "
+        },
+        {
+          "text": "schlafen",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4f1d63b0-f793-4840-8a97-8f253895ea6f",
+      "data": [
+        {
+          "text": "ich möchte "
+        },
+        {
+          "text": "schlafen",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "gehen",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ba94f666-2148-419f-b82d-08c9fa7612ae",
+      "data": [
+        {
+          "text": "ich möchte "
+        },
+        {
+          "text": "schlafen",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dcf868d0-85f6-4bfc-862c-1037c3096928",
+      "data": [
+        {
+          "text": "ich gehe jetzt schlafen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "90043f95-268d-4515-8c48-9635acf70aa3",
+  "name": "smalltalk.user.going_to_bed",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.going_to_bed",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Gute Nacht!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

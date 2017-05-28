@@ -1,0 +1,422 @@
+{
+  "userSays": [
+    {
+      "id": "c9eb2d0f-7340-458c-ac44-98b52ea96ddd",
+      "data": [
+        {
+          "text": "du bist langweilig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e634a6fb-ff42-41d0-a541-750b5f84cbe8",
+      "data": [
+        {
+          "text": "du bist unspannend"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4188ba3c-8097-4787-97a4-87cd833de220",
+      "data": [
+        {
+          "text": "doof"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4a6d7dc8-2e76-49df-a9d9-48b4ffa4d231",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " fantasielos"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "65d02fd5-94f2-4c63-9597-de28bb9acb41",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " doof"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e40ace2f-125b-40a2-b476-95bb32eba125",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " nicht unterhaltsam"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "90b88bc9-6e7f-403e-8dbb-c9a0940b5a61",
+      "data": [
+        {
+          "text": "du bist nicht mehr interessant"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7a258efb-9c74-49a4-9acd-bf42bcfdd362",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " uninteressant"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "da6b5b72-e4a7-415c-b6b3-1f651bcbce5a",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "langweilig",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " geworden"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6619f3de-9705-425a-881b-78a102e6e8c1",
+      "data": [
+        {
+          "text": "Gott du bist unerträglich langweilig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b4a2c6a9-d901-4ff9-b7ba-87e2a9f8c6ed",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " wirklich "
+        },
+        {
+          "text": "langweilig",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "abb53878-6521-4c62-a819-f552d06cad65",
+      "data": [
+        {
+          "text": "dein Benehmen langweilt mich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9e0ca5f9-7688-4283-a4c1-ab28a10a20ef",
+      "data": [
+        {
+          "text": "deine Stimme",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " langweilt mich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "75312d0c-f5a1-465b-aaa4-e033bca0dc1d",
+      "data": [
+        {
+          "text": "deine Anwesenheit langweilt mich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ee1d3854-e491-4a55-af77-c0460198a8fa",
+      "data": [
+        {
+          "text": "ich finde dich uninteressant "
+        },
+        {
+          "text": "und",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "langweilig",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2287aefd-43b2-4fb3-88c3-0236e9894b2b",
+      "data": [
+        {
+          "text": "ich finde dich stinklangweilig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b87a3876-50e7-47a8-8808-b8837000c5c9",
+      "data": [
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " langweilst mich sehr"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "148cc936-56e2-4b3e-8a46-3f2c531fbc36",
+      "data": [
+        {
+          "text": "ich weiss nicht was ich "
+        },
+        {
+          "text": "mit dir",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " machen soll"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0cb28ddd-5296-4de8-8f38-101550019634",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " langweilig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ddda29be-dd33-4e65-9649-53f933be3232",
+      "data": [
+        {
+          "text": "bist du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "langweilig",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "240fd67f-4247-4295-be04-8677aa6de197",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "echt",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "langweilig",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "909f461c-9461-4c3a-8aab-8d3ecb3e0ca5",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "so",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "langweilig",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cdaa6ce9-b8f7-49a8-959f-156a3c4d2251",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " sehr "
+        },
+        {
+          "text": "langweilig",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "14cb930e-fbde-486b-9e44-4ff08cfa9a05",
+      "data": [
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " langweilst mich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3573c655-ba5d-4c21-962a-db797481044d",
+      "data": [
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " langweilst mich wirklich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "29ab2a1d-8495-40da-84fc-fea25aa3f876",
+  "name": "smalltalk.agent.boring",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.boring",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich bin stets bemüht, zu lernen."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

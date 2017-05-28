@@ -1,0 +1,142 @@
+{
+  "userSays": [
+    {
+      "id": "9cdecbd4-c3cb-497c-8601-33bb093c3fc0",
+      "data": [
+        {
+          "text": "mir ist zum Heulen zumute"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ae37d592-92cd-471d-9a37-b292d01ef055",
+      "data": [
+        {
+          "text": "mir geht\u0027s nicht gut"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "912e5cdd-15a5-4dc9-96a0-cadf5cc7ab76",
+      "data": [
+        {
+          "text": "ich bin total niedergeschlagen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b4230ed6-283d-41eb-b971-8877c9b2d8df",
+      "data": [
+        {
+          "text": "ich bin nicht in Stimmung"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2416e399-8af0-49fd-88fd-c311c211272f",
+      "data": [
+        {
+          "text": "schlechte Laune"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "abedf31a-bc29-4dd7-87df-75284b0de533",
+      "data": [
+        {
+          "text": "ich habe schlechte Laune"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c25eff4c-8d86-4af0-90c5-299803349fcc",
+      "data": [
+        {
+          "text": "ich bin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " traurig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6b54e950-2416-45f5-b40e-c605fecfb9a4",
+      "data": [
+        {
+          "text": "ich bin heute traurig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d0849d3f-8793-49d4-9934-0c9346d1b942",
+      "data": [
+        {
+          "text": "ich bin so",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " traurig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "98168ec5-2fa4-4169-b1b5-854ba0285b3d",
+      "data": [
+        {
+          "text": "ich bin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " sehr traurig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "51796e35-854a-4134-996b-35c779fd4e44",
+  "name": "smalltalk.user.sad",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.sad",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Sei nicht traurig. Sieh dir das an: https://www.youtube.com/watch?v\u003dXyNlqQId-nk\u0026t\u003d68s"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

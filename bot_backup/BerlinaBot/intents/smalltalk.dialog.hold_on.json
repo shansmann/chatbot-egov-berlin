@@ -1,0 +1,122 @@
+{
+  "userSays": [
+    {
+      "id": "62c6e1e5-b0fc-4079-b252-ec2cc78e8b91",
+      "data": [
+        {
+          "text": "Moment mal"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c47d69a8-51a9-454e-9cae-dc465eb6d9d6",
+      "data": [
+        {
+          "text": "warte auf mich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "27e0377b-abc6-490c-83d4-ff6607ff36d8",
+      "data": [
+        {
+          "text": "halt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2f835f69-fdc7-4665-87f8-96bc7f0ed7c2",
+      "data": [
+        {
+          "text": "warte"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1ed2d9bb-2b7b-41a6-8f95-d83154909131",
+      "data": [
+        {
+          "text": "warte "
+        },
+        {
+          "text": "mal",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "86115372-4341-45d0-963e-157bde9ec0f0",
+      "data": [
+        {
+          "text": "einen Moment mal bitte"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c91a1994-9b26-4983-ab37-e91b5c8dcb06",
+      "data": [
+        {
+          "text": "warte bitte"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "41d2b068-d30d-4ea2-81c3-70beb0ef1b23",
+      "data": [
+        {
+          "text": "warte kurz"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a9dca504-67f9-4be4-9401-d7811932c865",
+      "data": [
+        {
+          "text": "nicht so schnell"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "0e710057-8469-4fd6-83f8-8f6c2a2755f9",
+  "name": "smalltalk.dialog.hold_on",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.dialog.hold_on",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich warte. Was möchtest du genauer wissen?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

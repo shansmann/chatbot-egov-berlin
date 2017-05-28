@@ -1,0 +1,140 @@
+{
+  "userSays": [
+    {
+      "id": "1017103f-8f4b-4ae6-9540-d2015993faca",
+      "data": [
+        {
+          "text": "Hallo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "9aa4f344-ef7d-4f4a-a3b0-73462e9e710e",
+      "data": [
+        {
+          "text": "hey du"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b68311f0-2103-4e2c-8edf-eb0978ac27a5",
+      "data": [
+        {
+          "text": "hallo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "74f757e6-e674-400a-bf0c-040f4f31487f",
+      "data": [
+        {
+          "text": "hallöchen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "949b14fa-5839-4225-9dd9-2de0894f87d5",
+      "data": [
+        {
+          "text": "grüß dich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "da5bd66c-0beb-46c6-82c7-86ce27c862cc",
+      "data": [
+        {
+          "text": "ich grüße dich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f425c654-8851-459f-8c17-a27b91550112",
+      "data": [
+        {
+          "text": "halli hallo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6d4a97af-7981-47b2-b990-2be03785ee5e",
+      "data": [
+        {
+          "text": "hallo hallo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1af5b3bf-4ec4-4051-ae4d-0573d2862ad9",
+      "data": [
+        {
+          "text": "hallo Schatz"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9820ba06-b012-4911-9b18-1532a2c4746d",
+      "data": [
+        {
+          "text": "hallo Schatzi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ede3a1fc-65d5-4a02-81a6-f21d21c5efac",
+      "data": [
+        {
+          "text": "ja hallo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "212c549a-7f24-4c7d-ae97-52b6b95a34db",
+  "name": "smalltalk.greetings.hello",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.greetings.hello",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Hallo",
+            "Hi"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

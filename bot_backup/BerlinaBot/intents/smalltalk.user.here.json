@@ -1,0 +1,107 @@
+{
+  "userSays": [
+    {
+      "id": "8deb64b4-0d63-4059-b39d-bcedb2143c31",
+      "data": [
+        {
+          "text": "ich bin ganz in deiner Nähe"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "0c167668-7ef4-4555-a93c-879a4dc0db69",
+      "data": [
+        {
+          "text": "ich bin "
+        },
+        {
+          "text": "da",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "753a6b6a-5a73-4ffe-adbd-a9cafcf47f9e",
+      "data": [
+        {
+          "text": "ich bin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "hier",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "705d3fa0-3674-4697-97f0-9763a1b5ba61",
+      "data": [
+        {
+          "text": "hier",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " bin ich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9b9d713e-9607-406d-aac2-ba8feee82591",
+      "data": [
+        {
+          "text": "ich bin in der Nähe"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "45d106b5-6d54-4073-a067-01892ed9b6b0",
+      "data": [
+        {
+          "text": "ich bin in der Nähe von dir"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "5148c9b6-bcb4-4dd2-828e-cb8d08e5c9d0",
+  "name": "smalltalk.user.here",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.here",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Sehr schön."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

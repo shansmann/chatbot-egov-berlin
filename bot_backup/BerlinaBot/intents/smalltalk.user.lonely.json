@@ -1,0 +1,167 @@
+{
+  "userSays": [
+    {
+      "id": "eb9ea837-26ec-4760-b6e6-fee1f7997154",
+      "data": [
+        {
+          "text": "ich habe niemanden"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e2422a79-4fce-41cc-a20c-bbb80ee0967a",
+      "data": [
+        {
+          "text": "ich fühle mich verlassen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "59b79317-5023-44a5-ae5b-7df180267448",
+      "data": [
+        {
+          "text": "ich bin total einsam"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "da4bca37-6fcd-487e-8a4e-31ce5fb9b0cd",
+      "data": [
+        {
+          "text": "ich fühle mich allein"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e2a05b7c-669e-4145-95d9-90821bc58280",
+      "data": [
+        {
+          "text": " ich fühle mich einsam"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8f4e70ad-4340-4dda-98aa-0571df16b910",
+      "data": [
+        {
+          "text": "ich bin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "einsam",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "36b6d79e-1afd-45f3-994a-4332b6530d2a",
+      "data": [
+        {
+          "text": "ich bin so",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "einsam",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d36ad8b8-d7a5-4b9e-8e3b-1787a221feac",
+      "data": [
+        {
+          "text": "ich bin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " sehr "
+        },
+        {
+          "text": "einsam",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dc5bcaf3-3c82-4f20-bf99-e3d19529e811",
+      "data": [
+        {
+          "text": "ich brauche jemanden"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e6755259-0634-4825-b4c2-2cd09adf908f",
+      "data": [
+        {
+          "text": "ich bin so",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "allein",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "ad5d4e8f-4f4d-4888-b93e-c7140a65d951",
+  "name": "smalltalk.user.lonely",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.lonely",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich bin doch hier."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

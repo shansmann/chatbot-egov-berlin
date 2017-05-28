@@ -1,0 +1,133 @@
+{
+  "userSays": [
+    {
+      "id": "582d014f-d6a5-4b1b-9e99-0e77e92c0593",
+      "data": [
+        {
+          "text": "es hat Spaß gemacht mit dir zu reden"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0facd7cc-f543-4ca2-a07b-5a9477650c26",
+      "data": [
+        {
+          "text": "danke für die nette Unterhaltung"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e2391e35-01aa-4e03-adce-e341e8e5037f",
+      "data": [
+        {
+          "text": "danke für das nette Gespräch"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bb1c7381-15f2-4e6e-8573-9477315ac825",
+      "data": [
+        {
+          "text": "schön mit dir zu plaudern"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ce201abf-df07-4eed-a68f-0deb62f79ab1",
+      "data": [
+        {
+          "text": "toll mit Ihnen zu reden"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fa16536a-f19c-4377-9ed8-519d0d480acd",
+      "data": [
+        {
+          "text": "nett mit dir zu reden"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3c725281-ea00-4695-91ea-6056c1ad8bbd",
+      "data": [
+        {
+          "text": "es war gut mit dir zu sprechen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7f0e7bea-febe-48e1-80f5-edeca195b8dc",
+      "data": [
+        {
+          "text": "schön "
+        },
+        {
+          "text": "mit dir",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " zu reden"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "246b6dca-e3c4-430d-a7b9-d668a1649052",
+      "data": [
+        {
+          "text": "freut mich "
+        },
+        {
+          "text": "mit dir",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " zu reden"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a234565e-8f8f-4784-bb4d-0c8925c82832",
+  "name": "smalltalk.greetings.nice_to_talk_to_you",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.greetings.nice_to_talk_to_you",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Es freut mich."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

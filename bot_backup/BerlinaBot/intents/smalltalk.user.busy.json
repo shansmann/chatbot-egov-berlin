@@ -1,0 +1,163 @@
+{
+  "userSays": [
+    {
+      "id": "348010d8-0c1d-477c-8d85-b016e4a5ac5c",
+      "data": [
+        {
+          "text": "es ist "
+        },
+        {
+          "text": "gerade",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " viel los"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9feab251-ef98-415e-99c4-dfecff34fd54",
+      "data": [
+        {
+          "text": "ich habe viel zu tun"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "32b2d443-8417-4521-a9b2-4f525299fe7f",
+      "data": [
+        {
+          "text": "es ist "
+        },
+        {
+          "text": "gerade",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " ganz schön viel zu tun"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bd0362bd-1ac1-455f-9e02-7e131898498d",
+      "data": [
+        {
+          "text": "ich habe einen arbeitsreichen "
+        },
+        {
+          "text": "Tag",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eef24e94-2959-4a4f-9543-f53b32fee5dc",
+      "data": [
+        {
+          "text": "ich bin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " beschäftigt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "df9c9e67-a993-421a-b84b-24c78f9ecfa9",
+      "data": [
+        {
+          "text": "ich arbeite"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5218ccfb-b227-466d-90e1-c362ff30407f",
+      "data": [
+        {
+          "text": "ich bin so",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " beschäftigt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bc3a5f76-2b00-4bc8-a306-e4e53a889966",
+      "data": [
+        {
+          "text": "ich bin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " sehr beschäftigt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "69d3faa5-a066-4099-a55e-7ec9d8bf85b0",
+      "data": [
+        {
+          "text": "ich bin total beschäftigt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7512b3c4-cc70-4617-8aa1-15439410ba40",
+      "data": [
+        {
+          "text": "wie beschäftigt bin ich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "38719855-270f-4c9e-9e91-ca2597d4cb41",
+  "name": "smalltalk.user.busy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.busy",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich warte hier so lange."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

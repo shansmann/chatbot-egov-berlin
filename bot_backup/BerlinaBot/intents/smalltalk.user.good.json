@@ -1,0 +1,100 @@
+{
+  "userSays": [
+    {
+      "id": "dbecfba3-f538-467f-ac76-c539ed1d6256",
+      "data": [
+        {
+          "text": "ich bin super"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "05ad0144-7d7d-4125-b294-3246ff9f2b21",
+      "data": [
+        {
+          "text": "ich bin "
+        },
+        {
+          "text": "so",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " gut"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "29d9cc54-63df-4622-8792-8620b7bc9c62",
+      "data": [
+        {
+          "text": "ich bin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " gut"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "119b8184-b848-4900-8ccd-3f3c848679e9",
+      "data": [
+        {
+          "text": "ich bin der Beste"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1893a757-462f-431f-985a-90b12068d21b",
+      "data": [
+        {
+          "text": "Ich bin die Beste"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "481dba3f-1900-453e-ba68-137d466490ef",
+      "data": [
+        {
+          "text": "ich find mich super"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "faf97669-f11f-4415-a189-16f163fb4f0c",
+  "name": "smalltalk.user.good",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.good",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich finde dich auch super."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

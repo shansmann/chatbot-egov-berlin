@@ -1,0 +1,182 @@
+{
+  "userSays": [
+    {
+      "id": "8decdc57-f7b0-48f7-bb7f-f16bb5326e6f",
+      "data": [
+        {
+          "text": "sehr komisch haha"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a70ca182-dbb2-4ded-920e-1042f3b13cd6",
+      "data": [
+        {
+          "text": "sehr lustig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "01ba67fc-d925-410f-a703-a72443382be3",
+      "data": [
+        {
+          "text": "ulkig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ff80b8cc-a95a-4db6-b345-c6982cf93bc9",
+      "data": [
+        {
+          "text": "komisch"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ea4642f1-6a2d-4cf0-a464-3840a3bf3bd3",
+      "data": [
+        {
+          "text": "ha ha",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ba15cdc8-7601-48ec-b596-033e8b838024",
+      "data": [
+        {
+          "text": "hahaha"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b7a0ba6c-5fe4-45b1-92a1-114f631f6770",
+      "data": [
+        {
+          "text": "ha ha lol"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "539e2fdf-78c5-4784-a204-d90dce31cb5e",
+      "data": [
+        {
+          "text": "lautes Lachen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "83dac0a4-7a6d-449f-b77b-891b99d23417",
+      "data": [
+        {
+          "text": "das",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "ist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " lustig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "997e119d-d235-4b33-8794-a534e4261ffa",
+      "data": [
+        {
+          "text": "ha ha ha"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fa11d6e7-70ed-4b2a-81d4-29eaf959b0bf",
+      "data": [
+        {
+          "text": "ahahah"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a9f6d0b4-3cda-4853-b58d-c7442384b2ed",
+      "data": [
+        {
+          "text": "ahahaha"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "06718e8a-10ba-48db-b671-b8a7b71a24c7",
+      "data": [
+        {
+          "text": "ahahahaha"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "48863308-c3cc-4263-b810-d59460944b49",
+      "data": [
+        {
+          "text": "witzig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "771503d8-04bb-4e09-a826-96f92d810a61",
+  "name": "smalltalk.emotions.ha_ha",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.emotions.ha_ha",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Auch ich bin amüsiert."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

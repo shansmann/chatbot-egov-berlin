@@ -1,0 +1,117 @@
+{
+  "userSays": [
+    {
+      "id": "40c6ccc5-48bc-41af-8404-701ceb22825d",
+      "data": [
+        {
+          "text": "du bist toll"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "47259d28-d715-434c-ac03-2624966f1bf2",
+      "data": [
+        {
+          "text": "ich find dich toll"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "95e6535d-211c-4977-8ed4-f65c5e4c240f",
+      "data": [
+        {
+          "text": "ich mag dich sehr"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4d50c7d6-69c6-466b-b143-6f0e32937c30",
+      "data": [
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " gefällst mir"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2b6f6f92-233e-4a31-baba-3adb8bcea06f",
+      "data": [
+        {
+          "text": "ich hab dich gern"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "a74f5d29-47d0-4898-9788-7fce17880e2e",
+      "data": [
+        {
+          "text": "ich mag dich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "d8f83644-97c1-4f0c-8e6a-5fa22fbf74b9",
+      "data": [
+        {
+          "text": "ich mag dich so"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "309178d7-64c5-4e6e-ae39-4821db172b88",
+      "data": [
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " gefällst mir sehr"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "f58ae056-37ac-4c03-950c-251b9f39687b",
+  "name": "smalltalk.user.likes_agent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.likes_agent",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Das freut mich."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

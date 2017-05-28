@@ -1,0 +1,143 @@
+{
+  "userSays": [
+    {
+      "id": "eb160b45-61d3-4f6f-bb51-3a0c954b0b49",
+      "data": [
+        {
+          "text": "funktionierst du"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bca3f9f8-f45f-4095-b90e-fb80f6f12815",
+      "data": [
+        {
+          "text": "ich teste dich nur kurz"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ced7aafd-ba60-4376-8479-3d1f08a9387c",
+      "data": [
+        {
+          "text": "gehst du"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "77a1d2ae-87da-493b-b0e1-66e6efd8690b",
+      "data": [
+        {
+          "text": "ich will nur wissen ob du funktionierst"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ee2ab829-3bfa-4c04-9d47-bc856d3a1899",
+      "data": [
+        {
+          "text": "ich gucke nur ob du funktionierst"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "32b3ea0a-92be-43a4-b2eb-347b6dca460c",
+      "data": [
+        {
+          "text": "Test"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b96824c0-6bdb-482d-9f3c-6a738876d0a7",
+      "data": [
+        {
+          "text": "das "
+        },
+        {
+          "text": "ist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "ein",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " Test"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bc9d0a0b-33cf-4e78-a096-2637859d22f5",
+      "data": [
+        {
+          "text": "ich teste dich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1c7b9e80-6e91-4ab8-a974-b294959e4cea",
+      "data": [
+        {
+          "text": "ich teste dich bloß"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b16e5ce6-b492-437b-a15b-bdf61e0480c5",
+      "data": [
+        {
+          "text": "kann ich dich testen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "fd9145ac-c833-41ee-a221-6dbda3bdb797",
+  "name": "smalltalk.user.testing_agent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.testing_agent",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich bin für alle Tests bereit."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

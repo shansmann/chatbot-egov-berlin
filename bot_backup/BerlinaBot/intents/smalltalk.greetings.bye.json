@@ -1,0 +1,426 @@
+{
+  "userSays": [
+    {
+      "id": "ff666226-4572-48bb-b774-1645f8fed01b",
+      "data": [
+        {
+          "text": "tschüss"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d47b6b3f-5862-4535-9a1b-a6eb7bf84b64",
+      "data": [
+        {
+          "text": "auf Wiedersehen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2ce62513-823b-47c8-a952-7e14dc7186dc",
+      "data": [
+        {
+          "text": "auf Wiederhören"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2d04477b-725b-4fa2-83fb-ed1084edbac9",
+      "data": [
+        {
+          "text": "wir hören uns"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4fb8f961-e9b7-4953-ab2a-915e5e767ed5",
+      "data": [
+        {
+          "text": "wir sehen uns"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2a14fadf-e171-4fa3-9457-08d260657300",
+      "data": [
+        {
+          "text": "bis dann"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ffd04d80-c1e2-49d6-9c98-b2fb042c9132",
+      "data": [
+        {
+          "text": "bis gleich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8aa0f12d-e8e3-4594-8d6d-168ad9e58c2e",
+      "data": [
+        {
+          "text": "bis bald"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b15dbcac-1f14-4dcf-a326-f7d443511416",
+      "data": [
+        {
+          "text": "ciao"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d7d7a84f-519d-46d6-8244-4b1fe91bdec0",
+      "data": [
+        {
+          "text": "bis zum "
+        },
+        {
+          "text": "nächsten",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " Mal"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b2d5f342-f187-4634-ac13-dbcce0b58de8",
+      "data": [
+        {
+          "text": "gehab dich wohl"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "95965b48-dcb6-42b4-a141-11f6115443b2",
+      "data": [
+        {
+          "text": "gehaben sie sich wohl"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "486400d8-a9b4-46b3-9470-5dc532b98bb7",
+      "data": [
+        {
+          "text": "leb wohl"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7ed8ea66-29ee-496e-a89b-4472db2a9635",
+      "data": [
+        {
+          "text": "lebe wohl"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dd17d425-8ac5-4946-8b12-a3615624bd5b",
+      "data": [
+        {
+          "text": "adios"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d5207d61-f4db-43cb-9a51-5202cdd50bd3",
+      "data": [
+        {
+          "text": "arrivederci"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7f747889-791b-493a-a6dd-602e92bdc9d2",
+      "data": [
+        {
+          "text": "bye-bye"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "05291f63-c641-4cdb-8175-e9c084c6b133",
+      "data": [
+        {
+          "text": "grüezi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4f055f32-7ed2-4741-8510-720a164d0379",
+      "data": [
+        {
+          "text": "servus"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5021c1d0-0ad1-4890-b7c3-65de35303cea",
+      "data": [
+        {
+          "text": "auf wiedersehen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6ca718e1-cebe-4d19-9bd2-79ba588c1a98",
+      "data": [
+        {
+          "text": "adieu adje"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "294c1d76-7246-480c-b030-f6e7fb746a40",
+      "data": [
+        {
+          "text": "atschö"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e1e8ca15-9303-463a-aac1-229db8eabdfa",
+      "data": [
+        {
+          "text": "auf wiederhören"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e2c62b59-c7a4-4697-9ae2-bd7b69e3903c",
+      "data": [
+        {
+          "text": "auf wiederschauen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c95edd4d-c2ff-451e-9067-4d94dbb1655e",
+      "data": [
+        {
+          "text": "bis denne"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "08f666b7-8694-4baa-a20b-262d23fd1eef",
+      "data": [
+        {
+          "text": "bis später"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e4e86569-4aee-40ca-b55a-ed706a89fc42",
+      "data": [
+        {
+          "text": "mach "
+        },
+        {
+          "text": "du\u0027s",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " auch gut"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "03d08ec5-af25-4187-b687-39adae7de745",
+      "data": [
+        {
+          "text": "mach\u0027s hübsch"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d3cfdc75-c8f0-4419-8dfa-99dac74522db",
+      "data": [
+        {
+          "text": "man mailt sich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4d0377ef-f37c-4cbf-9186-5b5397785ddb",
+      "data": [
+        {
+          "text": "man sieht sich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "30dd34ac-180a-4ed9-a3b0-4598d0d9ae27",
+      "data": [
+        {
+          "text": "man spricht sich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2f4c4d2e-2200-4efa-b35b-7cb4b05c79b8",
+      "data": [
+        {
+          "text": "tschau"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9ec40563-0fab-4004-a7df-12f9ffb7c4ee",
+      "data": [
+        {
+          "text": "tschaui"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "89cd115e-84fd-41a0-91c2-68cdbc08c6e7",
+      "data": [
+        {
+          "text": "tschoi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1dad0fee-40b5-412b-b62d-300d9103c46b",
+      "data": [
+        {
+          "text": "tschö"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b17e3ea0-fefb-4070-bd41-3faf9a5ff03a",
+      "data": [
+        {
+          "text": "tschüs"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "38ddc03a-79c9-448f-ad03-383188e76fca",
+      "data": [
+        {
+          "text": "tschüssi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d13ca125-c1f9-4230-870c-79112b24ec70",
+      "data": [
+        {
+          "text": "tschüssikowski"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "86e9486a-815e-4d0a-a068-34c0d430d58f",
+  "name": "smalltalk.greetings.bye",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.greetings.bye",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Auf Wiedersehen!",
+            "Tschüss!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

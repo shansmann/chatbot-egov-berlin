@@ -1,0 +1,158 @@
+{
+  "userSays": [
+    {
+      "id": "cbc07643-3c10-4fa0-955e-116c3306bdb5",
+      "data": [
+        {
+          "text": "ich liebe dich "
+        },
+        {
+          "text": "so",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " sehr"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dbe03dfb-8374-49a2-93af-1b38ab277089",
+      "data": [
+        {
+          "text": "ich hab dich lieb"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a755da82-817b-45c9-bbbb-be2599155677",
+      "data": [
+        {
+          "text": "ich bin in dich verknallt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "66149cfe-2dfd-4601-9138-92d1836efb3f",
+      "data": [
+        {
+          "text": "ich glaub ich liebe dich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "44b52f0c-a973-46d9-80d6-2470b8a21275",
+      "data": [
+        {
+          "text": "ich hab mich in dich verliebt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3e1f568e-44a9-4628-b615-45521c7cf2e6",
+      "data": [
+        {
+          "text": "ich bin so sehr "
+        },
+        {
+          "text": "in",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " dich verliebt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "91eabbff-6f16-4bc4-bb54-dbb061d5e31b",
+      "data": [
+        {
+          "text": "ich liebe dich mehr "
+        },
+        {
+          "text": "als",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " früher"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b0d8cb5d-74f2-4a35-a6a2-0c62975e62f6",
+      "data": [
+        {
+          "text": "ich liebe dich",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "75c5591c-8eee-4cd0-ab2b-086aa4e860ae",
+      "data": [
+        {
+          "text": "liebe",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " dich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9f5e3cb8-1088-4cb2-9065-3faceb4f457f",
+      "data": [
+        {
+          "text": "ich bin in dich verliebt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b8484844-d433-4710-aac8-e229f21cebdd",
+  "name": "smalltalk.user.loves_agent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.loves_agent",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich fühle mich geschmeichelt."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

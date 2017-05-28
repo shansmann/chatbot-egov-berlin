@@ -1,0 +1,119 @@
+{
+  "userSays": [
+    {
+      "id": "68f9150d-5357-466c-bea9-e444e5f40ee9",
+      "data": [
+        {
+          "text": "ich bin beeindruckt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9b9a50dc-8fae-4afa-a90e-3c4dd11ce1e1",
+      "data": [
+        {
+          "text": "wow",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "53e5bbbc-6b1e-49c7-a860-c53e181985d8",
+      "data": [
+        {
+          "text": "wow",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "wow",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "015a09e1-80ad-42a1-ab2a-0f519eae3c36",
+      "data": [
+        {
+          "text": "hui"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "497166d1-628b-4ea9-a860-bafbb6d009b2",
+      "data": [
+        {
+          "text": "wooow"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e2af08e4-b9bd-46b1-a618-50fbc738988a",
+      "data": [
+        {
+          "text": "boah"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b2e2f94d-34c8-479e-8918-f3ece9989863",
+      "data": [
+        {
+          "text": "beeindruckt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "465aeccd-d500-4ac7-bbfc-7bfa27eed855",
+      "data": [
+        {
+          "text": "begeistert"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a4b2fe61-eb40-4d78-946e-7e134b3f92e3",
+  "name": "smalltalk.emotions.wow",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.emotions.wow",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Erstaunlich."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

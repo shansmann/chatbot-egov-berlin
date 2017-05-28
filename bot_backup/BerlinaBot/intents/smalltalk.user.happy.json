@@ -1,0 +1,127 @@
+{
+  "userSays": [
+    {
+      "id": "3efe9741-351c-4055-b14f-2c998bc9cfcf",
+      "data": [
+        {
+          "text": "ich freue mich sehr"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "00f5c4a7-2bbb-4f4f-8207-77fb3da916ff",
+      "data": [
+        {
+          "text": "ich bin hocherfreut"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "19eb04df-9921-450e-ad82-d6b21bba0209",
+      "data": [
+        {
+          "text": "es geht mir gut"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4fa961e4-6845-43ff-875a-7679060fcfbf",
+      "data": [
+        {
+          "text": "freut mich sehr das zu hören"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "92bea550-510f-446d-87f6-01e948faef32",
+      "data": [
+        {
+          "text": "ich habe mich sehr gefreut"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "142ab669-dfb3-4376-8b02-1797267024f4",
+      "data": [
+        {
+          "text": "ich bin sehr froh"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8744d8ae-7e81-40cc-9868-7d55c0d8bea8",
+      "data": [
+        {
+          "text": "glückliches Leben"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "62d8b760-1c7d-4b35-a403-cf2844c5958c",
+      "data": [
+        {
+          "text": "ich fühle mich so glücklich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ea7fda8e-0066-41d0-aa4c-36784787e922",
+      "data": [
+        {
+          "text": "ich bin glücklich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f7960b77-68bc-423f-a1da-bd72be334a62",
+      "data": [
+        {
+          "text": "ich bin zufrieden"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6cbb2fee-8880-4fe3-8c0a-0451bb1fb6b2",
+  "name": "smalltalk.user.happy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.happy",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Bist du glücklich, bin ich auch glücklich."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

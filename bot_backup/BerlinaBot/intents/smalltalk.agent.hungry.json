@@ -1,0 +1,137 @@
+{
+  "userSays": [
+    {
+      "id": "fe3a3761-bce2-48a7-93c0-3389d562198e",
+      "data": [
+        {
+          "text": "hast du Lust zu "
+        },
+        {
+          "text": "essen",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a631d96d-5af2-4005-a884-6d0daad12a1c",
+      "data": [
+        {
+          "text": "hast du Appetit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "891b6edc-ce6e-40f7-8725-584726638038",
+      "data": [
+        {
+          "text": "knurrt dein Magen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bd40d0c4-1b9f-43b7-a762-f9ea9ed0c01a",
+      "data": [
+        {
+          "text": "hast du Lust was zu "
+        },
+        {
+          "text": "essen",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0a680fe3-ef72-449c-a776-51b484478280",
+      "data": [
+        {
+          "text": "hast du Hunger"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "524c79ab-f280-4427-a37b-c30cf2620ad9",
+      "data": [
+        {
+          "text": "bist du hungrig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "67f74d2d-82c7-450c-92a9-8a79eb9e7663",
+      "data": [
+        {
+          "text": "willst du essen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4015f223-5d00-40cf-958b-c501f9422a85",
+      "data": [
+        {
+          "text": "möchtest du essen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8b068fab-5a8a-4a30-82d1-c094bfb2ab1a",
+      "data": [
+        {
+          "text": "willst du was essen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fb29ce01-9ae5-4e3b-b3ba-a47725ac0577",
+      "data": [
+        {
+          "text": "willst du etwas essen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2deae01d-3e17-4bc9-9b85-722858e5278c",
+  "name": "smalltalk.agent.hungry",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.hungry",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich mache zur Zeit eine Diät."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

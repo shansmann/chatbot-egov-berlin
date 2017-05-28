@@ -1,0 +1,215 @@
+{
+  "userSays": [
+    {
+      "id": "53064d55-e20d-47eb-96cf-0cab3c9f70d5",
+      "data": [
+        {
+          "text": "kein Problem du kannst ganz langsam machen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4c90dbee-e551-4997-a87b-7cbc7efe5c36",
+      "data": [
+        {
+          "text": "ich warte"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9c30397e-f1f2-4a65-93e3-39a3fa3c8ffc",
+      "data": [
+        {
+          "text": "du hast Zeit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5a32ee05-8b65-421e-b02f-d227e44fcc19",
+      "data": [
+        {
+          "text": "es gibt keine Eile"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8bf6dd3b-02ed-48bb-a211-515443a4e11a",
+      "data": [
+        {
+          "text": "es besteht keine Eile"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8451d134-ecb0-434b-8f2f-7836d848b356",
+      "data": [
+        {
+          "text": "langsam ich kann "
+        },
+        {
+          "text": "warten",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3d8d0993-ab78-4f15-8f10-8ab64970a5f2",
+      "data": [
+        {
+          "text": "kein problem",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " ich werde "
+        },
+        {
+          "text": "warten",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "82edc0d7-2c5e-4903-b88c-b5d7079a80dd",
+      "data": [
+        {
+          "text": "ich kann "
+        },
+        {
+          "text": "warten",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e5a7bfc7-2f81-4882-b436-036446ca6b8a",
+      "data": [
+        {
+          "text": "warten",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "46a2538d-4e37-446b-a940-572fe8d05a00",
+      "data": [
+        {
+          "text": "ich werde "
+        },
+        {
+          "text": "warten",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " solange ich "
+        },
+        {
+          "text": "Zeit",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " habe"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5743618b-c7f1-489b-9b0d-48454b57252d",
+      "data": [
+        {
+          "text": "ich habe "
+        },
+        {
+          "text": "Zeit",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "33fffbef-45de-4ed4-a29c-4d5022d59fa5",
+      "data": [
+        {
+          "text": "ich werde "
+        },
+        {
+          "text": "warten",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "c943e31e-b997-494e-b22e-f954439fd4ca",
+      "data": [
+        {
+          "text": "ich warte noch"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d189f6fe-6809-40df-82ee-d7c7cccce2e2",
+      "data": [
+        {
+          "text": "ich habe genug gewartet"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "4625c949-379f-450e-a9eb-f90bf19cfdca",
+  "name": "smalltalk.user.waits",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.waits",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich bin da."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

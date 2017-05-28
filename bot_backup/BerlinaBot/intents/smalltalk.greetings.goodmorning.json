@@ -1,0 +1,104 @@
+{
+  "userSays": [
+    {
+      "id": "c68fae6b-4cb0-40ae-a997-a9a990b5e9f4",
+      "data": [
+        {
+          "text": "Guten Morgen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "62be9f2f-f444-42cd-8b8c-17feb4f4ba06",
+      "data": [
+        {
+          "text": "hast du gut geschlafen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "45238910-d0fa-4afe-80ef-7372b2c61ffb",
+      "data": [
+        {
+          "text": "schönen guten "
+        },
+        {
+          "text": "Morgen",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8c900631-a824-4955-bde5-fe7ac404f9b3",
+      "data": [
+        {
+          "text": "einen wunderschönen guten "
+        },
+        {
+          "text": "Morgen",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4b84b781-d01f-40c3-9f6d-717fdf3b8845",
+      "data": [
+        {
+          "text": "guten "
+        },
+        {
+          "text": "Morgen",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "efdd732b-3989-4f52-a361-1daeec808ba3",
+      "data": [
+        {
+          "text": "Morgen",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "970f9b99-3728-4c46-a7d5-5e44e2133b83",
+  "name": "smalltalk.greetings.goodmorning",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.greetings.goodmorning",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

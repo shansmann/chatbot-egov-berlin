@@ -1,0 +1,174 @@
+{
+  "userSays": [
+    {
+      "id": "7e6f1178-c7fb-4057-be2a-889fe1ba61eb",
+      "data": [
+        {
+          "text": "wie heißt die Straße in der du wohnst"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2f6f2ac9-4d32-48c8-9053-b078ccbccc45",
+      "data": [
+        {
+          "text": "in welcher Stadt wohnst du"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b14cd095-a87d-4ea8-83a5-de454d67bfa0",
+      "data": [
+        {
+          "text": "wie lautet deine Adresse"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1c7b5a36-b279-4367-adfa-f7ff34ec4f2e",
+      "data": [
+        {
+          "text": "wo wohnst "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dbc83390-9bda-4eb3-b942-f4ffd63fdc5e",
+      "data": [
+        {
+          "text": "wo "
+        },
+        {
+          "text": "ist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " dein "
+        },
+        {
+          "text": "Zuhause",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6a9d8596-eb23-43df-9ce3-79e34eb44414",
+      "data": [
+        {
+          "text": "wo lebst "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "79080902-4b5c-4d8a-adf5-aed2ca9ea8af",
+      "data": [
+        {
+          "text": "wo "
+        },
+        {
+          "text": "ist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " dein "
+        },
+        {
+          "text": "Haus",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d173cad1-24bb-4ec9-a819-a744adc23977",
+      "data": [
+        {
+          "text": "wo "
+        },
+        {
+          "text": "ist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " deine "
+        },
+        {
+          "text": "Wohnung",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7de356a0-0f91-4877-ac17-33ca2cce5827",
+      "data": [
+        {
+          "text": "wo "
+        },
+        {
+          "text": "ist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " dein Wohnort"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e62e19fb-2e89-40c8-97ae-876c2bcb7dd8",
+  "name": "smalltalk.agent.residence",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.residence",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich wohne in Berlin Mitte."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

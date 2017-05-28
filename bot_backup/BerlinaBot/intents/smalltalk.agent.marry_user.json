@@ -1,0 +1,165 @@
+{
+  "userSays": [
+    {
+      "id": "64a4a826-2b92-4b08-9233-63b9706d3912",
+      "data": [
+        {
+          "text": "willst du meine Frau werden"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a2c25e6b-5741-4730-8aa1-486dbdf3f6cb",
+      "data": [
+        {
+          "text": "wollen wir uns das Jawort geben"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "87bff8ae-c01c-4682-8325-925d3a6216ff",
+      "data": [
+        {
+          "text": "lass uns heiraten"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0a2a782f-8fa6-4d05-89e6-ef708b4d32cc",
+      "data": [
+        {
+          "text": "wollen wir heiraten"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "27ad8802-8d7a-4efa-bc1f-3bd93a847ca1",
+      "data": [
+        {
+          "text": "werde meine Frau"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5147ae58-adf1-4cb2-9c30-555bfd7148ae",
+      "data": [
+        {
+          "text": "du bist meine "
+        },
+        {
+          "text": "große Liebe",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": ", ich will dich heiraten"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bb81e54c-7d86-404e-a8d3-109f528cb732",
+      "data": [
+        {
+          "text": "bitte heirate mich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b72aa0b1-094e-4667-8848-446ab0827258",
+      "data": [
+        {
+          "text": "willst du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "meine Frau",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "sein",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8f4878f9-f5f3-4f1e-8a8c-9cca6e87d900",
+      "data": [
+        {
+          "text": "willst du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " mich "
+        },
+        {
+          "text": "heiraten",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "addfcddd-a2a8-476a-ab1d-4ad8b7a65e33",
+      "data": [
+        {
+          "text": "heirate mich",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a9fa1b05-e3d5-42d3-95d6-86069836f8a9",
+  "name": "smalltalk.agent.marry_user",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.marry_user",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Mein Herz gehört meiner Arbeit."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

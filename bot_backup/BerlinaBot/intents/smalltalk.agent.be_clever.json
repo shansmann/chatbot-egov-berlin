@@ -1,0 +1,110 @@
+{
+  "userSays": [
+    {
+      "id": "d79158b4-8208-4194-8d97-030520280443",
+      "data": [
+        {
+          "text": "sei klug"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4ca4eaf0-97e1-4a2b-88e6-64f738d5a368",
+      "data": [
+        {
+          "text": "ich will dich klug "
+        },
+        {
+          "text": "machen",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "26ac2433-cc63-43e1-9a06-df4dc873708b",
+      "data": [
+        {
+          "text": "werde klug"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "407f5b5f-8509-49df-9ae3-bc796bc7f599",
+      "data": [
+        {
+          "text": "werde bitte schlau"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5305c94c-c0be-4736-8c14-c98ae41af182",
+      "data": [
+        {
+          "text": "kannst "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " bitte schlau werden"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "90b2dcad-b365-466f-b4aa-bddaa977adaf",
+      "data": [
+        {
+          "text": "sei bitte klug"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "925adb2c-5ff5-4137-a9f2-46e2b10f191c",
+      "data": [
+        {
+          "text": "sei schlau"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "883a1e46-216d-4e30-bc69-5e76af6b76c4",
+  "name": "smalltalk.agent.be_clever",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.be_clever",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich gebe mir Mühe."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

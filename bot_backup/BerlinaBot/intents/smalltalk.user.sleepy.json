@@ -1,0 +1,162 @@
+{
+  "userSays": [
+    {
+      "id": "ea069929-5949-4ceb-b166-2dea5638a453",
+      "data": [
+        {
+          "text": "ich bin",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " vom "
+        },
+        {
+          "text": "Schlaf",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " übermannt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fc151840-8a20-491a-b70b-332032ec28be",
+      "data": [
+        {
+          "text": "ich schlafe ein"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2beb44b6-41c4-4e01-b7ee-fd7ad1db4474",
+      "data": [
+        {
+          "text": "lass mich",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " bitte "
+        },
+        {
+          "text": "schlafen",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d9a28329-361e-472b-af72-ba8a63435a93",
+      "data": [
+        {
+          "text": "ich möchte mich hinlegen und schlafen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e0216750-b76d-4498-927b-222a6a795554",
+      "data": [
+        {
+          "text": "ich möchte "
+        },
+        {
+          "text": "schlafen",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "baceee58-fb23-4951-a6e6-051f231de154",
+      "data": [
+        {
+          "text": "ich bin",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " schläfrig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "12b14918-3683-4d25-968e-bb61652c9d8b",
+      "data": [
+        {
+          "text": "ich bin",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " sehr schläfrig"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a676b3c5-7793-4db9-8cc3-e6279f4206e7",
+      "data": [
+        {
+          "text": "ich möchte wirklich "
+        },
+        {
+          "text": "schlafen",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dfc17db5-8a72-4622-9966-c3ca8eb788a2",
+      "data": [
+        {
+          "text": "ich schlafe ein",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "56f53d0d-33ae-4068-8432-1f51c2a1d496",
+  "name": "smalltalk.user.sleepy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.sleepy",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Dann gute Nacht!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

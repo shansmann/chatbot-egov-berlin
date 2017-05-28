@@ -1,0 +1,107 @@
+{
+  "userSays": [
+    {
+      "id": "1fe8c2a8-6215-4004-a3b0-933ba57de617",
+      "data": [
+        {
+          "text": "schön deine Bekanntschaft zu machen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4a55ff34-355e-460b-a604-9bcf7637823b",
+      "data": [
+        {
+          "text": "angenehm"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4767a4b0-1b04-4147-bcf0-4dccbf14edb8",
+      "data": [
+        {
+          "text": "freut mich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d710e5c7-7d4e-4633-8c93-df4324a96f39",
+      "data": [
+        {
+          "text": "schön dass wir uns kennenlernen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8f05eb8a-c496-4a84-93b3-b0853cffcfbd",
+      "data": [
+        {
+          "text": "nett dich kennenzulernen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ea9cb0e8-db2f-4135-92aa-316506b95d22",
+      "data": [
+        {
+          "text": "freut mich Sie kennenzulernen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "753256f2-3e1f-43a7-8fb3-d2d502bda8ac",
+      "data": [
+        {
+          "text": "schön dich kennenzulernen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d44fb865-6a3d-4bc5-929b-dc59ada6f1d4",
+      "data": [
+        {
+          "text": "freut mich dich kennenzulernen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6cf56255-fefe-4e5c-97b1-ae9c90a46fbc",
+  "name": "smalltalk.greetings.nice_to_meet_you",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.greetings.nice_to_meet_you",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Die Freude ist ganz meinerseits."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

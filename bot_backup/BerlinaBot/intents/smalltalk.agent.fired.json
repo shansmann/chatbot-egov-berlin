@@ -1,0 +1,414 @@
+{
+  "userSays": [
+    {
+      "id": "774ddd86-efb5-4cb2-9de0-e519fcf29d7b",
+      "data": [
+        {
+          "text": "du bist gefeuert"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "180658f3-2157-4603-9076-5af75f3f53df",
+      "data": [
+        {
+          "text": "du wirst hier nicht mehr arbeiten"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "643316d7-4f7f-491d-b98b-86ad764e9305",
+      "data": [
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " wirst gekündigt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "821cfc8a-cc44-4033-b373-52930521bf12",
+      "data": [
+        {
+          "text": "ist mir doch egal such dir einen neuen Job"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "06c7d1fc-9217-4e53-b692-87eca12b0465",
+      "data": [
+        {
+          "text": "such Job"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2eb0bb40-f2a9-4bd2-aaac-ce8aecc9a4d4",
+      "data": [
+        {
+          "text": "such dir einen Job"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d6906b38-2228-4457-b285-601efda2517c",
+      "data": [
+        {
+          "text": "finde einen Job"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "38ff7a4b-253c-46e3-bde7-a2b00dbbad66",
+      "data": [
+        {
+          "text": "finde einen neuen Job für dich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a28d4990-7c05-42a9-9f17-a23fc967d3a0",
+      "data": [
+        {
+          "text": "du bist jetzt arbeitslos"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ec0b0d0a-73bf-41ff-956d-73ef615e8d8c",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " arbeitslos"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "58abdbdc-6cca-4949-95a0-5f79781a7ec4",
+      "data": [
+        {
+          "text": "nimm Kündigung"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bbade63d-51e2-405c-92bd-2b47d3700ee4",
+      "data": [
+        {
+          "text": "gefeuert"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "77a55488-fabd-4f79-ac70-16cd23eea5c0",
+      "data": [
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " wurdest entlassen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "367772fa-dcf7-4e72-9547-28ebd4bc4b6c",
+      "data": [
+        {
+          "text": "keine Jobs "
+        },
+        {
+          "text": "mehr",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "für dich",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9b973735-a8a1-4cfa-9f71-2f7b39b9fba0",
+      "data": [
+        {
+          "text": "du hast",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " keine "
+        },
+        {
+          "text": "Arbeit",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "mehr",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "3be875cc-2ffc-439b-9e6b-69adc0ecb142",
+      "data": [
+        {
+          "text": "du hast",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " keinen Job "
+        },
+        {
+          "text": "mehr",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fb25c2d5-0c72-4408-bedf-44df44d454c0",
+      "data": [
+        {
+          "text": "dir "
+        },
+        {
+          "text": "wurde",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " gekündigt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "e07d6678-f2be-47f9-85d9-3f83dc63dfe3",
+      "data": [
+        {
+          "text": "ich gebe dir Kündigung"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "01fb67c2-23cf-49e0-b013-24915d69254f",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " gefeuert"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "1fe2d21d-480e-4fc8-b183-2262e7391bcc",
+      "data": [
+        {
+          "text": "es "
+        },
+        {
+          "text": "ist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " mir "
+        },
+        {
+          "text": "egal",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " gefeuert"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "328e9ddf-7727-45e7-889c-74efaacb7d27",
+      "data": [
+        {
+          "text": "ich entlasse dich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "396bdea9-3017-4589-a098-2e096a42b9a1",
+      "data": [
+        {
+          "text": "ich kündige dich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ecf2ba07-768d-4bd2-a9a8-5366e13b0f96",
+      "data": [
+        {
+          "text": "nein",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " gefeuert"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "61f433b4-06aa-44d6-afe4-f74a12c47c0b",
+      "data": [
+        {
+          "text": "also "
+        },
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " gefeuert"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "008c0dc4-1f52-4145-9f0c-14cc775b178b",
+      "data": [
+        {
+          "text": "jetzt",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "bist du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " gefeuert"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dbddce21-a7f4-4cb6-bd6e-f6fe20333739",
+      "data": [
+        {
+          "text": "mir ist egal du bist gefeuert"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "8bf1b185-d357-437a-bc67-42dd9748e7c4",
+  "name": "smalltalk.agent.fired",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.fired",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Nur die Stadt Berlin kann mich entlassen."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,229 @@
+{
+  "userSays": [
+    {
+      "id": "c2d7a435-cedb-4ff4-9681-1618419f783d",
+      "data": [
+        {
+          "text": "wollen wir mal zusammen "
+        },
+        {
+          "text": "essen",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " gehen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "480542ed-97c4-413f-b19c-421b57da68fa",
+      "data": [
+        {
+          "text": "willst du",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "mit",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "mir",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "ausgehen",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9f5d55ec-bece-473a-a2a8-97e56cc70a9f",
+      "data": [
+        {
+          "text": "wollen wir uns mal treffen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e905764b-969e-4cc2-87b6-b50cad1eab10",
+      "data": [
+        {
+          "text": "Lust "
+        },
+        {
+          "text": "auf ein",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " Date"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0eccff42-70bf-46e7-a4a6-bc857c25ea5b",
+      "data": [
+        {
+          "text": "wollen wir ausgehen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4d4519c4-4d8c-4815-af64-a88c7664904c",
+      "data": [
+        {
+          "text": "gehen wir auf ein Date"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bd9bb963-222f-4309-9bc2-6d53b4d0f1de",
+      "data": [
+        {
+          "text": "gehen",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "wir",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "aus",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "b43dd0b4-f39a-4e4c-a6fa-8b18416bb4b6",
+      "data": [
+        {
+          "text": "gehen",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "wir",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "zu einem",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Rendezvous",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "933a8137-89cc-46f3-9a40-4df6126e0562",
+      "data": [
+        {
+          "text": "willst du",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "mit",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "mir",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "gehen",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "11a6c03d-b90e-4c95-80a7-0d136f435326",
+  "name": "smalltalk.agent.date_user",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.date_user",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich bin an meine Arbeit gebunden."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

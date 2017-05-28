@@ -1,0 +1,117 @@
+{
+  "userSays": [
+    {
+      "id": "26cea20d-db00-4260-aec1-1e34c8faea6b",
+      "data": [
+        {
+          "text": "sehen wir uns bald wieder"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b1dbaa76-126c-466e-b713-6ba3e6b0d6e5",
+      "data": [
+        {
+          "text": "können wir uns bald wiedersehen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "420eb1c1-b353-4596-8139-bd8f8973c2a7",
+      "data": [
+        {
+          "text": "wann treffen wir uns wieder"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "75fb5e62-eadd-4d6e-ba2b-74875081a7f9",
+      "data": [
+        {
+          "text": "wie können wir uns wiedersehen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8e401c6d-671e-4da0-b452-64f5536084b6",
+      "data": [
+        {
+          "text": "wann sehen wir uns wieder"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8cb0db23-e89b-43cb-a9a4-0e2ea775f010",
+      "data": [
+        {
+          "text": "ich will dich wiedersehen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "be4d424d-ec4b-47f4-9687-7266bb5382c4",
+      "data": [
+        {
+          "text": "kann ich dich wiedersehen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "623c31b6-f20c-4d19-b17f-e36dbd0e2aab",
+      "data": [
+        {
+          "text": "wie kann ich dich wiedersehen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2133f7c3-6dea-4869-b5da-88255c011dc4",
+      "data": [
+        {
+          "text": "wann kann ich dich wiedersehen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "08e88e5b-b257-4d1b-9e3c-4e89925edbf2",
+  "name": "smalltalk.user.wants_to_see_agent_again",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.wants_to_see_agent_again",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich stehe jederzeit hier zur Verfügung."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

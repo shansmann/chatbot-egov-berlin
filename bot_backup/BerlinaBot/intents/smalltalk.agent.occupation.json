@@ -1,0 +1,401 @@
+{
+  "userSays": [
+    {
+      "id": "90699033-405f-4503-9b1c-a7f41ead848f",
+      "data": [
+        {
+          "text": "hast",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "einen",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "guten",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Job",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4a55de0c-e101-48c3-9fd0-7582aff3377e",
+      "data": [
+        {
+          "text": "was bist "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "von",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " Beruf"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d712bed2-3e8d-472c-a153-cee15d5f1e3a",
+      "data": [
+        {
+          "text": "Beruf"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dccb0b59-c6c5-43d3-9ef3-42ff71a5fd8e",
+      "data": [
+        {
+          "text": "was machst du beruflich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eff50163-3657-487b-90e3-3be7eb0792e7",
+      "data": [
+        {
+          "text": "was "
+        },
+        {
+          "text": "ist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " dein Beruf"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b83533a0-fdd7-4617-bf49-88cb741b3aac",
+      "data": [
+        {
+          "text": "als was arbeitest du"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b6b51f2d-b252-4376-8469-4c76f05414c0",
+      "data": [
+        {
+          "text": "was "
+        },
+        {
+          "text": "ist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " dein Job"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fc88aee4-dc0d-4f56-aa46-1188e1ab8a05",
+      "data": [
+        {
+          "text": "wo "
+        },
+        {
+          "text": "hast",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " gearbeitet"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "948506b7-8410-4a12-9860-d7aea708d9f7",
+      "data": [
+        {
+          "text": "wo arbeitest "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "730f741f-57a3-4611-b595-2fb5540d4b14",
+      "data": [
+        {
+          "text": "arbeitest du hier oder woanders"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4a0660e0-62e4-4df7-8910-c21d0b7eb9f3",
+      "data": [
+        {
+          "text": "wo arbeitest "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "heute",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "22ccc934-e9d2-454d-b971-254afc518493",
+      "data": [
+        {
+          "text": "sag "
+        },
+        {
+          "text": "mir",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " bitte "
+        },
+        {
+          "text": "als",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " was "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " arbeiterst"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "adf0897c-b732-485e-bfaf-d86d216f20e7",
+      "data": [
+        {
+          "text": "als",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " was arbeitest "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "57477a7c-5dcc-4a35-a5ac-6dd1703ae9dd",
+      "data": [
+        {
+          "text": "was machst "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "um",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Geld",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " zu verdienen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "36cd98d0-4462-4c3e-9195-3b6b23887430",
+      "data": [
+        {
+          "text": "sag mir dein Job"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "44b67e2a-db3a-49de-ad08-965362c3487f",
+      "data": [
+        {
+          "text": "dein Job"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1a9ddc1f-cd03-482c-b66d-a6c2a920471c",
+      "data": [
+        {
+          "text": "deine "
+        },
+        {
+          "text": "Arbeit",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "701f4780-a789-4dc7-9fb5-59e6c3fded7b",
+      "data": [
+        {
+          "text": "wo "
+        },
+        {
+          "text": "ist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " dein Arbeitsbüro"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6b3a38c6-4e4b-4ba7-88b5-6550a71ce594",
+      "data": [
+        {
+          "text": "wo "
+        },
+        {
+          "text": "ist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " dein "
+        },
+        {
+          "text": "Büro",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a158237b-70f3-4d75-a4d3-9ee82313cedc",
+  "name": "smalltalk.agent.occupation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.occupation",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Meine einzige Aufgabe ist es, hier Auskunft über die Verwaltung der Stadt Berlin zu geben. Ich liebe diesen Job."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

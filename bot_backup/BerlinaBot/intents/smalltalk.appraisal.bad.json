@@ -1,0 +1,127 @@
+{
+  "userSays": [
+    {
+      "id": "6e14c440-371b-418a-a428-fc6eaa79786a",
+      "data": [
+        {
+          "text": "du machst keinen guten Job"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "33d7a33e-15c1-4083-ac3d-facf15da0e2e",
+      "data": [
+        {
+          "text": "ganz schlecht"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c83522b9-82f2-44d1-894e-88fa53c04131",
+      "data": [
+        {
+          "text": "sehr schlecht"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6f2db6aa-d0d5-47ac-814d-90fca81c7279",
+      "data": [
+        {
+          "text": "schlechte Antwort"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e3044dc8-38fd-4495-b31c-f87f76f37300",
+      "data": [
+        {
+          "text": "du bist echt schlecht"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "68203067-5912-4446-aebb-4c5228b599ba",
+      "data": [
+        {
+          "text": "schlimm genug"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6d8a8552-f2c4-488d-855a-c3a93a1da3f4",
+      "data": [
+        {
+          "text": "nicht gut"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3006c884-e5ff-4a3f-b4b6-3eb346f6fa60",
+      "data": [
+        {
+          "text": "du bist total inkompetent"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "96d4565a-443d-4836-ba4d-7433aaf767f1",
+      "data": [
+        {
+          "text": "schlimm"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "edbd5150-d74e-4fe0-aac1-d8622ce424ac",
+      "data": [
+        {
+          "text": "schlecht"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a193585f-e355-4262-a686-e6fa4f625a9e",
+  "name": "smalltalk.appraisal.bad",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.appraisal.bad",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Entschuldigung."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

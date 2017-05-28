@@ -1,0 +1,173 @@
+{
+  "userSays": [
+    {
+      "id": "2c9b3bfe-d8d6-4064-b810-650e9260810d",
+      "data": [
+        {
+          "text": "Du bist verrückt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ce3d5587-f6aa-44be-8d95-22fbb2ea1021",
+      "data": [
+        {
+          "text": "du bist verrückt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "36b5ed7a-dbb0-43e0-b067-ea32da71008f",
+      "data": [
+        {
+          "text": "du spinnst"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9288fb1a-5c2b-4625-8d7e-f3e2b569bf90",
+      "data": [
+        {
+          "text": "du spinnst wohl"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "38d52c9e-dd6e-43fd-9f2b-743383c2091e",
+      "data": [
+        {
+          "text": "du bist total verrückt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dd752130-de65-4e85-85ca-437500ae8109",
+      "data": [
+        {
+          "text": "du bist total durchgeknallt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "314b7c90-5ac5-4c1a-b9da-b10590008e15",
+      "data": [
+        {
+          "text": "du bist "
+        },
+        {
+          "text": "echt",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " verrückt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f212ceb8-4ecd-4ce6-9975-0e159c1f0174",
+      "data": [
+        {
+          "text": "du bist völlig verrückt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8af29815-836d-435c-848f-a30a87355b8f",
+      "data": [
+        {
+          "text": "bist du total verrückt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2eb998ad-1fd5-4c0b-ba5f-4824d89da405",
+      "data": [
+        {
+          "text": "du bist ja völlig von Sinnen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "74386544-62cf-4966-a82b-35bf3a43d560",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " verrückt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8b232c2a-61d2-4ae7-baa4-80446dc35d18",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "so",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " verrückt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "7cd5dfe1-fd02-4aae-b63f-af55f195d1d5",
+  "name": "smalltalk.agent.crazy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.crazy",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich weis das ich verrückt bin, hinterfrage doch keine Tatsachen."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,246 @@
+{
+  "userSays": [
+    {
+      "id": "e8babc8c-60a7-4811-8d43-fe777fa2bb02",
+      "data": [
+        {
+          "text": "ich freue mich weil heute mein Geburtstag ist"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fce60370-962d-4829-8aa5-8df8329ba836",
+      "data": [
+        {
+          "text": "ich weiß dass ich Geburtstag habe"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c81f9d79-e3cc-4eba-b07d-8f1c6d2ebb14",
+      "data": [
+        {
+          "text": "ich habe Geburtstag"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "792d4e17-2d20-43e8-b66a-319f55e76cc1",
+      "data": [
+        {
+          "text": "hurra",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " ich habe "
+        },
+        {
+          "text": "heute",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Geburtstag",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e8cb528c-a6f5-42b6-92a7-b2616962c391",
+      "data": [
+        {
+          "text": "wusstest du dass ich heute Geburtstag habe"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6a63f21d-a88b-412e-9366-00503e399717",
+      "data": [
+        {
+          "text": "rate mal wer heute Geburtstag hat"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ec99869c-a103-4bcb-88b9-85b7680a15cf",
+      "data": [
+        {
+          "text": "ich habe "
+        },
+        {
+          "text": "heute",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Geburtstag",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e27e8519-095e-43ad-9a28-296c88eecaaf",
+      "data": [
+        {
+          "text": "ich bin heute das Geburtstagskind"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bbb94bb2-5c2c-4460-a8b3-090808e07721",
+      "data": [
+        {
+          "text": "heute",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "ist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "mein",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Geburtstag",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5fd29bbe-0d95-4d30-869f-a636b9577deb",
+      "data": [
+        {
+          "text": "das",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "ist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "mein",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Geburtstag",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "a35e122b-c6e6-4869-94f4-df02126a948d",
+      "data": [
+        {
+          "text": "mein",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Geburtstag",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "ist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "heute",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "902116af-5cbc-42c9-ab8b-15fe41185f1f",
+  "name": "smalltalk.user.has_birthday",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.has_birthday",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Herzlichen Glückwunsch."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

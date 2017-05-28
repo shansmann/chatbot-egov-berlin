@@ -1,0 +1,436 @@
+{
+  "userSays": [
+    {
+      "id": "8b918f85-dd94-42d5-9fc5-7c31dd15d2d5",
+      "data": [
+        {
+          "text": "du hast",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " dir "
+        },
+        {
+          "text": "die",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " Kante gegeben"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d698412a-e7d4-44cd-984a-5cbc24abe670",
+      "data": [
+        {
+          "text": "du hast dich ziemlich betrunken"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "443cc48d-88d8-43fc-bf6e-890c42849e47",
+      "data": [
+        {
+          "text": "hast",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "die",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " Minibar wieder aufgefüllt"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cc0b63b6-01d2-40b4-844d-2490f781a2ae",
+      "data": [
+        {
+          "text": "ich glaube du bist betrunken"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c5bda1e1-4e60-4943-a95a-672d6f0e8aa9",
+      "data": [
+        {
+          "text": "du hast",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " zu "
+        },
+        {
+          "text": "viel",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " getrunken"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "07312342-eeb2-493d-879f-cdf1829bcaf9",
+      "data": [
+        {
+          "text": "du hast",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "viel",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " zu "
+        },
+        {
+          "text": "viel",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " getruken"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7f56f1e6-16fb-41e0-b3f2-4312f6b50a8e",
+      "data": [
+        {
+          "text": "hast",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " dich betrunken"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6fdf41de-63f2-41ee-be7a-f358642f0ba3",
+      "data": [
+        {
+          "text": "hast du Alkohol getrunken"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "02124b81-8aba-4ba0-bf37-9fc574efc4cc",
+      "data": [
+        {
+          "text": "wo "
+        },
+        {
+          "text": "hast",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " gesoffen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d299c9d0-2660-4f09-834b-05754a142ef6",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "total",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " besoffen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e0ef1920-fbe3-4327-b9cc-e11d8e9fdfc0",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " besoffen wie sonst was"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a9733927-6f1c-413c-a6f8-923fe7c888fd",
+      "data": [
+        {
+          "text": "ich sehe "
+        },
+        {
+          "text": "du hast",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " was getrunken"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "521e024b-104f-4bc0-97e5-db4fc753fe1a",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " angetrunken"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3b067789-5cde-451f-b406-6aa17bd552e7",
+      "data": [
+        {
+          "text": "was "
+        },
+        {
+          "text": "hast",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "du",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " getrunken"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dbeb2bb8-30cb-4187-84f4-65ce3da06e87",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " betrunken"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dd5736b4-9191-41ba-b06c-c5a4b5147f60",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " besoffen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "63034809-7bd9-4315-8df9-3cc37df58abe",
+      "data": [
+        {
+          "text": "ich denke "
+        },
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " betrunken"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ebc33435-e6b8-4acc-90e4-f424e4a14b2a",
+      "data": [
+        {
+          "text": "es scheint mir "
+        },
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " betrunken"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "66065fbf-469f-4409-921e-1e87e184f285",
+      "data": [
+        {
+          "text": "geh "
+        },
+        {
+          "text": "nach",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "hause",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " betrunken"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6947d80d-5d2e-4d09-b986-b6dbf469ede2",
+      "data": [
+        {
+          "text": "du bist",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " wirklich betrunken"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "795568f9-5212-482b-ac2a-de762e05ac5c",
+      "data": [
+        {
+          "text": "du hast zu viel getrunken"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a0e969ec-cf01-404d-a54c-0fc3f03c361e",
+  "name": "smalltalk.agent.drunk",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.drunk",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich trinke nie."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
