@@ -1,0 +1,40 @@
+{
+  "id": "b36d117c-b570-4aa6-8704-bfe8493a74a8",
+  "timestamp": "2017-07-01T18:54:49.537Z",
+  "lang": "de",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "Ich würde gerne meine Wohnung anmelden",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "any": "Ich würde gerne meine Wohnung",
+      "any1": "",
+      "any2": "",
+      "objective": "Anmeldung",
+      "topic": ""
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "7a6f9031-40b6-4c2f-8751-e9b14b9f1527",
+      "webhookUsed": "false",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "topic.objective"
+    },
+    "fulfillment": {
+      "speech": "",
+      "messages": [
+        {
+          "type": 0,
+          "speech": ""
+        }
+      ]
+    },
+    "score": 0.6100000143051147
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "7f7861c8-f5a6-4224-9e9c-d36883989b89"
+}
