@@ -87,6 +87,10 @@ def retrieve_data(req):
         # find objective
         topic = result['parameters']['topic']
 
+        if not topic:
+            res = generate_text_response("no topic present.")
+            return res
+
         # retrieve data
         url = '/tree/{t}'.format(t = topic)
         result = firebase.get(url, None)
