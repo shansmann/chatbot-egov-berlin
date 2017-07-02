@@ -31,15 +31,16 @@ def index():
 
 @application.route('/webhook', methods=['POST'])
 def webhook():
-    #print(type(request))
+    print(type(request))
 
     req = request.get_json(silent=True, force=True)
 
-    #print(type(req))
+    print(type(req))
 
-    #response = retrieve_data(req)
+    response = retrieve_data(req)
+    #print(response)
 
-    response = (generate_text_response('req recieved.'))
+    #response = generate_text_response('req recieved.')
 
     res = make_response(json.dumps(response))
     res.headers['Content-Type'] = 'application/json'
@@ -55,7 +56,40 @@ def webhook():
 def retrieve_data(req):
 
     result = req['result']
+    intent = result['metadata']['intentName']
 
+    if intent == "topic.objective":
+        # show services
+        topic = result['parameters']['topic']
+        objective = result['parameters']['objective']
+
+        # retrieve data
+        url = '/tree/{t}/{o}'.format(t = topic, o = objective)
+        result = firebase.get(url, None)
+
+        # generate response
+        res = generate_text_response("topic: " + topic + ";objective: " + objective)
+        return res
+
+    elif intent == "topic.only":
+        # find objective
+        topic = result['parameters']['topic']
+
+        # retrieve data
+        url = '/tree/{t}'.format(t = topic)
+        result = firebase.get(url, None)
+
+        # generate response
+        res = generate_text_response("topic: " + topic)
+        return res
+
+    else:
+        # neither topic nor objective recognized
+        res = generate_text_response('error in request.')
+        return res
+
+
+    """
     topic = result['parameters']['topic']
     objective = result['parameters']['objective']
     res = ''
@@ -101,6 +135,7 @@ def retrieve_data(req):
         res = generate_text_response('nothing found in database.')
 
     return res
+    """
 
 def generate_text_response(speech, data={}):
     return {
