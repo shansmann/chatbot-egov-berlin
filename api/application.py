@@ -67,8 +67,20 @@ def retrieve_data(req):
         url = '/tree/{t}/{o}'.format(t = topic, o = objective)
         result = firebase.get(url, None)
 
+        # check result for multiple services
+        try:
+            if len(result) > 1:
+                names = [x["name"] for x in result]
+                speech = "; ".join(names)
+                res = generate_text_response(speech)
+            else:
+                speech = result[0]["name"]
+                res = generate_text_response(speech)
+        except:
+            res = generate_text_response("error accessing topic" + topic + "; objective: " + objective)
+
         # generate response
-        res = generate_text_response("topic: " + topic + ";objective: " + objective)
+        #res = generate_text_response("topic: " + topic + ";objective: " + objective)
         return res
 
     elif intent == "topic.only":
@@ -79,8 +91,14 @@ def retrieve_data(req):
         url = '/tree/{t}'.format(t = topic)
         result = firebase.get(url, None)
 
-        # generate response
-        res = generate_text_response("topic: " + topic)
+        # access result
+        try:
+            objectives = list(result.keys())
+            speech = "; ".join(objectives)
+            res = generate_text_response(speech)
+        except:
+            res = generate_text_response("error accessing topic " + topic)
+
         return res
 
     else:
