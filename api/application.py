@@ -37,11 +37,13 @@ def webhook():
 
     #print(type(req))
 
-    response = retrieve_data(req)
+    #response = retrieve_data(req)
 
-    res = make_response(json.dumps(response),
-                             200,
-                             {'Content-Type': 'application/json'})
+    response = (generate_text_response('req recieved.'))
+
+    res = make_response(json.dumps(response))
+    res.headers['Content-Type'] = 'application/json'
+
     return res
 
     #return ('', 200)
