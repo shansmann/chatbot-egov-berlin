@@ -1,14 +1,14 @@
 {
-  "id": "b36d117c-b570-4aa6-8704-bfe8493a74a8",
-  "timestamp": "2017-07-01T18:54:49.537Z",
+  "id": "7a223100-cfa8-4084-b7b6-00706ee2bbc3",
+  "timestamp": "2017-07-02T10:54:30.818Z",
   "lang": "de",
   "result": {
     "source": "agent",
-    "resolvedQuery": "Ich würde gerne meine Wohnung anmelden",
+    "resolvedQuery": "Ich würde gerne meinen neuen Wohnsitz anmelden",
     "action": "",
     "actionIncomplete": false,
     "parameters": {
-      "any": "Ich würde gerne meine Wohnung",
+      "any": "Ich würde gerne meinen neuen",
       "any1": "",
       "any2": "",
       "objective": "Anmeldung",
@@ -30,7 +30,7 @@
         }
       ]
     },
-    "score": 0.6100000143051147
+    "score": 0.834093886084083
   },
   "status": {
     "code": 200,
