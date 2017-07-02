@@ -17,7 +17,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 application = Flask(__name__, static_folder='web/static', template_folder='web/templates')
-PORT = int(os.getenv('PORT', '8087'))
+PORT = int(os.getenv('PORT', '8085'))
 firebase = firebase.FirebaseApplication('https://berlinabot.firebaseio.com', None)
 
 #### WEB ###
@@ -73,8 +73,9 @@ def retrieve_data(req):
 
 
     if len(result) > 1:
-        logging.info('multiple services found.')
+        logging.info('multiple services/objectives found.')
         # generate list response
+        #TODO: handle multiple services
         speech = ", ".join(result)
         res = generate_text_response(speech)
     else:
