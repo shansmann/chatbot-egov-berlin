@@ -31,7 +31,11 @@ def index():
 
 @application.route('/webhook', methods=['POST'])
 def webhook():
+    #print(type(request))
+
     req = request.get_json(silent=True, force=True)
+
+    #print(type(req))
 
     response = retrieve_data(req)
 
@@ -71,19 +75,28 @@ def retrieve_data(req):
         url = '/tree/{t}'.format(t = topic)
         result = firebase.get(url, None)
 
+    if result:
+        if len(result) > 1:
+            logging.info('multiple services/objectives found.')
+            # generate list response
 
-    if len(result) > 1:
-        logging.info('multiple services/objectives found.')
-        # generate list response
-        #TODO: handle multiple services
-        speech = ", ".join(result)
-        res = generate_text_response(speech)
+            if type(result) == type([]):
+                # multiple services
+                names = [x["name"] for x in result]
+                speech = "; ".join(names)
+            else:
+                # multiple objectives
+                names = list(result.keys())
+                speech = "; ".join(names)
+
+            res = generate_text_response(speech)
+        else:
+            logging.info('service found.')
+            service = result[0]
+            speech = "Sie interessieren sich für " + service['name']
+            res = generate_text_response(speech)
     else:
-        logging.info('service found.')
-        service = result[0]
-        speech = "Sie interessieren sich für " + service['name']
-        res = generate_text_response(speech)
-
+        res = generate_text_response('nothing found in database.')
 
     return res
 
