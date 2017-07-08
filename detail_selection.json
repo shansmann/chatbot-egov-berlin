@@ -1,0 +1,81 @@
+{
+  "id": "f98208e4-3422-4541-9382-778f4ff1c4d9",
+  "timestamp": "2017-07-03T21:18:24.773Z",
+  "lang": "de",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "Gebühren",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "detail": "fees"
+    },
+    "contexts": [
+      {
+        "name": "objective-recognized",
+        "parameters": {
+          "detail.original": "Gebühren",
+          "objective.original": "Abmeldung",
+          "service": "Abmeldung einer Wohnung",
+          "detail": "Gebühren",
+          "service.original": "Abmeldung einer Wohnung",
+          "objective": "Abmeldung"
+        },
+        "lifespan": 10
+      },
+      {
+        "name": "topic-recognized",
+        "parameters": {
+          "detail.original": "Gebühren",
+          "objective.original": "Abmeldung",
+          "service": "Abmeldung einer Wohnung",
+          "any1": "",
+          "topic": "Wohnsitz",
+          "any1.original": "",
+          "any.original": "",
+          "topic.original": "Wohnsitz",
+          "detail": "Gebühren",
+          "service.original": "Abmeldung einer Wohnung",
+          "any": "",
+          "objective": "Abmeldung"
+        },
+        "lifespan": 10
+      },
+      {
+        "name": "service-recognized",
+        "parameters": {
+          "detail.original": "Gebühren",
+          "service": "Abmeldung einer Wohnung",
+          "detail": "Gebühren",
+          "service.original": "Abmeldung einer Wohnung"
+        },
+        "lifespan": 10
+      }
+    ],
+    "metadata": {
+      "intentId": "8ee492ee-66e0-41a8-9ee5-501de7097485",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "webhookResponseTime": 131,
+      "intentName": "berlina.detail.selection"
+    },
+    "fulfillment": {
+      "speech": "error in request.",
+      "source": "api",
+      "displayText": "error in request.",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "error in request."
+        }
+      ],
+      "data": {}
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "7f7861c8-f5a6-4224-9e9c-d36883989b89"
+}

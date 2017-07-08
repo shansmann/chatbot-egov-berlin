@@ -1,0 +1,55 @@
+{
+  "id": "8c63717c-2cd0-4f10-b2cb-02b0a89314b3",
+  "timestamp": "2017-07-03T16:36:15.032Z",
+  "lang": "de",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "Wohnsitz",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "any": "",
+      "any1": "",
+      "topic": "Wohnsitz"
+    },
+    "contexts": [
+      {
+        "name": "topic-recognized",
+        "parameters": {
+          "any1": "",
+          "topic": "Wohnsitz",
+          "topic.original": "Wohnsitz",
+          "any1.original": "",
+          "any.original": "",
+          "any": ""
+        },
+        "lifespan": 1
+      }
+    ],
+    "metadata": {
+      "intentId": "c6c377cd-5bd7-4dba-94ab-c7a5c2db022c",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "webhookResponseTime": 129,
+      "intentName": "berlina.topic.only"
+    },
+    "fulfillment": {
+      "speech": "error in request.",
+      "source": "api",
+      "displayText": "error in request.",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "error in request."
+        }
+      ],
+      "data": {}
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "7f7861c8-f5a6-4224-9e9c-d36883989b89"
+}

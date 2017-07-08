@@ -1,0 +1,61 @@
+{
+  "id": "a2af8e68-31a3-4903-a2a3-0615405c1637",
+  "timestamp": "2017-07-04T23:56:09.123Z",
+  "lang": "de",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "Ausstellung",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "obj_wo_syn": "Ausstellung"
+    },
+    "contexts": [
+      {
+        "name": "objective-recognized",
+        "parameters": {
+          "obj_wo_syn": "Ausstellung",
+          "obj_wo_syn.original": "Ausstellung"
+        },
+        "lifespan": 1
+      },
+      {
+        "name": "topic-recognized",
+        "parameters": {
+          "any1": "",
+          "obj_wo_syn": "Ausstellung",
+          "topic": "Personalausweis",
+          "topic.original": "Personalausweis",
+          "any1.original": "",
+          "any.original": "",
+          "obj_wo_syn.original": "Ausstellung",
+          "any": ""
+        },
+        "lifespan": 1
+      }
+    ],
+    "metadata": {
+      "intentId": "6b134f54-c142-43e6-a044-c7ef871f5ffb",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "webhookResponseTime": 132,
+      "intentName": "berlina.obj2ective.only"
+    },
+    "fulfillment": {
+      "speech": "Du interessierst dich also für Ausstellung",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Du interessierst dich also für Ausstellung"
+        }
+      ]
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 206,
+    "errorType": "partial_content",
+    "errorDetails": "Webhook call failed. Error: Webhook response was empty."
+  },
+  "sessionId": "7f7861c8-f5a6-4224-9e9c-d36883989b89"
+}

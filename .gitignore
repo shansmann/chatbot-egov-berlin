@@ -1,2 +1,5 @@
 .ipynb_checkpoints
 api.zip
+.DS_Store
+notebooks/*
+fb/*

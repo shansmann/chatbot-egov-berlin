@@ -1,0 +1,77 @@
+{
+  "id": "85fe6492-d036-4a3d-b92a-72955863153b",
+  "timestamp": "2017-07-03T17:51:52.91Z",
+  "lang": "de",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "Wohnsitz Abmeldung",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "any": "",
+      "any1": "",
+      "any2": "",
+      "objective": "Abmeldung",
+      "topic": "Wohnsitz"
+    },
+    "contexts": [
+      {
+        "name": "objective-recognized",
+        "parameters": {
+          "any2.original": "",
+          "objective.original": "Abmeldung",
+          "any1": "",
+          "topic": "Wohnsitz",
+          "topic.original": "Wohnsitz",
+          "any1.original": "",
+          "any.original": "",
+          "any2": "",
+          "any": "",
+          "objective": "Abmeldung"
+        },
+        "lifespan": 1
+      },
+      {
+        "name": "topic-recognized",
+        "parameters": {
+          "any2.original": "",
+          "objective.original": "Abmeldung",
+          "any1": "",
+          "topic": "Wohnsitz",
+          "topic.original": "Wohnsitz",
+          "any1.original": "",
+          "any.original": "",
+          "any2": "",
+          "any": "",
+          "objective": "Abmeldung"
+        },
+        "lifespan": 1
+      }
+    ],
+    "metadata": {
+      "intentId": "7a6f9031-40b6-4c2f-8751-e9b14b9f1527",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "webhookResponseTime": 287,
+      "intentName": "berlina.topic.objective"
+    },
+    "fulfillment": {
+      "speech": "error in request.",
+      "source": "api",
+      "displayText": "error in request.",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "error in request."
+        }
+      ],
+      "data": {}
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "7f7861c8-f5a6-4224-9e9c-d36883989b89"
+}

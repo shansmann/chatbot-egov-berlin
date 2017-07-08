@@ -1,0 +1,75 @@
+{
+  "id": "d552b4d5-5a0d-49a0-b7dc-9421717a7ccc",
+  "timestamp": "2017-07-03T21:11:56.247Z",
+  "lang": "de",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "Abmeldung einer Wohnung",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "service": "Abmeldung einer Wohnung"
+    },
+    "contexts": [
+      {
+        "name": "objective-recognized",
+        "parameters": {
+          "objective.original": "Abmeldung",
+          "service": "Abmeldung einer Wohnung",
+          "service.original": "Abmeldung einer Wohnung",
+          "objective": "Abmeldung"
+        },
+        "lifespan": 1
+      },
+      {
+        "name": "topic-recognized",
+        "parameters": {
+          "objective.original": "Abmeldung",
+          "service": "Abmeldung einer Wohnung",
+          "any1": "",
+          "topic": "Wohnsitz",
+          "topic.original": "Wohnsitz",
+          "any1.original": "",
+          "any.original": "",
+          "service.original": "Abmeldung einer Wohnung",
+          "any": "",
+          "objective": "Abmeldung"
+        },
+        "lifespan": 1
+      },
+      {
+        "name": "service-recognized",
+        "parameters": {
+          "service": "Abmeldung einer Wohnung",
+          "service.original": "Abmeldung einer Wohnung"
+        },
+        "lifespan": 1
+      }
+    ],
+    "metadata": {
+      "intentId": "37cbf206-e96b-4f04-b58d-4d453482fd20",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "webhookResponseTime": 127,
+      "intentName": "berlina.service.selection"
+    },
+    "fulfillment": {
+      "speech": "error in request.",
+      "source": "api",
+      "displayText": "error in request.",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "error in request."
+        }
+      ],
+      "data": {}
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "7f7861c8-f5a6-4224-9e9c-d36883989b89"
+}

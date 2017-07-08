@@ -1,0 +1,63 @@
+{
+  "id": "b7d7e6b9-3da5-4b1e-8845-f552245ec1b0",
+  "timestamp": "2017-07-03T16:49:25.116Z",
+  "lang": "de",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "Abmeldung",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "objective": "Abmeldung"
+    },
+    "contexts": [
+      {
+        "name": "objective-recognized",
+        "parameters": {
+          "objective.original": "Abmeldung",
+          "objective": "Abmeldung"
+        },
+        "lifespan": 1
+      },
+      {
+        "name": "topic-recognized",
+        "parameters": {
+          "objective.original": "Abmeldung",
+          "any1": "",
+          "topic": "Wohnsitz",
+          "topic.original": "Wohnsitz",
+          "any1.original": "",
+          "any.original": "",
+          "any": "",
+          "objective": "Abmeldung"
+        },
+        "lifespan": 1
+      }
+    ],
+    "metadata": {
+      "intentId": "6b134f54-c142-43e6-a044-c7ef871f5ffb",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "webhookResponseTime": 160,
+      "intentName": "berlina.objective.only"
+    },
+    "fulfillment": {
+      "speech": "error in request.",
+      "source": "api",
+      "displayText": "error in request.",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "error in request."
+        }
+      ],
+      "data": {}
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "7f7861c8-f5a6-4224-9e9c-d36883989b89"
+}
