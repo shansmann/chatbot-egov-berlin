@@ -58,9 +58,9 @@ def find_lvl(req):
     elif intent == "berlina.topic.objective":
         res = request_handling.topic_objective(result)
     elif intent == "berlina.service.selection":
-        res = request_handling.service_selection(result)
+        res = request_handling.select_detail(result)
     elif intent == "berlina.detail.selection":
-        res = request_handling.detail_selection(result)
+        res = request_handling.return_detail(result)
     else:
         res = request_handling.fallback(result)
 

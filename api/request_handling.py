@@ -4,7 +4,7 @@ import response
 
 def topic_only(result):
     # find objectives
-    topic = result["parameters"]["topic"]
+    topic = result["parameters"]["new_topics"]
 
     data = util.get_data("/tree/" + topic)
     if not data:
@@ -24,7 +24,7 @@ def topic_only(result):
 def objective_only(result):
     # find services
     relevant_context = next(item for item in result["contexts"] if item["name"] == "topic-recognized")
-    topic = relevant_context["parameters"]["topic"]
+    topic = relevant_context["parameters"]["new_topics"]
     objective = result["parameters"]["obj_wo_syn"]
 
     data = util.get_data("/tree/" + topic + "/" + objective)
@@ -44,7 +44,7 @@ def objective_only(result):
 
 def topic_objective(result):
     # find services
-    topic = result["parameters"]["topic"]
+    topic = result["parameters"]["new_topics"]
     objective = result["parameters"]["obj_wo_syn"]
 
     data = util.get_data("/tree/" + topic + "/" + objective)
@@ -62,17 +62,17 @@ def topic_objective(result):
 
     return res
 
-def service_selection(result):
+def select_detail(result):
     keys = ["Gebühren", "Termin", "Online", "Vorrausetzungen", "Dauer", "Verantwortlichkeit"]
     return response.generate_quick_replies("Gleich haben sie es geschafft!", keys)
 
-def detail_selection(result):
+def return_detail(result):
     # find service values
     relevant_topic_context = next(item for item in result["contexts"] if item["name"] == "topic-recognized")
     relevant_objective_context = next(item for item in result["contexts"] if item["name"] == "objective-recognized")
     relevant_service_context = next(item for item in result["contexts"] if item["name"] == "service-recognized")
 
-    topic = relevant_topic_context["parameters"]["topic"]
+    topic = relevant_topic_context["parameters"]["new_topics"]
     objective = relevant_objective_context["parameters"]["obj_wo_syn"]
     service = relevant_service_context["parameters"]["service"]
     key = result["parameters"]["detail"]
