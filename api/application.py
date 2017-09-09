@@ -31,8 +31,10 @@ def index():
 @application.route("/webhook", methods=["POST"])
 def webhook():
     req = request.get_json(silent=True, force=True)
-
+    #logging.info(req)
     response = find_lvl(req)
+
+    print(response)
 
     res = make_response(json.dumps(response))
     res.headers["Content-Type"] = "application/json"
@@ -60,7 +62,7 @@ def find_lvl(req):
     elif intent == "berlina.service.selection":
         res = request_handling.select_detail(result)
     elif intent == "berlina.detail.selection":
-        res = request_handling.return_detail(result)
+        res = request_handling.show_detail(result)
     else:
         res = request_handling.fallback(result)
 

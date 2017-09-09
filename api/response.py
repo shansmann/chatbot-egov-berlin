@@ -1,16 +1,31 @@
 import responses_templates
 import copy
 
-def generate_text(speech):
+def generate_text(speech, context=[]):
     return {
         "speech": str(speech),
         "displayText": str(speech),
         "data": [],
-        "contextOut": [],
+        "contextOut": context,
         "source": "api"
     }
 
-def generate_quick_replies(speech, options):
+def generate_multiple_lines(lines):
+    response = {
+        "speech": "",
+        "messages": []
+    }
+    for line in lines:
+        message = {
+            "type": 0,
+            "platform" : "facebook",
+            "speech": line
+        }
+        response["messages"].append(message)
+
+    return response
+
+def generate_quick_replies(speech, options, contexts = []):
      template = copy.deepcopy(responses_templates.quick_reply_template)
      template["text"] = speech
 
@@ -25,7 +40,7 @@ def generate_quick_replies(speech, options):
          "speech": str(speech),
          "displayText": str(speech),
          "data": {"facebook": template},
-         "contextOut": [],
+         "contextOut": contexts,
          "source": "api",
          "messages": [
          {
@@ -51,7 +66,7 @@ def generate_list(speech, listings):
         element["title"] = elem["title"]
         element["image_url"] = elem["image_url"]
         element["subtitle"] = elem["subtitle"]
-        element['buttons'].append(generate_button("web_url", "View", "https://google.com"))
+        element['buttons'].append(generate_button("postback", "Mehr Informationen", postback=elem["title"]))
 
         template['attachment']['payload']['elements'].append(element)
 
@@ -81,16 +96,25 @@ def generate_card(speech, cards):
     template = copy.deepcopy(responses_templates.card_template)
 
     for card in cards:
-
+        print("generate card: ", card)
+        """
         card_template = copy.deepcopy(responses_templates.card_element)
 
         card_template["title"] = card["title"]
         card_template["image_url"] = card["image_url"]
         card_template["subtitle"] = card["subtitle"]
 
-        card_template["buttons"].append(generate_button("postback", "TestTitle"))
+        card_template["buttons"].append(generate_button("postback", card["title"]))
 
         template["attachment"]["payload"]["elements"].append(card_template)
+        """
+        title = card["title"]
+
+        button = generate_button("postback", "Mehr Informationen", postback=title)
+
+        card["buttons"] = [button]
+
+        template["attachment"]["payload"]["elements"].append(card)
 
     return {
         "speech": str(speech),
@@ -105,7 +129,7 @@ def generate_card(speech, cards):
         }]
     }
 
-def generate_button(btn_type, title, url=""):
+def generate_button(btn_type, title, url="", postback=None):
     if btn_type == "web_url":
         return {
             "type": btn_type,
@@ -113,8 +137,15 @@ def generate_button(btn_type, title, url=""):
             "title": title
         }
     else:
-        return {
-            "type": "postback",
-            "title": title,
-            "payload": title
-        }
+        if postback:
+            return {
+                "type": "postback",
+                "title": title,
+                "payload": postback
+            }
+        else:
+            return {
+                "type": "postback",
+                "title": title,
+                "payload": title
+            }
