@@ -2,18 +2,18 @@
 """
 webhook for api.ai, semantic search project SS2017
 """
-
+from pprint import pprint
 import json
 import os
 import sys
-
-import request_handling
-
 from datetime import datetime
+import logging
 
 from flask import Flask, request, __version__, render_template, jsonify, make_response
 
-import logging
+from message_parser import MessageParser
+from message import Message
+
 
 logging.basicConfig(level=logging.INFO)
 application = Flask(__name__, static_folder="web/static", template_folder="web/templates")
@@ -31,44 +31,20 @@ def index():
 @application.route("/webhook", methods=["POST"])
 def webhook():
     req = request.get_json(silent=True, force=True)
-    #logging.info(req)
-    response = find_lvl(req)
+    print("received message: {}".format(req))
 
-    print(response)
+    msg = MessageParser().parse_message_event(req)
+    msg.set_state()
+    print("state set to: {}".format(msg.get_state()))
 
-    res = make_response(json.dumps(response))
-    res.headers["Content-Type"] = "application/json"
-
-    return res
+    res = msg.handle_message()
+    print("returning msg: {}".format(res))
+    
+    response = make_response(json.dumps(res))
+    response.headers["Content-Type"] = "application/json"
+    return response
 
 ### END API ###
-
-### UTIL ###
-
-def find_lvl(req):
-    """
-    find relevant lvl of tree
-    """
-
-    result = req["result"]
-    intent = result["metadata"]["intentName"]
-
-    if intent == "berlina.topic.only":
-        res = request_handling.topic_only(result)
-    elif intent == "berlina.objective.only":
-        res = request_handling.objective_only(result)
-    elif intent == "berlina.topic.objective":
-        res = request_handling.topic_objective(result)
-    elif intent == "berlina.service.selection":
-        res = request_handling.select_detail(result)
-    elif intent == "berlina.detail.selection":
-        res = request_handling.show_detail(result)
-    else:
-        res = request_handling.fallback(result)
-
-    return res
-
-### END UTIL ###
 
 if __name__ == "__main__":
     application.run(host="0.0.0.0", port=int(PORT), threaded=True, debug=True,

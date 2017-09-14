@@ -53,3 +53,9 @@ def parse_onlineprocessing(onlineprocessing):
         return "Die Online Bearbeitung finden sie unter: {}".format(onlineprocessing["link"][2:])
     else:
         return "Diese Dienstleistung können wir leider nur vor Ort bearbeiten."
+
+def parse_processtime(process_time):
+    if process_time == "false":
+        return "Die Dauer kann leider nicht vorhergesagt werden."
+    else:
+        return process_time

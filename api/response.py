@@ -1,29 +1,20 @@
-import responses_templates
 import copy
 
-def generate_text(speech, context=[]):
-    return {
-        "speech": str(speech),
-        "displayText": str(speech),
-        "data": [],
-        "contextOut": context,
-        "source": "api"
-    }
+import responses_templates
+import util
 
-def generate_multiple_lines(lines):
-    response = {
-        "speech": "",
-        "messages": []
-    }
-    for line in lines:
-        message = {
-            "type": 0,
-            "platform" : "facebook",
-            "speech": line
-        }
-        response["messages"].append(message)
+def generate_text(speech, context=[], max_length=640):
+    if len(speech) > max_length:
+        msgs = []
+        paragraphs = util.split_message(speech, max_length=max_length)
+        for paragraph in paragraphs:
+            msgs.append({'text': paragraph})
+        return msgs
+    else:
+        return [{
+            "text": speech
+        }]
 
-    return response
 
 def generate_quick_replies(speech, options, contexts = []):
      template = copy.deepcopy(responses_templates.quick_reply_template)
@@ -36,18 +27,7 @@ def generate_quick_replies(speech, options, contexts = []):
 
          template["quick_replies"].append(reply)
 
-     return {
-         "speech": str(speech),
-         "displayText": str(speech),
-         "data": {"facebook": template},
-         "contextOut": contexts,
-         "source": "api",
-         "messages": [
-         {
-             "type": 0,
-             "speech": "; ".join(options)
-         }]
-     }
+     return template
 
 def generate_list(speech, listings):
     """
@@ -70,18 +50,7 @@ def generate_list(speech, listings):
 
         template['attachment']['payload']['elements'].append(element)
 
-    return {
-        "speech": str(speech),
-        "displayText": str(speech),
-        "data": {"facebook": template},
-        "contextOut": [],
-        "source": "api",
-        "messages": [
-        {
-            "type": 0,
-            "speech": "; ".join([x["title"] for x in listings])
-        }]
-    }
+    return template
 
 
 def generate_card(speech, cards):
@@ -116,18 +85,7 @@ def generate_card(speech, cards):
 
         template["attachment"]["payload"]["elements"].append(card)
 
-    return {
-        "speech": str(speech),
-        "displayText": str(speech),
-        "data": {"facebook": template},
-        "contextOut": [],
-        "source": "api",
-        "messages": [
-        {
-            "type": 0,
-            "speech": "; ".join([x["title"] for x in cards])
-        }]
-    }
+    return template
 
 def generate_button(btn_type, title, url="", postback=None):
     if btn_type == "web_url":
@@ -149,3 +107,22 @@ def generate_button(btn_type, title, url="", postback=None):
                 "title": title,
                 "payload": title
             }
+
+def send_message(messages):
+    """
+    :input_type: list
+    """
+    return {
+        "speech": 'no purpose',
+        "displayText": 'no purpose',
+        "data": {
+            "facebook": messages
+            },
+        "contextOut": [],
+        "source": "api",
+        "messages": [
+        {
+            "type": 0,
+            "speech": "no purpose"
+        }]
+    }

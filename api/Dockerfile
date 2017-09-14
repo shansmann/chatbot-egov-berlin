@@ -13,6 +13,7 @@ ADD . /src
 EXPOSE 8085
 
 # uWSGI install
+RUN apt-get update
 RUN apt-get install -y build-essential
 RUN apt-get install -y python3-dev
 RUN pip install uwsgi
