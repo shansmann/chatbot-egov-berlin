@@ -6,7 +6,6 @@ IMAGES = [
             "https://www.propstei-stgerold.at/fileadmin/_processed_/1/b/csm_DSC_3165_da3967266f.jpg"
           ]
 
-#KEYS = ["Beschreibung", "Gebühren", "Termin", "Online Bearbeitung", "Anforderungen", "Dauer", "Zuständigkeit", "Voraussetzungen", "Link"]
 KEYS = ["Beschreibung", "Gebühren", "Termin", "Online Bearbeitung", "Dauer", "Zuständigkeit", "Link", "Zurück"]
 
 LANDSCAPE_IMAGES = [
