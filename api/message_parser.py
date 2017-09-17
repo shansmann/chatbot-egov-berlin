@@ -1,4 +1,10 @@
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker, scoped_session
+from datetime import datetime
+
+import config
 from message import Message
+from db import Base, Topic, Detail
 
 class MessageParser:
     def parse_message_event(self, req):
@@ -9,6 +15,15 @@ class MessageParser:
             topic = req.get("result").get("parameters").get("new_topics")
 
             message = Message(intent, topic)
+
+            # save topic to db
+            engine = create_engine(config.DATABASE_PATH)
+            Base.metadata.bind = engine
+            session = scoped_session(sessionmaker(bind=engine))
+            new_topic = Topic(ts=datetime.utcnow(), topic = topic)
+            session.add(new_topic)
+            session.commit()
+            session.close()
 
         elif intent == "berlina.objective.only":
             relevant_context = next(item for item in req.get("result").get("contexts") if item["name"] == "topic-recognized")
@@ -39,6 +54,14 @@ class MessageParser:
             detail = req.get("result").get("parameters").get("detail")
 
             message = Message(intent, topic, objective, service, detail)
+
+            engine = create_engine(config.DATABASE_PATH)
+            Base.metadata.bind = engine
+            session = scoped_session(sessionmaker(bind=engine))
+            new_detail = Detail(ts=datetime.utcnow(), detail = detail)
+            session.add(new_detail)
+            session.commit()
+            session.close()
         else:
             # fallback
             message = Message()

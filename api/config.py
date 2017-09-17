@@ -14,3 +14,5 @@ LANDSCAPE_IMAGES = [
     "http://www.gaestehaus-lazarus-berlin.de/wp-content/uploads/2015/05/G%C3%A4stehaus-127-600x400.jpg",
     "http://img.fotocommunity.com/berlin-iii-dae36b3b-9d6f-4b4c-aae1-d5e4b21f9d06.jpg?height=400"
 ]
+
+DATABASE_PATH = 'mysql+pymysql://berlina:berlina1234@berlina.csefu32a1w8h.eu-west-1.rds.amazonaws.com:3306/berlina'

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Berlina</title>
+    <link href="data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAj5OgAB4T7AAVCuUA//3/ABoO2gDEzP8Axcz/AG5sawCqqqoAy8j6APPz8wAXD9gA5OTkAPX4/gCyufQAxMLBACEL2wAUFBQABQUFAP77/gD/+/4AHwnZAP7+/gD//v4AEhUaABQJ4gC+xfwAampqAPz8/AAFBBEAq6jbABIH4AD7/v8Aw8r/AAMBAQDEyv8ASkpKAPXz9QAAAAQAAwAEAPv5/QC6wPsAzMb6ALzD+wAOA9wAGgzbABsM2wAcDNsAtLvxAPb29gC6wfkAjY6SAJ2XywD49fkAJiYmAAIBAwAXC98A9/r8ABUJ5QAWCOgAGgraAP78/wD//P8AGg3aAE9PTwAbDdoAFwjgABwN2gD///8Ax8X3AE1LSgAXC+AAFQrjAGZmcQAaC9gA/f39ABYI6QD//f0AvMT7AAgLGgAaDdsAAgICABcM3gAaDN4AFwvhABUK5AD9+/sAGQvhABoM1gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABUJEQkIwL1EwLgVAQAVARFZWVlZWVgNJO1ZWVlZWVlY9PT09PUtZWVlZPT09PT09TywsLCwbKjMPMU9PT09PLExMTExMJig2KThMTExMTEwEBAQEBE4IRxAjBAQEBAQERUVFRUUXCwAAAEVFRUVFRUVFRUVFTBclABJFRUVFRUVFRUUyFzcAABMcRUVFRUVFRUUXHRcNCQBSQUVFRUVFRUVFGE5XNDohJxlFRUVFRUUUFD8+PkoOAVAeFBQUFBQVBgckIiJGKwo1HwYGBgYGBxYWERERQyAtGgIWFhYWFhY8TU1NTVhUVFRUPE1NPDxNDAwMDAxTSDlVOQwMDAwMDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=" rel="icon" type="image/x-icon" />
+</head>
+
+<body ng-app="sampleapp">
+    <header>
+        <nav class="navbar navbar-default" style="background-color: #fffff">
+            <div class="container">
+                <div class="navbar-header">
+                  <a class="navbar-brand" href="/">
+                    <img style="height: 25px;" src="http://www.berlin.de/css/berlin_de/echo/images/logo_berlin_de.svg">
+                  </a>
+                </div>
+
+                <p class='navbar-text navbar-center'></p>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#!/dashboard"><i class="fa fa-rss"></i> Dashboard </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div ng-view=""></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/main.css') }}">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-route.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-cookies.js"></script>
+
+    <script src="{{ url_for('static', filename='controllers/app.js') }}"></script>
+
+    <script src="{{ url_for('static', filename='controllers/dashboard_ctrl.js') }}"></script>
+    <script src="{{ url_for('static', filename='controllers/login_ctrl.js') }}"></script>
+</body>
+
+</html>

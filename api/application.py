@@ -9,10 +9,16 @@ import sys
 from datetime import datetime
 import logging
 
+from sqlalchemy import Column, func, create_engine
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import sessionmaker, scoped_session
 from flask import Flask, request, __version__, render_template, jsonify, make_response
 
+from db import Base, Topic, Detail
 from message_parser import MessageParser
 from message import Message
+import config
+
 
 
 logging.basicConfig(level=logging.INFO)
@@ -22,7 +28,7 @@ PORT = int(os.getenv("PORT", "8085"))
 #### WEB ###
 @application.route("/")
 def index():
-    return render_template("index.html")
+    return render_template("app.html")
 
 ### End WEB ###
 
@@ -39,10 +45,28 @@ def webhook():
 
     res = msg.handle_message()
     print("returning msg: {}".format(res))
-    
+
     response = make_response(json.dumps(res))
     response.headers["Content-Type"] = "application/json"
     return response
+
+@application.route('/topic', methods=['GET'])
+def get_topic_results():
+    engine = create_engine(config.DATABASE_PATH)
+    Base.metadata.bind = engine
+    session = scoped_session(sessionmaker(bind=engine))
+    all_topics = session.query(Topic.topic, func.count(Topic.topic)).group_by(Topic.topic).all()
+    session.close()
+    return jsonify(all_topics)
+
+@application.route('/detail', methods=['GET'])
+def get_detail_results():
+    engine = create_engine(config.DATABASE_PATH)
+    Base.metadata.bind = engine
+    session = scoped_session(sessionmaker(bind=engine))
+    all_details = session.query(Detail.detail, func.count(Detail.detail)).group_by(Detail.detail).all()
+    session.close()
+    return jsonify(all_details)
 
 ### END API ###
 
