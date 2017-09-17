@@ -12,6 +12,8 @@ app.controller('DashboardCtrl', function($rootScope, $scope, $route, $http, $coo
             //console.log(response.data)
             var parsed_data = $scope.parseData(response.data)
 
+            console.log('topic data: ' + parsed_data)
+
             $scope.renderChart("topicChart", parsed_data[0], parsed_data[1])
 
         })
@@ -20,6 +22,8 @@ app.controller('DashboardCtrl', function($rootScope, $scope, $route, $http, $coo
 
             //console.log(response.data)
             var parsed_data = $scope.parseData(response.data)
+
+            console.log('detail data: ' + parsed_data)
 
             $scope.renderChart("detailChart", parsed_data[0], parsed_data[1])
 

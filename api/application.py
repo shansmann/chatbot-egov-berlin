@@ -57,6 +57,7 @@ def get_topic_results():
     session = scoped_session(sessionmaker(bind=engine))
     all_topics = session.query(Topic.topic, func.count(Topic.topic)).group_by(Topic.topic).all()
     session.close()
+    print("sending data: ", jsonify(all_topics).data)
     return jsonify(all_topics)
 
 @application.route('/detail', methods=['GET'])
@@ -66,6 +67,7 @@ def get_detail_results():
     session = scoped_session(sessionmaker(bind=engine))
     all_details = session.query(Detail.detail, func.count(Detail.detail)).group_by(Detail.detail).all()
     session.close()
+    print("sending data: ", jsonify(all_details).data)
     return jsonify(all_details)
 
 ### END API ###
