@@ -1,6 +1,10 @@
+"""
+helper script to create responses
+"""
+
 import copy
 
-import responses_templates
+import response_templates
 import util
 
 def generate_text(speech, context=[], max_length=640):

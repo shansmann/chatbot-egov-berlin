@@ -1,3 +1,7 @@
+"""
+message class
+"""
+
 import util
 import request_handling
 
@@ -27,9 +31,11 @@ class Message:
                 n_objectives = len(list(data.keys()))
 
                 if n_objectives < 2:
+                    # jump to service selection hence only 1 objective present
                     self.state = "show_service_selection"
                     self.objective = list(data.keys())[0]
                 else:
+                    # otherwise show objective first
                     self.state = "show_objective_selection"
         elif not self.service:
             self.state = "show_service_selection"

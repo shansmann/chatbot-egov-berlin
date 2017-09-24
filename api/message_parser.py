@@ -1,3 +1,7 @@
+"""
+message parser, creates message out of request
+"""
+
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, scoped_session
 from datetime import datetime
@@ -8,7 +12,7 @@ from db import Base, Topic, Detail
 
 class MessageParser:
     def parse_message_event(self, req):
-
+        # get intent
         intent = req.get("result").get("metadata").get("intentName")
 
         if intent == "berlina.topic.only":

@@ -1,3 +1,7 @@
+"""
+util script
+"""
+
 from firebase import firebase
 import re
 
@@ -5,6 +9,9 @@ import re
 firebase = firebase.FirebaseApplication("https://berlinabot.firebaseio.com", None)
 
 def get_data(url):
+    """
+    get data from firebase
+    """
     result = firebase.get(url, None)
     if result:
         return result
@@ -12,6 +19,9 @@ def get_data(url):
         return None
 
 def remove_html(text, nl=True):
+    """
+    remove html elements
+    """
     if text:
         if nl == True:
             return re.sub('<[^<]+?>', '\n', text)
@@ -20,7 +30,7 @@ def remove_html(text, nl=True):
     else:
         return text
 
-def _split_by_spaces(sentence, max_length):
+def split_by_spaces(sentence, max_length):
     """
     Splits sentence into chunks, preferably by spaces.
     """
@@ -39,7 +49,7 @@ def _split_by_spaces(sentence, max_length):
         yield sentence[start:]
 
 
-def _split_into_sentences(text):
+def split_into_sentences(text):
     """
     Split into sentences by punctuation. Return only non-empty trimmed ones
     """
@@ -54,11 +64,11 @@ def split_message(text, max_length=640):
     """
     res = []
     sub_message = ''
-    sentences = _split_into_sentences(text)
+    sentences = split_into_sentences(text)
     for sentence in sentences:
         new_sub_message = sub_message + ' ' + sentence if sub_message else sentence
         if len(sentence) > max_length:
-            res.extend(_split_by_spaces(sentence, max_length))
+            res.extend(split_by_spaces(sentence, max_length))
         elif len(new_sub_message) > max_length:
             if len(sub_message) > 0:
                 res.append(sub_message)

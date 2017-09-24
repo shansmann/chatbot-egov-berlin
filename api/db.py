@@ -1,3 +1,7 @@
+"""
+db schemas
+"""
+
 import os, sys
 
 import config

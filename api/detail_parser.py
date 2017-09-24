@@ -1,4 +1,8 @@
+"""
+script to parse detail informations
+"""
 
+import strs
 
 def parse_requirements_or_prerequisites(requirements):
     """
@@ -27,7 +31,7 @@ def parse_appointment(appointment):
     if appointment["link"]:
         return appointment["link"]
     else:
-        return "Für diese Dienstleistung können Sie leider keinen Termin vereinbaren."
+        return strs.APPOINTMENT
 
 def parse_link(meta):
     """
@@ -39,7 +43,7 @@ def parse_link(meta):
         "url": //link
     }
     """
-    return "Alle Informationen über diese Dienstleistung finden sie unter: {}".format(meta["url"][2:])
+    return strs.LINK.format(meta["url"][2:])
 
 def parse_onlineprocessing(onlineprocessing):
     """
@@ -50,12 +54,12 @@ def parse_onlineprocessing(onlineprocessing):
     }
     """
     if onlineprocessing["description"] == "true":
-        return "Die Online Bearbeitung finden sie unter: {}".format(onlineprocessing["link"][2:])
+        return strs.ONLINE_PROCESSING.format(onlineprocessing["link"][2:])
     else:
-        return "Diese Dienstleistung können wir leider nur vor Ort bearbeiten."
+        return strs.OFFLINE_PROCESSING
 
 def parse_processtime(process_time):
     if process_time == "false":
-        return "Die Dauer kann leider nicht vorhergesagt werden."
+        return strs.NO_PROCESS_TIME
     else:
         return process_time

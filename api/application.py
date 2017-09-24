@@ -39,10 +39,12 @@ def webhook():
     req = request.get_json(silent=True, force=True)
     print("received message: {}".format(req))
 
+    # parse message
     msg = MessageParser().parse_message_event(req)
+    # set state dependent on parameters
     msg.set_state()
     print("state set to: {}".format(msg.get_state()))
-
+    # handle message dependent on state
     res = msg.handle_message()
     print("returning msg: {}".format(res))
 
@@ -50,6 +52,7 @@ def webhook():
     response.headers["Content-Type"] = "application/json"
     return response
 
+# return topic counters from db
 @application.route('/topic', methods=['GET'])
 def get_topic_results():
     engine = create_engine(config.DATABASE_PATH)
@@ -60,6 +63,7 @@ def get_topic_results():
     print("sending data: ", jsonify(all_topics).data)
     return jsonify(all_topics)
 
+# return detail counters from db
 @application.route('/detail', methods=['GET'])
 def get_detail_results():
     engine = create_engine(config.DATABASE_PATH)

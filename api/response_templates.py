@@ -1,3 +1,7 @@
+"""
+response templates
+"""
+
 list_template = {
     "attachment": {
         "type": "template",

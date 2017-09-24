@@ -1,3 +1,7 @@
+"""
+script to create responses for API.ai
+"""
+
 import random
 
 import config
@@ -7,6 +11,9 @@ import strs
 import detail_parser
 
 def show_objective_selection(message):
+    """
+    show objectives
+    """
     data = util.get_data("/tree/" + message.topic)
     if not data:
         res = response.generate_text("could not find data at {}".format(message.topic))
@@ -19,6 +26,9 @@ def show_objective_selection(message):
     return response.send_message([res])
 
 def show_service_selection(message):
+    """
+    show services
+    """
     data = util.get_data("/tree/" + message.topic + "/" + message.objective)
     if not data:
         res = response.generate_text("could not find data at {} {}".format(message.topic,
@@ -28,8 +38,8 @@ def show_service_selection(message):
     service_names = [x["name"] for x in data]
     descriptions = [x["description"] for x in data]
 
-    # only 1 service present
     if len(service_names) < 2:
+        # only 1 service present since lists require at least 2 elements
         description = util.remove_html(descriptions[0])
         img = random.choice(config.LANDSCAPE_IMAGES)
         card = {
@@ -37,9 +47,10 @@ def show_service_selection(message):
             "subtitle": description.split('\n', 1)[0],
             "image_url": img
         }
-        res = response.generate_card("Diese Dienstleistung haben wir im Angebot:", [card])
+        res = response.generate_card(strs.SHOW_SERVICES, [card])
         return response.send_message([res])
     elif len(service_names) < 5:
+        # lists can only show 4 items max
         items = []
         imgs = random.sample(config.IMAGES, len(service_names))
         for i, service in enumerate(service_names):
@@ -55,6 +66,7 @@ def show_service_selection(message):
 
         return response.send_message([res])
     else:
+        # split services into multiple lists
         print("more than 4 services present.")
         items = []
         responses = []
@@ -82,8 +94,8 @@ def show_service_selection(message):
 
 
 def show_detail_selection(message):
-    msg_1 = response.generate_text('Sie möchten Informationen über: "{}".'.format(message.service))
-    msg_2 = response.generate_quick_replies('Was möchten Sie erfahren?', config.KEYS)
+    msg_1 = response.generate_text(strs.DETAIL_SELECTION_1.format(message.service))
+    msg_2 = response.generate_quick_replies(strs.DETAIL_SELECTION_2, config.KEYS)
 
     return response.send_message([msg_1[0], msg_2])
 
@@ -117,7 +129,7 @@ def show_detail(message):
     elif message.detail == 'process_time':
         speech = detail_parser.parse_processtime(util.remove_html(relevant_service[message.detail], False))
     elif message.detail == 'Zurück':
-        res = response.generate_text("Guten Tag! Ich bin der Chatbot der Stadt Berlin, wie kann ich dir behilflich sein?")
+        res = response.generate_text(strs.WELCOME_MESSAGE)
         return response.send_message(res)
     else:
         speech = util.remove_html(relevant_service[message.detail], False)
