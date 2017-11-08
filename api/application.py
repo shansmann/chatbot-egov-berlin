@@ -23,7 +23,7 @@ import config
 
 logging.basicConfig(level=logging.INFO)
 application = Flask(__name__, static_folder="web/static", template_folder="web/templates")
-PORT = int(os.getenv("PORT", "8085"))
+PORT = int(os.getenv("PORT", "8668"))
 
 #### WEB ###
 @application.route("/")
