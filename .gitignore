@@ -3,3 +3,8 @@ api.zip
 .DS_Store
 notebooks/*
 fb/*
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
